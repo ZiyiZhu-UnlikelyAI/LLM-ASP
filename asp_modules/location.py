@@ -1,4 +1,4 @@
-location = '''
+location = """
 % general format translation, which can also be easily done in python script
 % (this is not needed if we directly extract the general form in the beginning as in bAbI task4)
 is(A, top, B) :- top(A, B).
@@ -47,4 +47,4 @@ location(B, Xb, Yb) :-
     location(A, Xa, Ya), nums(Xb), nums(Yb),
     is_on(A, Kind, B), offset(Kind, Dx, Dy),
     Xa-Xb=Dx, Ya-Yb=Dy.
-'''
+"""

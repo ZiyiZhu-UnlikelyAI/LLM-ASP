@@ -1,4 +1,4 @@
-action = '''
+action = """
 %********************
 * common interface
 * check: if location(unknown) is needed
@@ -101,4 +101,4 @@ initiates(action(robot, pick_and_place, Src, Dst), on(Src, Dst), T) :-
 terminates(action(robot, pick_and_place, Src, Dst), on(Src, L), T) :-
     holds_at(on(Src, L), T), location(Dst), Dst != L.
 
-'''
+"""

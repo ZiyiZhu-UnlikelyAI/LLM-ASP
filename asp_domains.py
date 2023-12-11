@@ -1,36 +1,36 @@
-task1 = '''
+task1 = """
 %%%% Interface -- these rules can be removed if we let GPT3 return the heads directly
 query(at(A, where)) :- whereAgent(A).
 
 % Find where last location of agent is
 %answer(L) :- query(at(A, where)), holds_at(at(A, L), T), T>=Tx+1: timepoint(Tx).
 answer(L) :- query(at(A, where)), holds_at(at(A, L), T), T>=Tx: holds_at(at(A, _), Tx).
-'''
+"""
 
-task2 = '''
+task2 = """
 %%%% Interface -- these rules can be removed if we let GPT3 return the heads directly
 query(at(I, where)) :- loc(I).
 
 % Find where last location of object is
 %answer(L) :- query(at(A, where)), holds_at(at(A, L), T), T>=Tx+1: timepoint(Tx).
 answer(L) :- query(at(A, where)), holds_at(at(A, L), T), T>=Tx: holds_at(at(A, _), Tx).
-'''
+"""
 
-task3 = '''
+task3 = """
 % the query before(O, L) is given, asking about the location of O before moving to L
 % find all location changes of the queried object
 location_change(L1, L2, T) :- before(O, _), holds_at(at(O, L1), T), holds_at(at(O, L2), T+1), L1 != L2.
 
 % find the last location change to queried location
 answer(L1) :- before(_, L2), location_change(L1, L2, T), T>=Tx: location_change(_, L2, Tx).
-'''
+"""
 
-task4 = '''
+task4 = """
 answer(A) :- query(what, R1, B), is(A, R1, B).
 answer(B) :- query(A, R1, what), is(A, R1, B).
-'''
+"""
 
-task5 = '''
+task5 = """
 candidate(A1, T) :- query(action(who, give, A, I)), happens(action(A1, give, A2, I), T), 
     A2=A: A!=anyone.
 candidate(A2, T) :- query(action(A, give, who, I)), happens(action(A1, give, A2, I), T), 
@@ -47,17 +47,17 @@ query(action(who, give, anyone, I)) :- whoGave(I).
 query(action(who, give, A2, I)) :- whoGave(I, A2).
 
 answer(A) :- candidate(A, T), Tx<=T: candidate(_, Tx).
-'''
+"""
 
-task6 = '''
+task6 = """
 answer(yes) :- query(at(A, L)), holds_at(at(A, L), T), Tx<=T: holds_at(at(A, _), Tx).
 answer(no) :- not answer(yes).
 
 %%%% Interface -- these rules can be removed if we let GPT3 return the heads directly
 query(at(A, L)) :- isInQ(A, L).
-'''
+"""
 
-task7 = '''
+task7 = """
 % find all items I that A is carrying at the last moment; then count I
 carry(A, I) :- query(carry(A, count)), holds_at(carry(A,I),T), 
     T>Tx: happens(E,Tx).
@@ -67,9 +67,9 @@ location(unknown).
 query(carry(A, count)) :- howMany(A).
 %give(A1, A2, I, T) :- gave(A1, I, A2, T).
 answer(N) :- query(carry(A, count)), N=#count{I: carry(A, I)}.
-'''
+"""
 
-task8 = '''
+task8 = """
 %%%% Interface -- these rules can be removed if we let GPT3 return the heads directly
 query(carry(A, what)) :- carrying(A).
 location(unknown).
@@ -77,11 +77,11 @@ location(unknown).
 % find all items I that A is carrying at the last moment
 answer(I) :- query(carry(A, what)), holds_at(carry(A,I),T), 
     T>Tx: happens(E,Tx).
-'''
+"""
 
 task9 = task6
 
-task10 = '''
+task10 = """
 released(F,T) :- fluent(F), timepoint(T).
 
 %answer(yes) :- query(at(A, L)), holds_at(at(A, L), T), Tx<=T: holds_at(at(A, _), Tx).
@@ -100,11 +100,11 @@ query(at(A, L)) :- isInQ(A, L).
 go(A, L, T) :- move(A, L, T).
 timepoint(T) :- isIn(_, _, T).
 timepoint(T) :- isEither(_, _, _, T).
-'''
+"""
 
 task11 = task1
 
-task12 = '''
+task12 = """
 %%%% Interface -- these rules can be removed if we let GPT3 return the heads directly
 query(at(A, where)) :- whereAgent(A).
 go(A1, L, T) :- go(A1, A2, L, T).
@@ -113,13 +113,13 @@ go(A2, L, T) :- go(A1, A2, L, T).
 % Find where last location of agent is
 %answer(L) :- query(at(A, where)), holds_at(at(A, L), T), T>=Tx+1: timepoint(Tx).
 answer(L) :- query(at(A, where)), holds_at(at(A, L), T), T>=Tx: holds_at(at(A, _), Tx).
-'''
+"""
 
 task13 = task12
 
 task14 = task3
 
-task15 = '''
+task15 = """
 % if N belongs to species S1, and S1 is afraid of S2, then N is afraid of S2
 % PS: the last literal singular_plural(S2,_) is not needed once we remove the interface part below
 answer(S2) :- query(afraid(N, what)), is(N, S1), species_afraid(S1,S2), singular_plural(S2,_).
@@ -131,17 +131,17 @@ species_afraid(Singular1, Singular2) :- species_afraid(Plural1, Plural2),
     singular_plural(Singular2, Plural2).
 
 query(afraid(N, what)) :- agent_afraid(N).
-'''
+"""
 
-task16 = '''
+task16 = """
 animal(frog;lion;swan;rhino).
 color(green;white;yellow;gray).
 isColor(Agent2,Color):- isAnimal(Agent,Animal),isColor(Agent,Color),isAnimal(Agent2,Animal).
 answer(Color) :- isColor(Name), isColor(Name,Color).
 #show answer/1.
-'''
+"""
 
-task17 = '''
+task17 = """
 % assume the 2nd queried object is at location (0,0)
 location(B, 0, 0) :- query(_, _, B).
 
@@ -161,9 +161,9 @@ query(A, left, B) :- leftOf_nondirect(A, B).
 query(A, right, B) :- rightOf_nondirect(A, B).
 query(A, top, B) :- above_nondirect(A, B).
 query(A, down, B) :- below_nondirect(A, B).
-'''
+"""
 
-task18 = '''
+task18 = """
 smaller(A, B) :- bigger(B, A).
 smaller(A, C) :- smaller(A, B), smaller(B, C).
 answer(yes) :- query(smaller(A, B)), smaller(A, B).
@@ -172,9 +172,9 @@ answer(no) :- not answer(yes).
 %%%% Interface -- these rules can be removed if we let GPT3 return the heads directly
 query(smaller(A, B)) :- doesFit(A, B).
 query(smaller(A, B)) :- isBigger(B, A).
-'''
+"""
 
-task19 = '''
+task19 = """
 agent(agent).
 maxtime(10).
 % location
@@ -192,9 +192,9 @@ holds_at(at(agent, L), 0) :- initial_loc(L).
 
 % we aim to achieve the goal as early as possible
 :~ goal(L), holds_at(at(agent, L), T). [-T@1, goal]
-'''
+"""
 
-task20 = '''
+task20 = """
 motivation(hungry, kitchen).
 motivation(tired, bedroom).
 motivation(thirsty, kitchen).
@@ -212,33 +212,34 @@ answer(Location) :- query(where, Agent, go), is(Agent, Quality), motivation(Qual
 answer(Quality) :- query(why, Agent, go, Location), is(Agent, Quality), motivation(Quality, Location), loc(Location).
 answer(Quality) :- query(why,Agent, get, Obj),is(Agent, Quality), motivation(Quality, Obj), obj(Obj).
 answer(Location) :- query(where, Agent, go), is(Agent, Quality), motivation(Quality, Location), loc(Location).
-'''
+"""
 
 
+babi_tasks = {
+    1: task1,
+    2: task2,
+    3: task3,
+    4: task4,
+    5: task5,
+    6: task6,
+    7: task7,
+    8: task8,
+    9: task9,
+    10: task10,
+    11: task11,
+    12: task12,
+    13: task13,
+    14: task14,
+    15: task15,
+    16: task16,
+    17: task17,
+    18: task18,
+    19: task19,
+    20: task20,
+}
 
-babi_tasks={1: task1,
-             2: task2,
-             3: task3,
-             4: task4,
-             5: task5,
-             6: task6,
-             7: task7,
-             8: task8,
-             9:  task9,
-             10: task10,
-             11: task11,
-             12: task12,
-             13: task13,
-             14: task14,
-             15: task15,
-             16: task16,
-             17: task17,
-             18: task18,
-             19: task19,
-             20: task20}
 
-
-stepgame = '''
+stepgame = """
 % assume the 2nd queried object is at location (0,0)
 location(Q2, 0, 0) :- query(_, Q2).
 
@@ -246,9 +247,9 @@ location(Q2, 0, 0) :- query(_, Q2).
 answer(R) :- query(Q1, _), location(Q1, X, Y), offset(R, Ox, Oy),
     Ox=-1: X<0; Ox=0: X=0; Ox=1: X>0;
     Oy=-1: Y<0; Oy=0: Y=0; Oy=1: Y>0.
-'''
+"""
 
-gscan = '''
+gscan = """
 %********************
 * find the goal
 *********************%
@@ -562,9 +563,9 @@ spin(T) :- happens(action(agent, turn_left), T),
 % if a different kind of move D2 is after D1, D2 must be followed directly
 :- while(zigzagging), move(D1, T1), move(D2, T2), D1!=D2, T1<T2,
     not move(D2, T1+2).
-'''
+"""
 
-block_world = '''
+block_world = """
 %%%%%
 % Set up the environment
 %%%%%
@@ -614,4 +615,4 @@ location(L) :- feature(L, bowl).
 up(A,B,T) :- holds_at(on(A, B), T).
 up(A,C,T) :- up(A,B,T), up(B,C,T).
 :- timepoint(T), feature(L, block), #count{I: up(I,L,T)} >= max_height.
-'''
+"""

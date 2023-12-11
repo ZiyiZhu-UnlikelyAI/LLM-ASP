@@ -1,11 +1,8 @@
-
-
-
 # =============================================================================
 # Task 1
 # =============================================================================
 
-parse_prompt_1 = '''Please parse the following statements into facts. The available keywords are: pickup, drop, and go.
+parse_prompt_1 = """Please parse the following statements into facts. The available keywords are: pickup, drop, and go.
 Sentence: Max journeyed to the bathroom.
 Semantic parse: go(Max, bathroom).
 
@@ -30,9 +27,9 @@ Semantic parse: drop(Kevin, pie).
 Sentence: John took the football there.
 Semantic parse: pickup(John, football).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_1 ='''Please parse the following questions into query facts. The available keywords are: whereAgent.
+query_prompt_1 = """Please parse the following questions into query facts. The available keywords are: whereAgent.
 Sentence: Where is Mary?
 Semantic parse: whereAgent(Mary).
 
@@ -45,16 +42,14 @@ Semantic parse: whereAgent(Sandra).
 Sentence: Where is John?
 Semantic parse: whereAgent(John).
 
-Sentence: '''
-
-
+Sentence: """
 
 
 # =============================================================================
 # Tasks 2 and 3
 # =============================================================================
 
-query_prompt_2='''Please parse the following questions into query facts. The available keywords are: loc.
+query_prompt_2 = """Please parse the following questions into query facts. The available keywords are: loc.
 Sentence: Where is the toothbrush?
 Semantic parse: loc(toothbrush).
 
@@ -67,10 +62,10 @@ Semantic parse: loc(apple).
 Sentence: Where is the football?
 Semantic parse: loc(football).
 
-Sentence: '''
+Sentence: """
 
 
-query_prompt_3='''Please parse the following questions into query facts. The available keywords are: before.
+query_prompt_3 = """Please parse the following questions into query facts. The available keywords are: before.
 Sentence: Where was the football before the bathroom?
 Semantic parse: before(football,bathroom).
 
@@ -86,15 +81,14 @@ Semantic parse: before(apple,bedroom).
 Sentence: Where was the football before the hallway?
 Semantic parse: before(football,hallway).
 
-Sentence: '''
-
+Sentence: """
 
 
 # =============================================================================
 # Task 4
 # =============================================================================
 
-parse_prompt_4= '''Please parse the following statements into facts. The available keywords are: is, eastOf, westOf, northOf, and southOf.
+parse_prompt_4 = """Please parse the following statements into facts. The available keywords are: is, eastOf, westOf, northOf, and southOf.
 Sentence: The office is east of the hallway.
 Semantic parse: is(office, eastOf, hallway).
 
@@ -113,11 +107,10 @@ Semantic parse: is(bedroom, westOf, hallway).
 Sentence: The office is east of the garden.
 Semantic parse: is(office, eastOf, garden).
 
-Sentence: '''
+Sentence: """
 
 
-
-query_prompt_4='''Please parse the following questions into query facts. The available keywords are: query, eastOf, westOf, northOf, and southOf, and what.
+query_prompt_4 = """Please parse the following questions into query facts. The available keywords are: query, eastOf, westOf, northOf, and southOf, and what.
 Sentence: What is south of the office?
 Semantic parse: query(what, southOf, office).
 
@@ -133,13 +126,13 @@ Semantic parse: query(what, northOf, garden).
 Sentence: What is the kitchen west of? 
 Semantic parse: query(kitchen, westOf, what). 
 
-Sentence: '''
+Sentence: """
 
 # =============================================================================
 # Task 5
 # =============================================================================
 
-parse_prompt_5 = '''Please parse the following statements into facts. The available keywords are: pickup, drop, and go, and give.
+parse_prompt_5 = """Please parse the following statements into facts. The available keywords are: pickup, drop, and go, and give.
 Sentence: Max journeyed to the bathroom.
 Semantic parse: go(Max, bathroom)
 
@@ -167,9 +160,9 @@ Semantic parse: give(Daniel, football, Fred)
 Sentence: John took the football there.
 Semantic parse: pickup(John, football)
 
-Sentence: '''
+Sentence: """
 
-query_prompt_5_main='''Please parse the following questions into query facts. The available keywords are: whatWasGiven, received, whoWasGiven, and whoGave.
+query_prompt_5_main = """Please parse the following questions into query facts. The available keywords are: whatWasGiven, received, whoWasGiven, and whoGave.
 Sentence: What did Bill give to Fred?
 Semantic parse: whatWasGiven(Bill, Fred).
 
@@ -185,9 +178,9 @@ Semantic parse: whoGave(apple).
 Sentence: Who gave the football to Bill?
 Semantic parse: whoGave(football, Bill).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_5='''Please parse the following questions into query facts. The available keywords are: whatWasGiven, received, whoWasGiven, and whoGave.
+query_prompt_5 = """Please parse the following questions into query facts. The available keywords are: whatWasGiven, received, whoWasGiven, and whoGave.
 Sentence: What did Bill give to Fred?
 Semantic parse: whatWasGiven(Bill, Fred).
 
@@ -206,14 +199,14 @@ Semantic parse: whoWasGiven(Mary, milk).
 Sentence: Who gave the football to Bill?
 Semantic parse: whoGave(football, Bill).
 
-Sentence: '''
+Sentence: """
 
 
 # =============================================================================
 # Task 7
 # =============================================================================
 
-parse_prompt_7_real = '''Please parse the following statements into facts. The available keywords are: pickup, drop, go, and gave.
+parse_prompt_7_real = """Please parse the following statements into facts. The available keywords are: pickup, drop, go, and gave.
 Sentence: Max journeyed to the bathroom.
 Semantic parse: go(Max, bathroom).
 
@@ -241,10 +234,10 @@ Semantic parse: pickup(John, football).
 Sentence: Daniel passed the football to Sandra.
 Semantic parse: gave(Daniel, football, Sandra).
 
-Sentence: '''
+Sentence: """
 
 
-parse_prompt_7_fixed_1 = '''Please parse the following statements into facts. The available keywords are: pickup, drop, go, and gave.
+parse_prompt_7_fixed_1 = """Please parse the following statements into facts. The available keywords are: pickup, drop, go, and gave.
 Sentence: Max journeyed to the bathroom.
 Semantic parse: go(Max, bathroom).
 
@@ -272,9 +265,9 @@ Semantic parse: pickup(John, football).
 Sentence: Daniel passed the football to Sandra.
 Semantic parse: gave(Daniel, football, Sandra).
 
-Sentence: '''
+Sentence: """
 
-parse_prompt_7 = '''Please parse the following statements into facts. The available keywords are: pickup, drop, go, and give.
+parse_prompt_7 = """Please parse the following statements into facts. The available keywords are: pickup, drop, go, and give.
 Sentence: Max journeyed to the bathroom.
 Semantic parse: go(Max, bathroom).
 
@@ -299,9 +292,9 @@ Semantic parse: drop(Kevin, pie).
 Sentence: John took the football there.
 Semantic parse: pickup(John, football).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_7='''Please parse the following questions into query facts. The available keywords are: howMany.
+query_prompt_7 = """Please parse the following questions into query facts. The available keywords are: howMany.
 Sentence: How many objects is Mary carrying?
 Semantic parse: howMany(Mary).
 
@@ -314,14 +307,14 @@ Semantic parse: howMany(Daniel).
 Sentence: How many objects is John carrying?
 Semantic parse: howMany(John).
 
-Sentence: '''
+Sentence: """
 
 
 # =============================================================================
 # Tasks 8
 # =============================================================================
 
-query_prompt_8='''Please parse the following questions into query facts. The available keywords are: carrying.
+query_prompt_8 = """Please parse the following questions into query facts. The available keywords are: carrying.
 Sentence: What is Mary carrying?
 Semantic parse: carrying(Mary).
 
@@ -334,15 +327,14 @@ Semantic parse: carrying(Daniel).
 Sentence: What is John carrying?
 Semantic parse: carrying(John).
 
-Sentence: '''
-
+Sentence: """
 
 
 # =============================================================================
 # Tasks 9 & 6
 # =============================================================================
 
-parse_prompt_9 = '''Please parse the following statements into facts. The available keywords are: pickup, drop, and go.
+parse_prompt_9 = """Please parse the following statements into facts. The available keywords are: pickup, drop, and go.
 Sentence: Max journeyed to the bathroom.
 Semantic parse: go(Max, bathroom).
 
@@ -373,9 +365,9 @@ Semantic parse: pickup(John, football).
 Sentence: Sandra is not in the bedroom.
 Semantic parse: go(Sandra, unknown).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_9='''Please parse the following questions into query facts. The available keywords are: isInQ.
+query_prompt_9 = """Please parse the following questions into query facts. The available keywords are: isInQ.
 Sentence: Is Mary in the bedroom? 
 Semantic parse: isInQ(Mary, bedroom).
 
@@ -388,14 +380,14 @@ Semantic parse: isInQ(Sandra, office).
 Sentence: Is Daniel in the hallway?
 Semantic parse: isInQ(Daniel, hallway).
 
-Sentence: '''
+Sentence: """
 
 
 # =============================================================================
 # Task 10
 # =============================================================================
 
-parse_prompt_10 = '''Please parse the following statements into facts. The available keywords are: go, isIn, and isEither.
+parse_prompt_10 = """Please parse the following statements into facts. The available keywords are: go, isIn, and isEither.
 Sentence: Fred is either in the school or the park.
 Semantic parse: isEither(Fred, school, park).
 
@@ -423,10 +415,10 @@ Semantic parse: go(Julie,bedroom).
 Sentence: Bill is in the cinema.
 Semantic parse: isIn(Bill,cinema).
 
-Sentence: '''
+Sentence: """
 
 
-query_prompt_10 = '''Please parse the following questions into query facts. The available keywords are: isInQ.
+query_prompt_10 = """Please parse the following questions into query facts. The available keywords are: isInQ.
 Sentence: Is Mary in the office?
 Semantic parse: isInQ(Mary,office).
 
@@ -445,16 +437,14 @@ Semantic parse: isInQ(Bill,school).
 Sentence: Is Julie in the bedroom?
 Semantic parse: isInQ(Julie,bedroom).
 
-Sentence: '''
-
-
+Sentence: """
 
 
 # =============================================================================
 # Task 11
 # =============================================================================
 
-parse_prompt_11_previous ='''Please parse the following sentences into facts. The available keywords are: go.
+parse_prompt_11_previous = """Please parse the following sentences into facts. The available keywords are: go.
 Sentences:
 Mary went back to the bathroom.
 After that she went to the bedroom.
@@ -500,9 +490,9 @@ go(Mary, kitchen).
 go(Mary, bedroom).
 
 Sentences:
-'''
+"""
 
-parse_prompt_11 ='''Please parse the following sentences into facts. The available keywords are: go.
+parse_prompt_11 = """Please parse the following sentences into facts. The available keywords are: go.
 Sentences:
 Mary went back to the bathroom.
 After that she went to the bedroom.
@@ -572,9 +562,9 @@ go(John, bathroom).
 go(John, bedroom).
 
 Sentences:
-    '''
+    """
 
-query_prompt_11 = '''Please parse the following questions into query facts. The available keywords are: whereAgent. 
+query_prompt_11 = """Please parse the following questions into query facts. The available keywords are: whereAgent. 
 Sentence: Where is Daniel?
 Semantic Parse: whereAgent(Daniel).
 
@@ -587,9 +577,9 @@ Semantic Parse: whereAgent(Mary).
 Sentence: Where is John?
 Semantic Parse: whereAgent(John).
 
-Sentence: '''
+Sentence: """
 
-parse_prompt_11_no_newline ='''Please parse the following sentences into facts. The available keywords are: go.
+parse_prompt_11_no_newline = """Please parse the following sentences into facts. The available keywords are: go.
 Sentences: Mary went back to the bathroom. After that she went to the bedroom. Daniel moved to the office. Afterwards he moved to the hallway. John travelled to the bathroom. After that he journeyed to the hallway.
 Semantic Parse: go(Mary, bathroom). go(Mary, bedroom). go(Daniel, office). go(Daniel, hallway). go(John, bathroom). go(John, hallway).
 
@@ -599,9 +589,9 @@ Semantic Parse: go(Sandra, bathroom). go(Sandra, office)
 Sentences: Mary travelled to the bedroom. Then she went back to the bathroom. Mary travelled to the hallway. Following that she went to the garden. Sandra went to the garden. After that she went to the kitchen. Mary journeyed to the kitchen. After that she moved to the bedroom.
 Semantic Parse: go(Mary, bedroom). go(Mary, bathroom). go(Mary, hallway). go(Mary, garden). go(Sandra, garden). go(Sandra, kitchen). go(Mary, kitchen). go(Mary, bedroom).
 
-Sentences: '''
+Sentences: """
 
-query_prompt_11_no_newline = '''Please parse the following questions into query facts. The available keywords are: whereAgent. 
+query_prompt_11_no_newline = """Please parse the following questions into query facts. The available keywords are: whereAgent. 
 Sentence: Where is Daniel?
 Semantic Parse: whereAgent(Daniel).
 
@@ -614,14 +604,14 @@ Semantic Parse: whereAgent(Mary).
 Sentence: Where is John?
 Semantic Parse: whereAgent(John).
 
-Sentence: '''
+Sentence: """
 
 
 # =============================================================================
 # Task 12
 # =============================================================================
 
-parse_prompt_12 = '''Please parse the following statements into facts. The available keywords are: go.
+parse_prompt_12 = """Please parse the following statements into facts. The available keywords are: go.
 Sentence: Mary and Daniel travelled to the bathroom.
 Semantic parse: go(Mary, Daniel, bathroom).
 
@@ -637,9 +627,9 @@ Semantic parse: go(Sandra, John, garden).
 Sentence: Mary and Daniel went back to the bedroom.
 Semantic parse: go(Mary, Daniel, bedroom).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_12 ='''Please parse the following questions into query facts. The available keywords are: whereAgent.
+query_prompt_12 = """Please parse the following questions into query facts. The available keywords are: whereAgent.
 Sentence: Where is Mary?
 Semantic parse: whereAgent(Mary).
 
@@ -652,13 +642,13 @@ Semantic parse: whereAgent(Sandra).
 Sentence: Where is John?
 Semantic parse: whereAgent(John).
 
-Sentence: '''
+Sentence: """
 
 # =============================================================================
 # Task 13
 # =============================================================================
 
-parse_prompt_13 = '''Please parse the following statements into facts. The available keywords are: go. 
+parse_prompt_13 = """Please parse the following statements into facts. The available keywords are: go. 
 Sentences:
 Mary and Daniel went to the bathroom.
 Then they journeyed to the hallway.
@@ -716,8 +706,8 @@ go(John, Sandra, bathroom).
 go(John, Sandra, bedroom).
 
 Sentences:
-'''
-parse_prompt_13_previous = '''Please parse the following statements into facts. The available keywords are: go. 
+"""
+parse_prompt_13_previous = """Please parse the following statements into facts. The available keywords are: go. 
 Sentences:
 Mary and Daniel went to the bathroom.
 Then they journeyed to the hallway.
@@ -755,8 +745,8 @@ go(John, Sandra, bathroom).
 go(John, Sandra, kitchen).
 
 Sentences:
-'''
-query_prompt_13 = '''Please parse the following questions into query facts. The available keywords are: whereAgent.
+"""
+query_prompt_13 = """Please parse the following questions into query facts. The available keywords are: whereAgent.
 Sentence: Where is John?
 Semantic parse: whereAgent(John).
 
@@ -766,13 +756,13 @@ Semantic parse: whereAgent(Sandra).
 Sentence: Where is Mary?
 Semantic parse: whereAgent(Mary).
 
-Sentence: '''
+Sentence: """
 
 # =============================================================================
 # Tasks 14
 # =============================================================================
 
-parse_prompt_14 = '''Please parse the following statements into facts. The available keywords are: go. Time stamps are as follows: yesterday - 0 , morning - 1, afternoon - 2, evening - 3.  
+parse_prompt_14 = """Please parse the following statements into facts. The available keywords are: go. Time stamps are as follows: yesterday - 0 , morning - 1, afternoon - 2, evening - 3.  
 Sentence: Bill went back to the cinema yesterday.
 Semantic parse: go(Bill, cinema, 0).
 
@@ -797,9 +787,9 @@ Semantic parse: go(Julie, school, 3).
 Sentence: Bill moved to the kitchen this afternoon.
 Semantic parse: go(Bill, kitchen, 2).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_task_14='''Please parse the following questions into query facts. The available keywords are: before:
+query_prompt_task_14 = """Please parse the following questions into query facts. The available keywords are: before:
 Sentence: Where was Julie before the school?
 Semantic parse: before(Julie,school).
 
@@ -812,13 +802,13 @@ Semantic parse: before(Fred,kitchen).
 Sentence: Where was Mary before the office?
 Semantic parse: before(Mary,office).
 
-Sentence: '''
+Sentence: """
 
 # =============================================================================
 # Task 15
 # =============================================================================
 
-parse_prompt_15_old = '''Please parse the following statements into facts. The available keywords are: species_afraid and is.
+parse_prompt_15_old = """Please parse the following statements into facts. The available keywords are: species_afraid and is.
 Sentences:
 Mice are afraid of wolves.
 Gertrude is a mouse.
@@ -860,8 +850,8 @@ is(Gertrude,sheep).
 species_afraid(wolves,sheep).
 
 Sentences:
-'''
-parse_prompt_15 = '''Please parse the following statements into facts. The available keywords are: species_afraid and is.
+"""
+parse_prompt_15 = """Please parse the following statements into facts. The available keywords are: species_afraid and is.
 Sentence: Mice are afraid of wolves.
 Semantic parse: species_afraid(mice,wolves).
 
@@ -883,9 +873,9 @@ Semantic parse: is(Emily,sheep).
 Sentence: Wolves are afraid of sheep.
 Semantic parse: species_afraid(wolves,sheep).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_15 = '''Please parse the following questions into query facts. The available keywords are: agent_afraid.
+query_prompt_15 = """Please parse the following questions into query facts. The available keywords are: agent_afraid.
 Sentence: What is gertrude afraid of?
 Semantic parse: agent_afraid(gertrude).
 
@@ -898,14 +888,14 @@ Semantic parse: agent_afraid(emily).
 Sentence: What is winona afraid of?
 Semantic parse: agent_afraid(winona).
 
-Sentence: '''
+Sentence: """
 
 
 # =============================================================================
 # Task 16
 # =============================================================================
 
-parse_prompt_16 = '''Please parse the following statements into facts. The available keywords are: isAnimal and isColor.
+parse_prompt_16 = """Please parse the following statements into facts. The available keywords are: isAnimal and isColor.
 Sentence: Lily is a frog.
 Semantic parse: isAnimal(Lily,frog).
 
@@ -924,9 +914,9 @@ Semantic parse: isColor(Brian,white).
 Sentence: Greg is gray.
 Semantic parse: isColor(Greg,gray).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_16 = '''Please parse the following questions into query facts. The available keywords are: isColor.
+query_prompt_16 = """Please parse the following questions into query facts. The available keywords are: isColor.
 Sentence: What color is Greg?
 Semantic parse: isColor(Greg).
 
@@ -942,8 +932,7 @@ Semantic parse: isColor(Julius).
 Sentence: What color is Bernhard?
 Semantic parse: isColor(Bernhard).
 
-Sentence: '''
-
+Sentence: """
 
 
 # =============================================================================
@@ -951,8 +940,7 @@ Sentence: '''
 # =============================================================================
 
 
-
-parse_prompt_17 = '''Please parse the following statements into facts. The available facts are leftOf, rightOf, above, below, and feature.
+parse_prompt_17 = """Please parse the following statements into facts. The available facts are leftOf, rightOf, above, below, and feature.
 Sentence: The triangle is above the pink rectangle.
 Semantic parse: above(1,2). feature(1,triangle). feature(2,pink). feature(2, rectangle).
 
@@ -977,10 +965,10 @@ Semantic parse: rightOf(1,2). feature(1,yellow). feature(1,square). feature(2, r
 Sentence: The yellow square is above the pink rectangle.
 Semantic parse: above(1,2). feature(1,yellow). feature(1,square). feature(2, pink). feature(2, rectangle).
 
-Sentence: '''
+Sentence: """
 
 
-query_prompt_17='''Please parse the following questions into facts. The available facts are leftOf, rightOf, above, below, and feature.
+query_prompt_17 = """Please parse the following questions into facts. The available facts are leftOf, rightOf, above, below, and feature.
 Question: Is the pink rectangle to the right of the blue square?
 Semantic parse: rightOf(1,2) feature(1,pink). feature(1,rectangle). feature(2,blue). feature(2, square).
 
@@ -993,9 +981,9 @@ Semantic parse: above(1,2). feature(1,red). feature(1,square). feature(2, triang
 Question: Is the yellow square to the left of the triangle?
 Semantic parse: leftOf(1,2). feature(1,yellow). feature(1,square). feature(2,triangle).
 
-Question: '''
+Question: """
 
-all_prompt_17 = '''Please parse the following statements into facts. The available facts corresponding to sentences are leftOf, rightOf, above, below. The available facts corresponding to question facts are leftOf_nondirect, rightOf_nondirect, above_nondirect, below_nondirect.
+all_prompt_17 = """Please parse the following statements into facts. The available facts corresponding to sentences are leftOf, rightOf, above, below. The available facts corresponding to question facts are leftOf_nondirect, rightOf_nondirect, above_nondirect, below_nondirect.
 Sentence 1: The triangle is above the pink rectangle.
 Sentence 2: The blue square is to the left of the triangle.
 Question: Is the pink rectangle to the right of the blue square?
@@ -1040,10 +1028,10 @@ Sentence 1: below(1,2).
 Sentence 2: below(2,3).
 Question: leftOf_nondirect(1,3).
 
-'''
+"""
 
 
-all_prompt_17_context = '''Please parse the following statements into facts. The available keywords are: obj, leftOf, rightOf, above and below.
+all_prompt_17_context = """Please parse the following statements into facts. The available keywords are: obj, leftOf, rightOf, above and below.
 Sentence 1: The triangle is above the pink rectangle.
 Sentence 2: The blue square is to the left of the triangle.
 Objects: obj(1, (triangle)). obj(2, (pink, rectangle)). obj(3, (blue, square)).
@@ -1074,10 +1062,10 @@ Objects: obj(1, (red, square)). obj(2, (blue, square)). obj(3, (pink, rectangle)
 Direction Facts: below(1,2). below(2,3).
 
 
-'''
+"""
 
 
-all_prompt_17_query = '''Please parse the following questions into query facts. The available keywords are: leftOf_nondirect, rightOf_nondirect, above_nondirect, below_nondirect.
+all_prompt_17_query = """Please parse the following questions into query facts. The available keywords are: leftOf_nondirect, rightOf_nondirect, above_nondirect, below_nondirect.
 Objects: obj(1, (triangle)). obj(2, (pink, rectangle)). obj(3, (blue, square)).
 Sentence: Is the pink rectangle to the right of the blue square?
 Query Fact: rightOf_nondirect(2,3).
@@ -1102,13 +1090,13 @@ Objects: obj(1, (red, square)). obj(2, (blue, square)). obj(3, (pink, rectangle)
 Sentence: Is the red square to the left of the pink rectangle?
 Query Fact: leftOf_nondirect(1,3).
 
-'''
+"""
 
 # =============================================================================
 # Task 18
 # =============================================================================
 
-parse_prompt_18 = '''Please parse the following statements into commands. The available keywords are: smaller and bigger.
+parse_prompt_18 = """Please parse the following statements into commands. The available keywords are: smaller and bigger.
 Sentence: The box of chocolates fits inside the chest.
 Semantic parse: smaller(box_of_chocolates,chest).
 
@@ -1121,9 +1109,9 @@ Semantic parse: smaller(chocolate,chest).
 Sentence: The chocolate fits inside the container.
 Semantic parse: smaller(chocolate,container).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_18='''Please parse the following questions into query facts. The available keywords are: doesFit and isBigger.
+query_prompt_18 = """Please parse the following questions into query facts. The available keywords are: doesFit and isBigger.
 Sentence: Does the suitcase fit in the chocolate?
 Semantic parse: doesFit(suitcase,chocolate).
 
@@ -1139,14 +1127,13 @@ Semantic parse: isBigger(apple).
 Sentence: Is the box of chocolates bigger than the container?
 Semantic parse: isBigger(box_of_chocolates, container).
 
-Sentence: '''
-
+Sentence: """
 
 
 # =============================================================================
 # Task 19
 # =============================================================================
-parse_prompt_19 = '''Please parse the following statements into facts. The available keywords are: east, west, north, south.
+parse_prompt_19 = """Please parse the following statements into facts. The available keywords are: east, west, north, south.
 
 Sentence: The office is east of the hallway.
 Semantic parse: east(office,hallway).
@@ -1175,11 +1162,10 @@ Semantic parse: north(garden,kitchen).
 Sentence: The kitchen is north of the bathroom.
 Semantic parse: north(kitchen,bathroom).
 
-Sentence: '''
+Sentence: """
 
 
-
-parse_19_query = '''Please parse the following questions into query facts. The available keywords are: intitial_loc and goal.
+parse_19_query = """Please parse the following questions into query facts. The available keywords are: intitial_loc and goal.
 
 Sentence: How do you go from the kitchen to the garden?
 Semantic parse: initial_loc(kitchen). goal(garden).
@@ -1193,12 +1179,12 @@ Semantic parse: initial_loc(bathroom). goal(hallway).
 Sentence: How do you go from the garden to the bedroom?
 Semantic parse: initial_loc(garden). goal(bedroom).
 
-Sentence: '''
+Sentence: """
 
 # =============================================================================
 # Task 20
 # =============================================================================
-parse_prompt_20='''Please parse the following statements into facts. The available keywords are: is, pickup, and go.
+parse_prompt_20 = """Please parse the following statements into facts. The available keywords are: is, pickup, and go.
 Sentence: Sumit is tired.
 Semantic parse: is(Sumit, tired).
 
@@ -1217,9 +1203,9 @@ Semantic parse: is(Yann, hungry).
 Sentence: Antoine took the apple there.
 Semantic parse: pickup(Antoine, apple).
 
-Sentence: '''
+Sentence: """
 
-query_prompt_20='''Please parse the following questions into query facts. The available keywords are: query, where, why, go, and get. 
+query_prompt_20 = """Please parse the following questions into query facts. The available keywords are: query, where, why, go, and get. 
 Sentence: Where will Sumit go?
 Semantic parse: query(where, Sumit, go)
 
@@ -1232,40 +1218,42 @@ Semantic parse: query(why,Yann, get, pajamas).
 Sentence: Why did Sumit get the apple?
 Semantic parse: query(why,Sumit, get, apple).
 
-Sentence: '''
+Sentence: """
 
 # prompts dictionary
-prompts = {1: [parse_prompt_1, query_prompt_1], 
-           2: [parse_prompt_1,query_prompt_2],
-           3: [parse_prompt_1,query_prompt_3],
-           4: [parse_prompt_4, query_prompt_4], 
-           5: [parse_prompt_5,query_prompt_5], 
-           6: [parse_prompt_9,query_prompt_10],
-           7: [parse_prompt_7,query_prompt_7],
-           8: [parse_prompt_1,query_prompt_8],
-           9: [parse_prompt_9,query_prompt_10],
-           10: [parse_prompt_10,query_prompt_10],
-           11: [parse_prompt_11, query_prompt_11],
-           12: [parse_prompt_12,query_prompt_12],
-           13: [parse_prompt_13, query_prompt_13],
-           14: [parse_prompt_14,query_prompt_task_14],
-           15: [parse_prompt_15,query_prompt_15],
-           16: [parse_prompt_16,query_prompt_16],
-           17: [all_prompt_17_context, all_prompt_17_query],
-           18: [parse_prompt_18,query_prompt_18],
-           19: [parse_prompt_19, parse_19_query ],
-           20: [parse_prompt_20, query_prompt_20]}
+prompts = {
+    1: [parse_prompt_1, query_prompt_1],
+    2: [parse_prompt_1, query_prompt_2],
+    3: [parse_prompt_1, query_prompt_3],
+    4: [parse_prompt_4, query_prompt_4],
+    5: [parse_prompt_5, query_prompt_5],
+    6: [parse_prompt_9, query_prompt_10],
+    7: [parse_prompt_7, query_prompt_7],
+    8: [parse_prompt_1, query_prompt_8],
+    9: [parse_prompt_9, query_prompt_10],
+    10: [parse_prompt_10, query_prompt_10],
+    11: [parse_prompt_11, query_prompt_11],
+    12: [parse_prompt_12, query_prompt_12],
+    13: [parse_prompt_13, query_prompt_13],
+    14: [parse_prompt_14, query_prompt_task_14],
+    15: [parse_prompt_15, query_prompt_15],
+    16: [parse_prompt_16, query_prompt_16],
+    17: [all_prompt_17_context, all_prompt_17_query],
+    18: [parse_prompt_18, query_prompt_18],
+    19: [parse_prompt_19, parse_19_query],
+    20: [parse_prompt_20, query_prompt_20],
+}
 
 
-
-if __name__=='__main__':
+if __name__ == "__main__":
     from task_config import tasks_dict
+
     breakpoint()
-    for key,pr in prompts.items():
-        parse_words = tasks_dict[key]['parse_word']
-        for idx,pp in enumerate(pr):
-            print('PROMPT ' + str(key))
-            print(pp + '[INPUT]'+parse_words[idx])
+    for key, pr in prompts.items():
+        parse_words = tasks_dict[key]["parse_word"]
+        for idx, pp in enumerate(pr):
+            print("PROMPT " + str(key))
+            print(pp + "[INPUT]" + parse_words[idx])
             breakpoint()
 
 # =============================================================================
@@ -1275,7 +1263,5 @@ if __name__=='__main__':
 #     context,query = item
 #     assert 'Sentence:' in context
 #     print(key,context.count('Sentence'))
-#     
+#
 # =============================================================================
-
-

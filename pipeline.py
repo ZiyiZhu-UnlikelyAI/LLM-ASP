@@ -2,45 +2,47 @@ import os
 import pickle
 import time
 
+import openai
+import pandas as pd
 from clingo.control import Control
 from clingo.symbol import parse_term
-import pandas as pd
-import openai
 
 # Enter your GPT-3 API key here
-API_KEY = 'XXX'
+API_KEY = "XXX"
 # [optional] you may also put your ORG key below
-ORG_KEY = ''
+ORG_KEY = ""
+
 
 class Context:
     def gen_feature(self, x):
         ret = []
-        for term in str(x.string).split(' '):
+        for term in str(x.string).split(" "):
             ret.append(parse_term(term))
         return ret
 
+
 class Pipeline:
     def __init__(self, args):
-        self.asp_program = ''
+        self.asp_program = ""
         ###########
         # GPT-3
         ###########
         self.org_key = ORG_KEY
         self.api_key = API_KEY
-        self.engine = 'text-davinci-003'
-        self.temperature = 0.
+        self.engine = "text-davinci-003"
+        self.temperature = 0.0
         self.max_tokens = 256
-        self.prompt = {} # a mapping from prompt kind (str) to the prompt (str)
-        self.count = 0 # a counter for the number of GPT-3 query
+        self.prompt = {}  # a mapping from prompt kind (str) to the prompt (str)
+        self.count = 0  # a counter for the number of GPT-3 query
         ###########
         # Cache
         ###########
-        self.path_cache = {} # store the mapping from kind (str) to cache file (str)
-        self.cache = {} # store the GPT3 responses for visited stories
-        self.path_mistakes = 'mistakes.xlsx' # file to store the wrong pridictions
-        self.mistakes = [] # store the wrong predictions
+        self.path_cache = {}  # store the mapping from kind (str) to cache file (str)
+        self.cache = {}  # store the GPT3 responses for visited stories
+        self.path_mistakes = "mistakes.xlsx"  # file to store the wrong pridictions
+        self.mistakes = []  # store the wrong predictions
 
-        for k,v in args.items():
+        for k, v in args.items():
             setattr(self, k, v)
         # init openai account
         if self.org_key:
@@ -49,23 +51,23 @@ class Pipeline:
 
     def load_prompt(self, kind_to_path):
         for kind in kind_to_path:
-            with open(kind_to_path[kind], 'r', encoding='utf-8') as f:
+            with open(kind_to_path[kind], "r", encoding="utf-8") as f:
                 self.prompt[kind] = f.read()
 
     def load_cache(self):
         for kind in self.path_cache:
             if os.path.isfile(self.path_cache[kind]):
-                with open(self.path_cache[kind], 'rb') as f:
+                with open(self.path_cache[kind], "rb") as f:
                     self.cache[kind] = pickle.load(f)
             else:
                 self.cache[kind] = {}
-    
+
     def save_cache(self):
         for kind in self.path_cache:
-            with open(self.path_cache[kind], 'wb') as f:
+            with open(self.path_cache[kind], "wb") as f:
                 pickle.dump(self.cache[kind], f, protocol=pickle.HIGHEST_PROTOCOL)
             if self.count % 100 == 0:
-                with open(self.path_cache[kind]+str(self.count), 'wb') as f:
+                with open(self.path_cache[kind] + str(self.count), "wb") as f:
                     pickle.dump(self.cache[kind], f, protocol=pickle.HIGHEST_PROTOCOL)
 
     # take a sentence and its kind, return the GPT3 response
@@ -80,23 +82,24 @@ class Pipeline:
             time.sleep(2)
             try:
                 self.cache[kind][sentence] = openai.Completion.create(
-                    prompt=self.prompt[kind] + sentence.strip() + '\nSemantic Parse:',
+                    prompt=self.prompt[kind] + sentence.strip() + "\nSemantic Parse:",
                     engine=self.engine,
                     temperature=self.temperature,
-                    max_tokens=self.max_tokens)
+                    max_tokens=self.max_tokens,
+                )
                 self.save_cache()
             except Exception as e:
                 print(e)
                 self.cache[kind][sentence] = None
 
         # obtain the response from cache
-        response = ''
+        response = ""
         if self.cache[kind][sentence] is not None:
-            response = self.cache[kind][sentence]['choices'][0]['text'].strip()
+            response = self.cache[kind][sentence]["choices"][0]["text"].strip()
         # stop if response is empty due to content filtering or other issue
-        assert response != '', 'Error: GPT-3 response is empty'
+        assert response != "", "Error: GPT-3 response is empty"
         return response
-    
+
     # take a list of GPT3 responses and return the answer set
     def gen_answer_set(self, responses, opt=False):
         """
@@ -106,40 +109,46 @@ class Pipeline:
                         leave it to False when there is no weak constraint
         """
         program = self.asp_program + responses
-        clingo_control = Control(['0', '--warn=none', '--opt-mode=optN', '-t', '4'])
+        clingo_control = Control(["0", "--warn=none", "--opt-mode=optN", "-t", "4"])
         models = []
         try:
-            clingo_control.add('base', [], program)
-            clingo_control.ground([('base', [])], context=Context())
+            clingo_control.add("base", [], program)
+            clingo_control.ground([("base", [])], context=Context())
         except:
             if self.debug:
                 print(responses)
                 breakpoint()
             return []
         if opt:
-            clingo_control.solve(on_model = lambda model: models.append(model.symbols(atoms=True)) if model.optimality_proven else None)
+            clingo_control.solve(
+                on_model=lambda model: models.append(model.symbols(atoms=True))
+                if model.optimality_proven
+                else None
+            )
         else:
-            clingo_control.solve(on_model = lambda model: models.append(model.symbols(atoms=True)))
+            clingo_control.solve(
+                on_model=lambda model: models.append(model.symbols(atoms=True))
+            )
         models = [[str(atom) for atom in model] for model in models]
         return models
 
     # return the answer sets for an example data instance
-    def eval_single_example(self, example, facts='', clean=False, opt=False):
+    def eval_single_example(self, example, facts="", clean=False, opt=False):
         """
         Args:
             example (dict): a mapping from kind (str) to a list of sentences
             facts (str): additionally facts used during inference
             clean (bool): if true, remove all quotes turn all letters into lower case
         """
-        response = ''
+        response = ""
         for kind in example:
             for sentence in example[kind]:
                 response += self.gen_response(sentence, kind)
         if clean:
-            response = response.replace('\"', '').lower()
+            response = response.replace('"', "").lower()
         # any dash between words should be replaced by underscore in clingo
-        response = response.replace('-', '_')
-        answer_sets = self.gen_answer_set(response + '\n\n' + facts, opt=opt)
+        response = response.replace("-", "_")
+        answer_sets = self.gen_answer_set(response + "\n\n" + facts, opt=opt)
         return answer_sets, response
 
     def save_mistakes(self, mistake_cols):
@@ -160,21 +169,22 @@ class Baseline(Pipeline):
             time.sleep(2)
             try:
                 self.cache[name][inp] = openai.Completion.create(
-                    prompt=self.prompt[name].replace('[INPUT]', inp),
+                    prompt=self.prompt[name].replace("[INPUT]", inp),
                     engine=self.engine,
                     temperature=self.temperature,
-                    max_tokens=self.max_tokens)
+                    max_tokens=self.max_tokens,
+                )
                 self.save_cache()
             except Exception as e:
                 print(e)
                 self.cache[name][inp] = None
 
         # obtain the response from cache
-        response = ''
+        response = ""
         if self.cache[name][inp] is not None:
-            response = self.cache[name][inp]['choices'][0]['text'].strip()
+            response = self.cache[name][inp]["choices"][0]["text"].strip()
         # stop if response is empty due to content filtering or other issue
-        assert response != '', 'Error: GPT-3 response is empty'
+        assert response != "", "Error: GPT-3 response is empty"
         return response
 
     # return the answer sets for an example data instance

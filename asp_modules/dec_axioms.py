@@ -1,4 +1,4 @@
-DEC_AXIOMS = '''
+DEC_AXIOMS = """
 %%%%%%%%%%%%%%%%%%%%% AXIOMS %%%%%%%%%%%%%%%%%%%%%
 
 % (DEC1)
@@ -124,4 +124,4 @@ released_at(F,T+1) :- timepoint(T),
                        event(E),
                        happens(E,T),
                        terminates(E,F,T).
-'''
+"""

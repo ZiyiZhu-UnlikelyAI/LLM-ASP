@@ -1,4 +1,4 @@
-family = '''
+family = """
 % gender
 
 male(B) :- grandson(A, B).
@@ -164,4 +164,4 @@ child_in_law(A,B) :- childInLawOf(B,A).
 parent_in_law(A,B) :- parentInLawOf(B,A).
 sister(A,B) :- sisterOf(B,A).
 brother(A,B) :- brotherOf(B,A).
-'''
+"""
