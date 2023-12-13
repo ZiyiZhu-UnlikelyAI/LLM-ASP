@@ -1,0 +1,5943 @@
+EVAL NUM: 4 (wrong)
+
+CONTEXT:
+The bedroom is east of the bathroom.
+The hallway is east of the bedroom.
+The kitchen is west of the garden.
+The office is south of the bedroom.
+The office is north of the kitchen.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the bathroom. The kitchen is west of the garden. The garden is east of the bedroom. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+s,s
+
+EVAL NUM: 5 (wrong)
+
+CONTEXT:
+The bedroom is east of the bathroom.
+The hallway is west of the kitchen.
+The garden is south of the hallway.
+The office is west of the garden.
+The hallway is south of the bathroom.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The office is west of the garden. The hallway is south of the bathroom. The garden is south of the hallway. You have to go east, north, and then north. So the answer is e,n,n.
+
+PREDICTION:
+e,n,n
+
+Answer:
+n,n
+
+EVAL NUM: 6 (wrong)
+
+CONTEXT:
+The office is south of the garden.
+The garden is west of the bedroom.
+The bathroom is east of the bedroom.
+The bedroom is north of the hallway.
+The kitchen is north of the garden.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the hallway. The hallway is south of the kitchen. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+w,n
+
+EVAL NUM: 11 (wrong)
+
+CONTEXT:
+The kitchen is south of the bedroom.
+The garden is south of the office.
+The hallway is south of the kitchen.
+The garden is west of the kitchen.
+The bathroom is north of the office.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the bedroom. The garden is south of the office. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+w,n
+
+EVAL NUM: 18 (wrong)
+
+CONTEXT:
+The kitchen is north of the hallway.
+The office is west of the bedroom.
+The garden is west of the bathroom.
+The kitchen is south of the bedroom.
+The kitchen is west of the garden.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the office. The office is east of the garden. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+s,e
+
+EVAL NUM: 24 (wrong)
+
+CONTEXT:
+The bedroom is west of the office.
+The bedroom is north of the kitchen.
+The bathroom is south of the hallway.
+The office is west of the hallway.
+The garden is north of the hallway.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the kitchen. The kitchen is south of the hallway. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+e,e
+
+EVAL NUM: 26 (wrong)
+
+CONTEXT:
+The garden is north of the hallway.
+The kitchen is south of the bedroom.
+The bedroom is east of the bathroom.
+The hallway is east of the office.
+The office is east of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the bathroom. The hallway is east of the office. The office is east of the bedroom. You have to go west, west and then east. So the answer is w,w,e.
+
+PREDICTION:
+w,w,e
+
+Answer:
+e,e
+
+EVAL NUM: 31 (wrong)
+
+CONTEXT:
+The kitchen is east of the garden.
+The bathroom is north of the bedroom.
+The hallway is west of the bathroom.
+The office is east of the kitchen.
+The hallway is south of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the bathroom?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the bedroom. The kitchen is east of the garden. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+s,e
+
+EVAL NUM: 34 (wrong)
+
+CONTEXT:
+The hallway is east of the office.
+The bedroom is north of the hallway.
+The garden is east of the kitchen.
+The bedroom is west of the kitchen.
+The bathroom is east of the hallway.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the kitchen. The hallway is east of the bedroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,s
+
+EVAL NUM: 36 (wrong)
+
+CONTEXT:
+The kitchen is south of the hallway.
+The garden is south of the office.
+The bedroom is east of the hallway.
+The bathroom is north of the hallway.
+The bathroom is east of the office.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the hallway. The garden is south of the office. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+n,w
+
+EVAL NUM: 38 (wrong)
+
+CONTEXT:
+The kitchen is east of the bedroom.
+The office is south of the bathroom.
+The bedroom is east of the office.
+The garden is north of the bathroom.
+The office is north of the hallway.
+
+QUERY:
+How do you go from the bathroom to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is south of the bathroom. The bedroom is east of the office. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 40 (wrong)
+
+CONTEXT:
+The kitchen is south of the office.
+The bedroom is south of the bathroom.
+The hallway is east of the kitchen.
+The hallway is north of the bathroom.
+The bathroom is east of the garden.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the garden. The kitchen is south of the office. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+n,w
+
+EVAL NUM: 41 (wrong)
+
+CONTEXT:
+The bedroom is west of the hallway.
+The office is north of the bathroom.
+The kitchen is south of the bedroom.
+The office is east of the garden.
+The bedroom is east of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the hallway. The office is north of the bathroom. The bedroom is east of the bathroom. You have to go west, south, and then north. So the answer is w,s,n.
+
+PREDICTION:
+w,s,n
+
+Answer:
+w,n
+
+EVAL NUM: 42 (wrong)
+
+CONTEXT:
+The bathroom is north of the kitchen.
+The bedroom is east of the office.
+The hallway is east of the kitchen.
+The bedroom is south of the garden.
+The kitchen is north of the garden.
+
+QUERY:
+How do you go from the kitchen to the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is east of the kitchen. The bedroom is south of the garden. The garden is north of the kitchen. You have to go east, north, and then south. So the answer is e,n,s.
+
+PREDICTION:
+e,n,s
+
+Answer:
+s,s
+
+EVAL NUM: 43 (wrong)
+
+CONTEXT:
+The bathroom is south of the hallway.
+The garden is north of the office.
+The garden is south of the bedroom.
+The kitchen is north of the bedroom.
+The bathroom is west of the bedroom.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The garden is north of the office. The bathroom is south of the hallway. The hallway is south of the garden. You have to go south and then south. So the answer is s,s.
+
+PREDICTION:
+s,s
+
+Answer:
+n,w
+
+EVAL NUM: 46 (wrong)
+
+CONTEXT:
+The office is east of the kitchen.
+The bedroom is north of the office.
+The hallway is south of the garden.
+The bathroom is north of the garden.
+The office is west of the garden.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is west of the garden. The bedroom is north of the office. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 49 (wrong)
+
+CONTEXT:
+The office is east of the bathroom.
+The bedroom is north of the garden.
+The hallway is north of the office.
+The kitchen is west of the garden.
+The hallway is east of the garden.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom. The bathroom is west of the garden. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+n,w
+
+EVAL NUM: 50 (wrong)
+
+CONTEXT:
+The kitchen is south of the bedroom.
+The bathroom is north of the hallway.
+The office is east of the hallway.
+The garden is south of the hallway.
+The garden is west of the bedroom.
+
+QUERY:
+How do you go from the hallway to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the hallway. The kitchen is south of the bedroom. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+s,e
+
+EVAL NUM: 52 (wrong)
+
+CONTEXT:
+The hallway is south of the garden.
+The garden is south of the bedroom.
+The office is west of the bedroom.
+The bathroom is north of the bedroom.
+The kitchen is east of the hallway.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The hallway is south of the garden. The garden is south of the bedroom. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 56 (wrong)
+
+CONTEXT:
+The garden is west of the bedroom.
+The hallway is north of the bathroom.
+The hallway is west of the kitchen.
+The kitchen is south of the bedroom.
+The office is west of the hallway.
+
+QUERY:
+How do you go from the hallway to the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bathroom. The bathroom is east of the bedroom. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+e,n
+
+EVAL NUM: 60 (wrong)
+
+CONTEXT:
+The bathroom is south of the garden.
+The bathroom is west of the bedroom.
+The hallway is north of the kitchen.
+The bedroom is north of the hallway.
+The office is east of the hallway.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the garden. The hallway is north of the kitchen. You have to go south and then west. So the answer is s,w.
+
+PREDICTION:
+s,w
+
+Answer:
+n,w
+
+EVAL NUM: 61 (wrong)
+
+CONTEXT:
+The office is east of the hallway.
+The kitchen is east of the office.
+The office is south of the bedroom.
+The garden is south of the hallway.
+The office is north of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The office is south of the bedroom. The office is east of the hallway. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 67 (wrong)
+
+CONTEXT:
+The garden is north of the bedroom.
+The hallway is east of the garden.
+The office is south of the bathroom.
+The kitchen is east of the bedroom.
+The bedroom is east of the office.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The hallway is east of the garden. The bedroom is east of the hallway. The office is west of the bedroom. You have to go east, east, and then west. So the answer is e,e,w.
+
+PREDICTION:
+e,e,w
+
+Answer:
+s,w
+
+EVAL NUM: 69 (wrong)
+
+CONTEXT:
+The bedroom is north of the bathroom.
+The garden is north of the hallway.
+The office is east of the garden.
+The kitchen is south of the hallway.
+The garden is south of the bathroom.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The garden is north of the hallway. The garden is south of the bathroom. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 70 (wrong)
+
+CONTEXT:
+The garden is south of the hallway.
+The bedroom is south of the kitchen.
+The bathroom is south of the bedroom.
+The hallway is east of the office.
+The hallway is south of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is south of the kitchen. The kitchen is north of the hallway. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+s,s
+
+EVAL NUM: 80 (wrong)
+
+CONTEXT:
+The bathroom is north of the office.
+The garden is south of the kitchen.
+The bedroom is west of the garden.
+The bedroom is east of the hallway.
+The bedroom is south of the office.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the office. The garden is south of the kitchen. The office is north of the bedroom. The bedroom is west of the garden. You have to go south, east and then south. So the answer is s,e,s.
+
+PREDICTION:
+s,e,s
+
+Answer:
+s,e
+
+EVAL NUM: 83 (wrong)
+
+CONTEXT:
+The hallway is north of the office.
+The bathroom is south of the garden.
+The bedroom is south of the office.
+The office is east of the kitchen.
+The garden is south of the bedroom.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the garden. The office is east of the kitchen. The kitchen is north of the bathroom. You have to go north, then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+n,n
+
+EVAL NUM: 86 (wrong)
+
+CONTEXT:
+The kitchen is north of the garden.
+The bathroom is south of the office.
+The office is west of the bedroom.
+The garden is north of the hallway.
+The hallway is west of the office.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the garden. The hallway is west of the office. The garden is north of the hallway. You have to go south, east and then south. So the answer is s,e,s.
+
+PREDICTION:
+s,e,s
+
+Answer:
+s,e
+
+EVAL NUM: 94 (wrong)
+
+CONTEXT:
+The bedroom is east of the bathroom.
+The kitchen is north of the garden.
+The hallway is east of the bedroom.
+The hallway is south of the garden.
+The garden is west of the office.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the bathroom. The bathroom is west of the garden. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+e,n
+
+EVAL NUM: 98 (wrong)
+
+CONTEXT:
+The office is west of the hallway.
+The office is north of the kitchen.
+The bathroom is east of the bedroom.
+The bathroom is north of the garden.
+The kitchen is north of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the garden. The kitchen is north of the bathroom. The office is north of the kitchen. You have to go south, then south, then south. So the answer is s,s,s.
+
+PREDICTION:
+s,s,s
+
+Answer:
+n,n
+
+EVAL NUM: 99 (wrong)
+
+CONTEXT:
+The bedroom is east of the garden.
+The kitchen is north of the garden.
+The hallway is south of the office.
+The bedroom is south of the bathroom.
+The bedroom is west of the office.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the office. The bedroom is east of the garden. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,w
+
+EVAL NUM: 105 (wrong)
+
+CONTEXT:
+The kitchen is east of the hallway.
+The garden is north of the bathroom.
+The garden is south of the office.
+The kitchen is south of the bedroom.
+The bedroom is east of the garden.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the hallway. The garden is north of the bathroom. The bathroom is west of the hallway. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+n,w
+
+EVAL NUM: 107 (wrong)
+
+CONTEXT:
+The hallway is east of the bathroom.
+The office is west of the bathroom.
+The bedroom is south of the garden.
+The bedroom is north of the bathroom.
+The garden is south of the kitchen.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the bedroom. The bedroom is south of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+n,n
+
+EVAL NUM: 109 (wrong)
+
+CONTEXT:
+The bathroom is south of the kitchen.
+The bedroom is west of the bathroom.
+The hallway is east of the garden.
+The kitchen is south of the office.
+The bathroom is west of the garden.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the kitchen. The bathroom is west of the garden. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 113 (wrong)
+
+CONTEXT:
+The bathroom is south of the office.
+The garden is west of the office.
+The bedroom is east of the office.
+The kitchen is north of the office.
+The bedroom is west of the hallway.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the office. The bedroom is west of the hallway. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 131 (wrong)
+
+CONTEXT:
+The office is south of the bathroom.
+The kitchen is west of the hallway.
+The kitchen is north of the bedroom.
+The bedroom is north of the bathroom.
+The bathroom is east of the garden.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the garden. The kitchen is west of the hallway. The hallway is north of the garden. You have to go west, then north, then east. So the answer is w,n,e.
+
+PREDICTION:
+w,n,e
+
+Answer:
+n,n
+
+EVAL NUM: 133 (wrong)
+
+CONTEXT:
+The bedroom is west of the hallway.
+The kitchen is east of the hallway.
+The garden is south of the bathroom.
+The office is east of the bathroom.
+The office is north of the hallway.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the hallway. You have to go south. So the answer is s.
+
+PREDICTION:
+s
+
+Answer:
+e,s
+
+EVAL NUM: 134 (wrong)
+
+CONTEXT:
+The kitchen is west of the bedroom.
+The bedroom is west of the office.
+The hallway is north of the office.
+The garden is west of the hallway.
+The office is north of the bathroom.
+
+QUERY:
+How do you go from the hallway to the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is north of the office. The bedroom is west of the office. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+s,w
+
+EVAL NUM: 140 (wrong)
+
+CONTEXT:
+The office is west of the garden.
+The kitchen is east of the bedroom.
+The kitchen is south of the garden.
+The hallway is north of the bathroom.
+The bathroom is north of the garden.
+
+QUERY:
+How do you go from the kitchen to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the garden. The bathroom is north of the garden. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 141 (wrong)
+
+CONTEXT:
+The garden is west of the kitchen.
+The hallway is east of the office.
+The bedroom is north of the kitchen.
+The bathroom is north of the office.
+The kitchen is north of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The hallway is east of the office. The kitchen is north of the bathroom. The bathroom is north of the office. You have to go south, south and then west. So the answer is s,s,w.
+
+PREDICTION:
+s,s,w
+
+Answer:
+s,s
+
+EVAL NUM: 143 (wrong)
+
+CONTEXT:
+The bedroom is south of the bathroom.
+The kitchen is west of the hallway.
+The garden is south of the office.
+The garden is west of the bathroom.
+The kitchen is south of the garden.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the bedroom. The kitchen is west of the hallway. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+w,s
+
+EVAL NUM: 147 (wrong)
+
+CONTEXT:
+The bathroom is east of the kitchen.
+The bedroom is east of the office.
+The hallway is north of the bedroom.
+The garden is north of the hallway.
+The hallway is west of the kitchen.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the office. The bathroom is east of the kitchen. The office is west of the bathroom. You have to go west, west and then west. So the answer is w,w,w.
+
+PREDICTION:
+w,w,w
+
+Answer:
+n,e
+
+EVAL NUM: 154 (wrong)
+
+CONTEXT:
+The kitchen is south of the hallway.
+The bathroom is north of the office.
+The bedroom is north of the hallway.
+The garden is west of the hallway.
+The bedroom is east of the office.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the office. The kitchen is south of the hallway. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+e,s
+
+EVAL NUM: 156 (wrong)
+
+CONTEXT:
+The bathroom is north of the office.
+The bedroom is south of the garden.
+The kitchen is west of the office.
+The hallway is east of the bathroom.
+The office is west of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The office is west of the bedroom. The bathroom is north of the office. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 157 (wrong)
+
+CONTEXT:
+The kitchen is east of the bathroom.
+The office is east of the garden.
+The bedroom is north of the bathroom.
+The garden is north of the hallway.
+The garden is south of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The garden is south of the bathroom. The garden is north of the hallway. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 160 (wrong)
+
+CONTEXT:
+The bedroom is south of the hallway.
+The bedroom is east of the office.
+The kitchen is south of the office.
+The bathroom is north of the office.
+The bedroom is west of the garden.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the office. The bedroom is south of the hallway. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+e,n
+
+EVAL NUM: 161 (wrong)
+
+CONTEXT:
+The garden is north of the office.
+The bedroom is south of the hallway.
+The bathroom is north of the garden.
+The kitchen is east of the bathroom.
+The bedroom is north of the bathroom.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is north of the office. The bedroom is south of the hallway. The garden is north of the office. You have to go south and then south. So the answer is s,s.
+
+PREDICTION:
+s,s
+
+Answer:
+n,n
+
+EVAL NUM: 163 (wrong)
+
+CONTEXT:
+The bedroom is north of the office.
+The office is west of the hallway.
+The garden is west of the bathroom.
+The kitchen is north of the hallway.
+The office is north of the bathroom.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The office is west of the hallway. The office is north of the bathroom. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,s
+
+EVAL NUM: 166 (wrong)
+
+CONTEXT:
+The office is north of the bathroom.
+The garden is north of the bedroom.
+The bedroom is west of the hallway.
+The hallway is north of the office.
+The kitchen is east of the hallway.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is north of the bathroom. The bathroom is south of the bedroom. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+n,w
+
+EVAL NUM: 169 (wrong)
+
+CONTEXT:
+The kitchen is north of the bedroom.
+The bedroom is north of the garden.
+The hallway is west of the bedroom.
+The bathroom is south of the hallway.
+The office is west of the hallway.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The garden is south of the bedroom. The bedroom is south of the kitchen. The hallway is west of the kitchen. You have to go north, north, and then west. So the answer is n,n,w.
+
+PREDICTION:
+n,n,w
+
+Answer:
+n,w
+
+EVAL NUM: 174 (wrong)
+
+CONTEXT:
+The bedroom is west of the hallway.
+The garden is east of the office.
+The office is north of the kitchen.
+The hallway is north of the bathroom.
+The bathroom is north of the office.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The office is north of the kitchen. The kitchen is west of the hallway. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+n,n
+
+EVAL NUM: 183 (wrong)
+
+CONTEXT:
+The bedroom is east of the office.
+The bathroom is north of the garden.
+The bathroom is west of the office.
+The bathroom is south of the kitchen.
+The garden is west of the hallway.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The garden is west of the hallway. The hallway is east of the office. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+n,e
+
+EVAL NUM: 185 (wrong)
+
+CONTEXT:
+The office is south of the kitchen.
+The garden is south of the bathroom.
+The kitchen is west of the bedroom.
+The bedroom is west of the bathroom.
+The hallway is north of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the bedroom. The kitchen is west of the bedroom. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+w,w
+
+EVAL NUM: 186 (wrong)
+
+CONTEXT:
+The garden is south of the office.
+The bedroom is west of the bathroom.
+The bathroom is north of the office.
+The hallway is west of the garden.
+The kitchen is west of the office.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The garden is south of the office. The bathroom is north of the office. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 187 (wrong)
+
+CONTEXT:
+The bedroom is south of the hallway.
+The bedroom is west of the garden.
+The kitchen is south of the garden.
+The garden is south of the office.
+The garden is west of the bathroom.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The garden is south of the office. The office is north of the hallway. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+w,n
+
+EVAL NUM: 188 (wrong)
+
+CONTEXT:
+The bathroom is east of the office.
+The kitchen is south of the office.
+The bedroom is east of the garden.
+The garden is south of the hallway.
+The garden is north of the office.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the office. The garden is north of the office. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 189 (wrong)
+
+CONTEXT:
+The office is south of the bathroom.
+The bedroom is east of the bathroom.
+The garden is west of the bathroom.
+The hallway is east of the kitchen.
+The office is north of the hallway.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the bedroom. The hallway is east of the kitchen. The kitchen is west of the bathroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+s,s
+
+EVAL NUM: 192 (wrong)
+
+CONTEXT:
+The kitchen is west of the bedroom.
+The hallway is north of the office.
+The garden is east of the office.
+The bedroom is north of the hallway.
+The bathroom is west of the office.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is east of the office. The kitchen is west of the bedroom. The garden is west of the kitchen. You have to go east, west, and then west. So the answer is e,w,w.
+
+PREDICTION:
+e,w,w
+
+Answer:
+n,n
+
+EVAL NUM: 194 (wrong)
+
+CONTEXT:
+The bedroom is east of the hallway.
+The garden is south of the bedroom.
+The garden is north of the kitchen.
+The hallway is east of the office.
+The bathroom is north of the bedroom.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The garden is north of the kitchen. The kitchen is west of the hallway. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+n,w
+
+EVAL NUM: 197 (wrong)
+
+CONTEXT:
+The hallway is east of the bedroom.
+The bathroom is east of the office.
+The bedroom is south of the kitchen.
+The office is east of the garden.
+The kitchen is south of the office.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the office. The hallway is east of the bedroom. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+s,s
+
+EVAL NUM: 201 (wrong)
+
+CONTEXT:
+The bathroom is south of the hallway.
+The kitchen is east of the garden.
+The kitchen is west of the hallway.
+The garden is north of the bedroom.
+The office is west of the garden.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden. The kitchen is west of the hallway. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 205 (wrong)
+
+CONTEXT:
+The bathroom is east of the kitchen.
+The garden is east of the bathroom.
+The office is north of the garden.
+The garden is west of the bedroom.
+The hallway is north of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The garden is west of the bedroom. The bathroom is east of the garden. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+w,w
+
+EVAL NUM: 208 (wrong)
+
+CONTEXT:
+The bedroom is north of the bathroom.
+The hallway is west of the office.
+The office is north of the garden.
+The bathroom is west of the garden.
+The office is south of the kitchen.
+
+QUERY:
+How do you go from the office to the bathroom?
+
+EXTRACTED PREDICTION:
+The office is south of the kitchen. The kitchen is south of the bathroom. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+s,w
+
+EVAL NUM: 209 (wrong)
+
+CONTEXT:
+The bathroom is west of the office.
+The bathroom is south of the kitchen.
+The garden is south of the bathroom.
+The hallway is east of the kitchen.
+The bedroom is west of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the bathroom. The garden is south of the bathroom. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+s,s
+
+EVAL NUM: 211 (wrong)
+
+CONTEXT:
+The bathroom is east of the kitchen.
+The garden is north of the kitchen.
+The office is east of the bedroom.
+The hallway is west of the kitchen.
+The hallway is north of the office.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the kitchen. The office is east of the bedroom. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+w,s
+
+EVAL NUM: 215 (wrong)
+
+CONTEXT:
+The kitchen is south of the hallway.
+The garden is north of the bathroom.
+The office is west of the bedroom.
+The bedroom is south of the bathroom.
+The hallway is east of the bedroom.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the hallway. The garden is north of the bathroom. You have to go south and then south. So the answer is s,s.
+
+PREDICTION:
+s,s
+
+Answer:
+w,n
+
+EVAL NUM: 216 (wrong)
+
+CONTEXT:
+The hallway is south of the bedroom.
+The kitchen is west of the bedroom.
+The garden is west of the bathroom.
+The bedroom is south of the office.
+The office is west of the garden.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the bedroom. The garden is west of the bathroom. The bathroom is not directly connected to the bedroom or kitchen in the given information. Therefore, a direct route from the bedroom to the garden cannot be determined from the information given.
+
+PREDICTION:
+The kitchen is west of the bedroom. The garden is west of the bathroom. The bathroom is not directly connected to the bedroom or kitchen in the given information. Therefore, a direct route from the bedroom to the garden cannot be determined from the information given.
+
+Answer:
+n,e
+
+EVAL NUM: 218 (wrong)
+
+CONTEXT:
+The garden is north of the hallway.
+The bathroom is east of the kitchen.
+The bedroom is west of the garden.
+The office is south of the bathroom.
+The office is north of the garden.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the kitchen. The garden is north of the hallway. The hallway is east of the kitchen. You have to go south, east and then north. So the answer is s,e,n.
+
+PREDICTION:
+s,e,n
+
+Answer:
+n,n
+
+EVAL NUM: 224 (wrong)
+
+CONTEXT:
+The kitchen is west of the office.
+The office is north of the hallway.
+The bathroom is north of the kitchen.
+The kitchen is east of the garden.
+The bedroom is north of the office.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The office is north of the hallway. The kitchen is west of the office. The kitchen is east of the garden. You have to go south, then west, then east. So the answer is s,w,e.
+
+PREDICTION:
+s,w,e
+
+Answer:
+w,w
+
+EVAL NUM: 226 (wrong)
+
+CONTEXT:
+The office is west of the bathroom.
+The kitchen is north of the bathroom.
+The bedroom is east of the bathroom.
+The hallway is east of the garden.
+The kitchen is east of the hallway.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the hallway. The kitchen is north of the bathroom. You have to go west and then south. So the answer is w,s.
+
+PREDICTION:
+w,s
+
+Answer:
+e,s
+
+EVAL NUM: 228 (wrong)
+
+CONTEXT:
+The bathroom is north of the hallway.
+The bedroom is south of the garden.
+The hallway is north of the office.
+The garden is east of the kitchen.
+The kitchen is east of the hallway.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is south of the garden. The bathroom is north of the hallway. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+w,w
+
+EVAL NUM: 229 (wrong)
+
+CONTEXT:
+The bathroom is east of the kitchen.
+The hallway is south of the bathroom.
+The garden is south of the bedroom.
+The office is west of the kitchen.
+The bathroom is west of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the bedroom. The kitchen is east of the bathroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,w
+
+EVAL NUM: 230 (wrong)
+
+CONTEXT:
+The office is north of the hallway.
+The bathroom is east of the garden.
+The kitchen is west of the bedroom.
+The bedroom is west of the hallway.
+The bedroom is south of the garden.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The hallway is north of the office. The bedroom is south of the garden. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+w,n
+
+EVAL NUM: 236 (wrong)
+
+CONTEXT:
+The bathroom is west of the bedroom.
+The kitchen is east of the office.
+The hallway is west of the office.
+The garden is north of the office.
+The garden is south of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the bedroom. The hallway is west of the office. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+s,s
+
+EVAL NUM: 238 (wrong)
+
+CONTEXT:
+The garden is north of the office.
+The kitchen is west of the bedroom.
+The bathroom is south of the bedroom.
+The kitchen is south of the hallway.
+The garden is west of the kitchen.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is south of the bathroom. The garden is north of the office which is north of the bathroom. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+w,w
+
+EVAL NUM: 239 (wrong)
+
+CONTEXT:
+The hallway is south of the kitchen.
+The office is west of the bedroom.
+The kitchen is south of the garden.
+The kitchen is east of the bathroom.
+The bathroom is south of the office.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The office is west of the bedroom. The bedroom is north of the kitchen. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+s,e
+
+EVAL NUM: 242 (wrong)
+
+CONTEXT:
+The garden is north of the bedroom.
+The hallway is south of the bathroom.
+The office is north of the bathroom.
+The garden is west of the bathroom.
+The kitchen is west of the office.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The garden is west of the bathroom. The office is north of the bathroom. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+e,n
+
+EVAL NUM: 243 (wrong)
+
+CONTEXT:
+The bedroom is south of the hallway.
+The office is west of the bedroom.
+The garden is south of the bathroom.
+The hallway is east of the kitchen.
+The bedroom is west of the bathroom.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is east of the kitchen. The kitchen is west of the bathroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+s,e
+
+EVAL NUM: 248 (wrong)
+
+CONTEXT:
+The office is south of the bathroom.
+The bedroom is west of the hallway.
+The garden is east of the office.
+The hallway is north of the kitchen.
+The kitchen is west of the office.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the hallway. The office is south of the bathroom. The bathroom is north of the hallway. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+w,n
+
+EVAL NUM: 250 (wrong)
+
+CONTEXT:
+The office is south of the bedroom.
+The kitchen is east of the bathroom.
+The hallway is south of the bathroom.
+The garden is north of the bedroom.
+The bedroom is west of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The hallway is south of the bathroom. The office is south of the bedroom. The bedroom is west of the bathroom. You have to go south, west, and then south. So the answer is s,w,s.
+
+PREDICTION:
+s,w,s
+
+Answer:
+w,s
+
+EVAL NUM: 253 (wrong)
+
+CONTEXT:
+The office is east of the hallway.
+The kitchen is east of the bedroom.
+The bathroom is south of the garden.
+The hallway is east of the garden.
+The garden is south of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the bedroom. The office is east of the hallway. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+s,e
+
+EVAL NUM: 259 (wrong)
+
+CONTEXT:
+The office is south of the garden.
+The bathroom is east of the hallway.
+The hallway is north of the garden.
+The bedroom is west of the hallway.
+The kitchen is east of the garden.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The hallway is north of the garden. The office is south of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 260 (wrong)
+
+CONTEXT:
+The garden is west of the bathroom.
+The hallway is north of the kitchen.
+The office is south of the bedroom.
+The bedroom is west of the kitchen.
+The bedroom is south of the garden.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The garden is west of the bathroom. The bathroom is east of the kitchen. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 263 (wrong)
+
+CONTEXT:
+The garden is south of the office.
+The bedroom is east of the kitchen.
+The bathroom is west of the kitchen.
+The kitchen is south of the hallway.
+The bedroom is north of the office.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the hallway. The garden is south of the office. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+e,s
+
+EVAL NUM: 269 (wrong)
+
+CONTEXT:
+The bedroom is north of the kitchen.
+The hallway is west of the bathroom.
+The office is west of the bedroom.
+The garden is north of the bathroom.
+The hallway is east of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bedroom. The bathroom is west of the hallway. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 275 (wrong)
+
+CONTEXT:
+The kitchen is north of the garden.
+The garden is west of the bedroom.
+The office is south of the bedroom.
+The bathroom is north of the bedroom.
+The hallway is west of the bathroom.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the garden. The bathroom is north of the bedroom. The garden is west of the bedroom. You have to go north, east and then north. So the answer is n,e,n.
+
+PREDICTION:
+n,e,n
+
+Answer:
+e,n
+
+EVAL NUM: 276 (wrong)
+
+CONTEXT:
+The bathroom is north of the office.
+The hallway is north of the kitchen.
+The garden is south of the kitchen.
+The bedroom is south of the garden.
+The bathroom is west of the garden.
+
+QUERY:
+How do you go from the kitchen to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is north of the kitchen. The bathroom is north of the office. The office is south of the hallway. You have to go north, south, and then west. So the answer is n,s,w.
+
+PREDICTION:
+n,s,w
+
+Answer:
+s,w
+
+EVAL NUM: 279 (wrong)
+
+CONTEXT:
+The garden is north of the kitchen.
+The office is north of the hallway.
+The office is east of the kitchen.
+The bathroom is east of the office.
+The office is south of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The office is south of the bedroom. The office is east of the kitchen. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 283 (wrong)
+
+CONTEXT:
+The hallway is west of the bedroom.
+The office is east of the bedroom.
+The bathroom is north of the kitchen.
+The garden is south of the bedroom.
+The hallway is south of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is south of the kitchen. The hallway is west of the bedroom. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 284 (wrong)
+
+CONTEXT:
+The garden is south of the hallway.
+The bathroom is north of the kitchen.
+The garden is west of the office.
+The office is west of the kitchen.
+The bedroom is west of the garden.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The garden is south of the hallway. The bathroom is north of the kitchen. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+e,e
+
+EVAL NUM: 286 (wrong)
+
+CONTEXT:
+The kitchen is east of the hallway.
+The garden is south of the office.
+The hallway is east of the bathroom.
+The bedroom is west of the garden.
+The bedroom is north of the hallway.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the garden. The bedroom is north of the hallway. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,s
+
+EVAL NUM: 292 (wrong)
+
+CONTEXT:
+The office is west of the kitchen.
+The kitchen is south of the bathroom.
+The bedroom is east of the hallway.
+The garden is south of the hallway.
+The hallway is east of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the bathroom. The bathroom is north of the hallway. The garden is south of the hallway. You have to go north, then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+e,s
+
+EVAL NUM: 294 (wrong)
+
+CONTEXT:
+The kitchen is east of the bedroom.
+The bathroom is west of the garden.
+The bedroom is east of the office.
+The bathroom is south of the office.
+The hallway is north of the office.
+
+QUERY:
+How do you go from the bathroom to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the garden. The garden is east of the bedroom. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+n,e
+
+EVAL NUM: 297 (wrong)
+
+CONTEXT:
+The hallway is east of the kitchen.
+The garden is west of the bedroom.
+The office is east of the bathroom.
+The office is north of the bedroom.
+The bedroom is north of the kitchen.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom. The bathroom is south of the kitchen. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+s,s
+
+EVAL NUM: 301 (wrong)
+
+CONTEXT:
+The hallway is north of the bedroom.
+The kitchen is east of the office.
+The bathroom is north of the office.
+The garden is west of the bathroom.
+The bathroom is west of the hallway.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the office. The hallway is north of the bedroom. You have to go south and then west. So the answer is s,w.
+
+PREDICTION:
+s,w
+
+Answer:
+w,s
+
+EVAL NUM: 307 (wrong)
+
+CONTEXT:
+The hallway is east of the garden.
+The kitchen is west of the office.
+The office is west of the garden.
+The bathroom is south of the office.
+The garden is north of the bedroom.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The office is west of the garden. The bathroom is south of the office. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,s
+
+EVAL NUM: 311 (wrong)
+
+CONTEXT:
+The hallway is east of the bedroom.
+The office is west of the garden.
+The garden is west of the bedroom.
+The office is east of the bathroom.
+The kitchen is south of the office.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom. The hallway is east of the bedroom. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+e,e
+
+EVAL NUM: 313 (wrong)
+
+CONTEXT:
+The kitchen is west of the office.
+The hallway is west of the kitchen.
+The bedroom is south of the garden.
+The bathroom is south of the kitchen.
+The bathroom is west of the garden.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the office. The office is east of the garden. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 320 (wrong)
+
+CONTEXT:
+The bathroom is south of the garden.
+The hallway is east of the bedroom.
+The office is north of the bedroom.
+The kitchen is west of the office.
+The office is west of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bedroom. The bathroom is south of the garden. The garden is east of the hallway. You have to go east, east and then south. So the answer is e,e,s.
+
+PREDICTION:
+e,e,s
+
+Answer:
+n,e
+
+EVAL NUM: 321 (wrong)
+
+CONTEXT:
+The bedroom is south of the hallway.
+The kitchen is south of the office.
+The garden is east of the bathroom.
+The hallway is east of the office.
+The hallway is west of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The hallway is west of the bathroom. The hallway is east of the office. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,w
+
+EVAL NUM: 324 (wrong)
+
+CONTEXT:
+The bedroom is north of the hallway.
+The office is north of the bathroom.
+The garden is north of the kitchen.
+The garden is east of the bedroom.
+The garden is south of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is north of the bathroom. The bedroom is north of the hallway. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+s,w
+
+EVAL NUM: 329 (wrong)
+
+CONTEXT:
+The hallway is west of the garden.
+The bathroom is south of the kitchen.
+The office is south of the hallway.
+The bedroom is west of the hallway.
+The hallway is south of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the kitchen. The kitchen is south of the hallway. The office is south of the hallway. You have to go north, north and then south. So the answer is n,n,s.
+
+PREDICTION:
+n,n,s
+
+Answer:
+s,s
+
+EVAL NUM: 331 (wrong)
+
+CONTEXT:
+The garden is south of the hallway.
+The hallway is south of the bathroom.
+The bedroom is west of the bathroom.
+The office is west of the kitchen.
+The hallway is east of the kitchen.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the hallway. The hallway is east of the kitchen. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,w
+
+EVAL NUM: 333 (wrong)
+
+CONTEXT:
+The bathroom is south of the office.
+The office is south of the kitchen.
+The office is west of the bedroom.
+The kitchen is east of the garden.
+The hallway is south of the bedroom.
+
+QUERY:
+How do you go from the kitchen to the bedroom?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden. The office is west of the bedroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+s,e
+
+EVAL NUM: 339 (wrong)
+
+CONTEXT:
+The office is east of the bedroom.
+The kitchen is south of the office.
+The bathroom is north of the garden.
+The hallway is east of the office.
+The office is south of the garden.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is south of the garden. The office is east of the bedroom. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 346 (wrong)
+
+CONTEXT:
+The bedroom is east of the office.
+The hallway is south of the kitchen.
+The garden is east of the bathroom.
+The kitchen is west of the office.
+The garden is north of the office.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The garden is north of the office. The kitchen is west of the office. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+s,w
+
+EVAL NUM: 348 (wrong)
+
+CONTEXT:
+The bedroom is east of the garden.
+The office is east of the kitchen.
+The bathroom is south of the office.
+The garden is south of the hallway.
+The bathroom is west of the garden.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the garden. The office is east of the kitchen. The garden is south of the hallway. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+w,n
+
+EVAL NUM: 358 (wrong)
+
+CONTEXT:
+The bedroom is west of the hallway.
+The office is west of the bathroom.
+The kitchen is north of the office.
+The garden is west of the bedroom.
+The office is north of the bedroom.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The office is west of the bathroom. The bathroom is east of the hallway. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 360 (wrong)
+
+CONTEXT:
+The office is north of the garden.
+The bathroom is north of the kitchen.
+The kitchen is north of the office.
+The bedroom is south of the garden.
+The garden is east of the hallway.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The garden is east of the hallway. The bathroom is north of the kitchen. You have to go west and then south. So the answer is w,s.
+
+PREDICTION:
+w,s
+
+Answer:
+n,n
+
+EVAL NUM: 361 (wrong)
+
+CONTEXT:
+The kitchen is north of the bathroom.
+The bedroom is east of the bathroom.
+The hallway is west of the office.
+The bathroom is north of the garden.
+The hallway is south of the garden.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is south of the garden. The bathroom is north of the garden. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 364 (wrong)
+
+CONTEXT:
+The garden is west of the office.
+The bedroom is west of the hallway.
+The kitchen is north of the bedroom.
+The office is north of the bathroom.
+The bathroom is west of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the hallway. The office is north of the bathroom. The bathroom is west of the bedroom. You have to go east, south and then north. So the answer is e,s,n.
+
+PREDICTION:
+e,s,n
+
+Answer:
+w,n
+
+EVAL NUM: 366 (wrong)
+
+CONTEXT:
+The office is west of the garden.
+The bathroom is south of the hallway.
+The garden is south of the bedroom.
+The garden is west of the kitchen.
+The bedroom is west of the hallway.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The garden is west of the kitchen. The kitchen is west of the hallway. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+w,s
+
+EVAL NUM: 367 (wrong)
+
+CONTEXT:
+The garden is west of the kitchen.
+The hallway is north of the kitchen.
+The office is north of the bedroom.
+The bedroom is west of the bathroom.
+The garden is south of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the bathroom. The garden is west of the kitchen. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 374 (wrong)
+
+CONTEXT:
+The hallway is south of the bathroom.
+The bedroom is north of the office.
+The office is east of the bathroom.
+The kitchen is south of the office.
+The garden is east of the kitchen.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the hallway. The kitchen is south of the office. The office is east of the bathroom. You have to go north, east, and then south. So the answer is n,e,s.
+
+PREDICTION:
+n,e,s
+
+Answer:
+e,s
+
+EVAL NUM: 375 (wrong)
+
+CONTEXT:
+The office is north of the hallway.
+The garden is south of the bathroom.
+The bedroom is north of the office.
+The kitchen is west of the bathroom.
+The office is east of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom. The office is north of the hallway. You have to go west and then south. So the answer is w,s.
+
+PREDICTION:
+w,s
+
+Answer:
+e,s
+
+EVAL NUM: 376 (wrong)
+
+CONTEXT:
+The garden is south of the bedroom.
+The kitchen is south of the office.
+The office is west of the bathroom.
+The hallway is east of the garden.
+The garden is north of the office.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the office. The garden is north of the office. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 378 (wrong)
+
+CONTEXT:
+The bathroom is east of the kitchen.
+The office is east of the garden.
+The bedroom is west of the hallway.
+The garden is north of the hallway.
+The garden is south of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The garden is south of the kitchen. The garden is north of the hallway. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 379 (wrong)
+
+CONTEXT:
+The kitchen is north of the garden.
+The bathroom is north of the bedroom.
+The hallway is west of the garden.
+The office is south of the bedroom.
+The garden is west of the office.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the bedroom. The kitchen is north of the garden. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+s,w
+
+EVAL NUM: 385 (wrong)
+
+CONTEXT:
+The garden is west of the hallway.
+The garden is north of the office.
+The bedroom is east of the kitchen.
+The garden is south of the bedroom.
+The bedroom is west of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the bathroom. The garden is north of the office. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+s,s
+
+EVAL NUM: 396 (wrong)
+
+CONTEXT:
+The kitchen is east of the office.
+The hallway is south of the garden.
+The garden is west of the bedroom.
+The bathroom is south of the bedroom.
+The office is north of the garden.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the office. The garden is west of the bedroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+s,e
+
+EVAL NUM: 397 (wrong)
+
+CONTEXT:
+The kitchen is east of the office.
+The kitchen is south of the bedroom.
+The garden is north of the bathroom.
+The hallway is east of the bedroom.
+The kitchen is west of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the bedroom. The kitchen is east of the office. The office is west of the bathroom. You have to go south, east, and then west. So the answer is s,e,w.
+
+PREDICTION:
+s,e,w
+
+Answer:
+s,e
+
+EVAL NUM: 405 (wrong)
+
+CONTEXT:
+The kitchen is north of the bedroom.
+The garden is west of the office.
+The garden is south of the hallway.
+The bathroom is west of the garden.
+The bedroom is north of the hallway.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the bedroom. The garden is west of the office. The office is south of the kitchen. You have to go north, then west, then south. So the answer is n,w,s.
+
+PREDICTION:
+n,w,s
+
+Answer:
+s,s
+
+EVAL NUM: 407 (wrong)
+
+CONTEXT:
+The garden is north of the kitchen.
+The bathroom is south of the hallway.
+The bedroom is west of the garden.
+The bathroom is west of the office.
+The garden is south of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the office. The bedroom is west of the garden. The garden is north of the kitchen. The kitchen is south of the bathroom. You have to go east, south, and then west. So the answer is e,s,w.
+
+PREDICTION:
+e,s,w
+
+Answer:
+s,w
+
+EVAL NUM: 408 (wrong)
+
+CONTEXT:
+The kitchen is east of the hallway.
+The bedroom is south of the office.
+The bathroom is south of the bedroom.
+The bedroom is east of the kitchen.
+The garden is north of the kitchen.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is south of the office. The kitchen is east of the bedroom. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+s,w
+
+EVAL NUM: 412 (wrong)
+
+CONTEXT:
+The hallway is west of the bathroom.
+The kitchen is south of the bedroom.
+The office is east of the kitchen.
+The kitchen is north of the garden.
+The office is north of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is west of the bathroom. The kitchen is south of the bedroom. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+n,w
+
+EVAL NUM: 413 (wrong)
+
+CONTEXT:
+The hallway is south of the bathroom.
+The office is north of the bedroom.
+The bathroom is west of the bedroom.
+The kitchen is east of the garden.
+The kitchen is north of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the bathroom. The bathroom is south of the hallway. The hallway is north of the kitchen. You have to go west, then north, then south. So the answer is w,n,s.
+
+PREDICTION:
+w,n,s
+
+Answer:
+w,n
+
+EVAL NUM: 417 (wrong)
+
+CONTEXT:
+The bathroom is north of the kitchen.
+The hallway is west of the office.
+The office is west of the bedroom.
+The garden is south of the hallway.
+The office is north of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the kitchen. The hallway is west of the office. The office is north of the bathroom. You have to go south, east and then west. So the answer is s,e,w.
+
+PREDICTION:
+s,e,w
+
+Answer:
+n,w
+
+EVAL NUM: 425 (wrong)
+
+CONTEXT:
+The garden is north of the bedroom.
+The bathroom is west of the office.
+The hallway is west of the bedroom.
+The bedroom is west of the kitchen.
+The office is south of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the kitchen. The bathroom is west of the office. The office is south of the bedroom. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+s,w
+
+EVAL NUM: 427 (wrong)
+
+CONTEXT:
+The hallway is east of the bathroom.
+The bedroom is south of the office.
+The kitchen is east of the garden.
+The office is west of the garden.
+The garden is north of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bathroom. The bedroom is south of the office. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+n,w
+
+EVAL NUM: 431 (wrong)
+
+CONTEXT:
+The office is east of the bathroom.
+The kitchen is north of the bathroom.
+The bathroom is east of the hallway.
+The garden is north of the bedroom.
+The office is south of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The office is south of the bedroom. The bathroom is east of the office. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 441 (wrong)
+
+CONTEXT:
+The bedroom is west of the hallway.
+The hallway is south of the office.
+The garden is south of the bedroom.
+The kitchen is west of the bathroom.
+The kitchen is north of the bedroom.
+
+QUERY:
+How do you go from the hallway to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is south of the office. The kitchen is west of the bathroom. The bathroom is east of the hallway. You have to go north, then east, then west. So the answer is n,e,w.
+
+PREDICTION:
+n,e,w
+
+Answer:
+w,n
+
+EVAL NUM: 443 (wrong)
+
+CONTEXT:
+The garden is east of the kitchen.
+The office is east of the bedroom.
+The hallway is east of the garden.
+The bedroom is east of the bathroom.
+The garden is south of the office.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is east of the kitchen. The office is east of the bedroom. You have to go west and then west again. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+n,w
+
+EVAL NUM: 447 (wrong)
+
+CONTEXT:
+The kitchen is west of the hallway.
+The garden is north of the kitchen.
+The garden is south of the bathroom.
+The bathroom is west of the office.
+The bedroom is west of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the bathroom?
+
+EXTRACTED PREDICTION:
+The garden is north of the kitchen. The garden is south of the bathroom. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 448 (wrong)
+
+CONTEXT:
+The hallway is west of the bathroom.
+The kitchen is west of the hallway.
+The kitchen is south of the garden.
+The hallway is north of the bedroom.
+The garden is south of the office.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the garden. The hallway is west of the kitchen. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 449 (wrong)
+
+CONTEXT:
+The office is north of the bathroom.
+The bedroom is east of the bathroom.
+The bedroom is west of the garden.
+The kitchen is east of the garden.
+The hallway is north of the garden.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the bathroom. The bedroom is west of the garden. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 451 (wrong)
+
+CONTEXT:
+The kitchen is south of the hallway.
+The bedroom is south of the bathroom.
+The hallway is east of the office.
+The bathroom is east of the garden.
+The office is east of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the garden. The kitchen is south of the hallway. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+e,e
+
+EVAL NUM: 464 (wrong)
+
+CONTEXT:
+The bathroom is north of the hallway.
+The bedroom is west of the garden.
+The office is south of the garden.
+The bathroom is west of the office.
+The kitchen is north of the garden.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the hallway. The hallway is south of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+e,n
+
+EVAL NUM: 467 (wrong)
+
+CONTEXT:
+The office is east of the hallway.
+The bathroom is east of the bedroom.
+The hallway is north of the bedroom.
+The kitchen is south of the bedroom.
+The garden is west of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the bedroom. The hallway is north of the bathroom. The office is east of the hallway. You have to go east, then north, then east. So the answer is e,n,e.
+
+PREDICTION:
+e,n,e
+
+Answer:
+n,e
+
+EVAL NUM: 470 (wrong)
+
+CONTEXT:
+The kitchen is south of the garden.
+The hallway is west of the office.
+The hallway is north of the bedroom.
+The hallway is east of the bathroom.
+The kitchen is west of the bedroom.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the garden. The hallway is west of the office. The office is north of the kitchen. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+e,n
+
+EVAL NUM: 480 (wrong)
+
+CONTEXT:
+The bathroom is east of the kitchen.
+The kitchen is south of the hallway.
+The hallway is south of the bedroom.
+The bedroom is west of the office.
+The garden is north of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the office. The office is east of the kitchen. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,s
+
+EVAL NUM: 484 (wrong)
+
+CONTEXT:
+The garden is south of the hallway.
+The hallway is south of the office.
+The kitchen is south of the bedroom.
+The hallway is east of the kitchen.
+The bedroom is south of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the bedroom. The hallway is east of the kitchen. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 492 (wrong)
+
+CONTEXT:
+The hallway is north of the bathroom.
+The garden is south of the kitchen.
+The garden is north of the hallway.
+The bedroom is west of the kitchen.
+The office is west of the hallway.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the kitchen. The hallway is north of the bathroom. The bathroom is east of the bedroom. You have to go west, then east, then north. So the answer is w,e,n.
+
+PREDICTION:
+w,e,n
+
+Answer:
+s,s
+
+EVAL NUM: 493 (wrong)
+
+CONTEXT:
+The kitchen is west of the office.
+The bedroom is east of the hallway.
+The hallway is north of the office.
+The hallway is south of the garden.
+The office is north of the bathroom.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The garden is south of the hallway. The hallway is north of the office. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+s,s
+
+EVAL NUM: 498 (wrong)
+
+CONTEXT:
+The office is west of the hallway.
+The office is north of the garden.
+The bedroom is west of the office.
+The garden is north of the kitchen.
+The kitchen is west of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the bathroom. The office is west of the hallway. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+n,n
+
+EVAL NUM: 500 (wrong)
+
+CONTEXT:
+The bathroom is south of the garden.
+The kitchen is north of the hallway.
+The bedroom is east of the hallway.
+The bedroom is north of the garden.
+The office is east of the garden.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the hallway. The bathroom is south of the garden. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,w
+
+EVAL NUM: 506 (wrong)
+
+CONTEXT:
+The bathroom is south of the bedroom.
+The garden is west of the office.
+The garden is east of the bedroom.
+The kitchen is east of the office.
+The hallway is north of the bedroom.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the office. The bathroom is south of the bedroom. The kitchen is east of the office. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+w,w
+
+EVAL NUM: 508 (wrong)
+
+CONTEXT:
+The office is north of the bathroom.
+The kitchen is north of the garden.
+The bedroom is west of the garden.
+The hallway is south of the bathroom.
+The kitchen is east of the bathroom.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the garden. The kitchen is east of the bathroom. You have to go south and then west. So the answer is s,w.
+
+PREDICTION:
+s,w
+
+Answer:
+n,w
+
+EVAL NUM: 510 (wrong)
+
+CONTEXT:
+The garden is west of the bedroom.
+The office is east of the kitchen.
+The bedroom is north of the hallway.
+The bathroom is west of the kitchen.
+The bathroom is east of the bedroom.
+
+QUERY:
+How do you go from the kitchen to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is east of the kitchen. The bedroom is north of the hallway. The hallway is west of the office. You have to go west, then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+w,w
+
+EVAL NUM: 514 (wrong)
+
+CONTEXT:
+The bedroom is west of the garden.
+The kitchen is north of the hallway.
+The kitchen is east of the garden.
+The office is north of the garden.
+The bathroom is south of the garden.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the hallway. The kitchen is east of the garden. You have to go south and then west. So the answer is s,w.
+
+PREDICTION:
+s,w
+
+Answer:
+n,w
+
+EVAL NUM: 515 (wrong)
+
+CONTEXT:
+The garden is north of the bathroom.
+The hallway is south of the office.
+The kitchen is south of the bathroom.
+The office is south of the bedroom.
+The bedroom is west of the bathroom.
+
+QUERY:
+How do you go from the office to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is south of the office. The garden is north of the bathroom. The hallway is north of the garden. You have to go south, north and then south. So the answer is s,n,s.
+
+PREDICTION:
+s,n,s
+
+Answer:
+n,e
+
+EVAL NUM: 521 (wrong)
+
+CONTEXT:
+The hallway is west of the garden.
+The bedroom is east of the bathroom.
+The kitchen is north of the hallway.
+The office is east of the kitchen.
+The bathroom is south of the hallway.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the hallway. The kitchen is north of the hallway. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 522 (wrong)
+
+CONTEXT:
+The hallway is north of the kitchen.
+The hallway is west of the office.
+The bedroom is north of the bathroom.
+The bedroom is east of the garden.
+The kitchen is north of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the bathroom. The hallway is north of the kitchen. The kitchen is north of the bedroom. You have to go south, then north, then north. So the answer is s,n,n.
+
+PREDICTION:
+s,n,n
+
+Answer:
+n,n
+
+EVAL NUM: 528 (wrong)
+
+CONTEXT:
+The garden is west of the hallway.
+The garden is north of the office.
+The hallway is north of the bedroom.
+The bedroom is north of the kitchen.
+The bathroom is north of the hallway.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the kitchen. The kitchen is south of the hallway. The garden is west of the hallway. You have to go south, east and then west. So the answer is s,e,w.
+
+PREDICTION:
+s,e,w
+
+Answer:
+n,w
+
+EVAL NUM: 531 (wrong)
+
+CONTEXT:
+The office is south of the hallway.
+The bedroom is north of the garden.
+The garden is north of the kitchen.
+The bedroom is east of the hallway.
+The garden is west of the bathroom.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The garden is north of the kitchen. The kitchen is west of the hallway. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+e,s
+
+EVAL NUM: 536 (wrong)
+
+CONTEXT:
+The office is west of the kitchen.
+The bedroom is north of the hallway.
+The hallway is north of the bathroom.
+The garden is west of the hallway.
+The kitchen is west of the garden.
+
+QUERY:
+How do you go from the hallway to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bathroom. The office is west of the kitchen. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+w,w
+
+EVAL NUM: 537 (wrong)
+
+CONTEXT:
+The kitchen is east of the garden.
+The bathroom is west of the hallway.
+The garden is east of the bedroom.
+The bedroom is south of the hallway.
+The bedroom is north of the office.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden. The bathroom is west of the hallway. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,n
+
+EVAL NUM: 541 (wrong)
+
+CONTEXT:
+The bedroom is west of the hallway.
+The kitchen is north of the hallway.
+The garden is west of the bedroom.
+The office is west of the bathroom.
+The bathroom is south of the bedroom.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bathroom. You have to go south. So the answer is s.
+
+PREDICTION:
+s
+
+Answer:
+w,s
+
+EVAL NUM: 544 (wrong)
+
+CONTEXT:
+The hallway is north of the garden.
+The office is east of the garden.
+The bathroom is east of the kitchen.
+The garden is east of the bedroom.
+The office is north of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the kitchen. The garden is east of the bedroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+n,w
+
+EVAL NUM: 545 (wrong)
+
+CONTEXT:
+The bedroom is west of the kitchen.
+The kitchen is north of the office.
+The hallway is north of the garden.
+The bathroom is south of the office.
+The hallway is west of the office.
+
+QUERY:
+How do you go from the hallway to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is west of the office. The kitchen is north of the office. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+e,n
+
+EVAL NUM: 546 (wrong)
+
+CONTEXT:
+The bedroom is east of the bathroom.
+The garden is north of the office.
+The bedroom is south of the hallway.
+The kitchen is south of the office.
+The office is east of the hallway.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the bathroom. The office is east of the hallway. The bedroom is south of the hallway. You have to go west, north and then east. So the answer is w,n,e.
+
+PREDICTION:
+w,n,e
+
+Answer:
+n,e
+
+EVAL NUM: 556 (wrong)
+
+CONTEXT:
+The bathroom is east of the kitchen.
+The bedroom is west of the garden.
+The hallway is west of the kitchen.
+The garden is west of the office.
+The office is north of the kitchen.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the garden. The bathroom is east of the kitchen. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,s
+
+EVAL NUM: 557 (wrong)
+
+CONTEXT:
+The bedroom is south of the garden.
+The bathroom is west of the kitchen.
+The hallway is north of the bathroom.
+The office is west of the garden.
+The garden is south of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the kitchen. The kitchen is south of the bedroom. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+s,s
+
+EVAL NUM: 560 (wrong)
+
+CONTEXT:
+The hallway is east of the bedroom.
+The bedroom is south of the kitchen.
+The garden is south of the bedroom.
+The office is east of the bathroom.
+The bathroom is east of the kitchen.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bedroom. The bathroom is east of the kitchen. The kitchen is north of the bedroom. You have to go east, north, and then east. So the answer is e,n,e.
+
+PREDICTION:
+e,n,e
+
+Answer:
+n,e
+
+EVAL NUM: 565 (wrong)
+
+CONTEXT:
+The hallway is north of the office.
+The office is north of the garden.
+The kitchen is south of the bathroom.
+The bedroom is west of the office.
+The kitchen is north of the bedroom.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The office is north of the garden. The kitchen is south of the bathroom. You have to go south and then south. So the answer is s,s.
+
+PREDICTION:
+s,s
+
+Answer:
+w,n
+
+EVAL NUM: 566 (wrong)
+
+CONTEXT:
+The bedroom is east of the office.
+The kitchen is west of the hallway.
+The garden is north of the hallway.
+The bathroom is east of the bedroom.
+The bathroom is south of the hallway.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the bedroom. The bathroom is south of the hallway. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+e,n
+
+EVAL NUM: 567 (wrong)
+
+CONTEXT:
+The garden is west of the hallway.
+The bathroom is south of the office.
+The bathroom is east of the bedroom.
+The kitchen is east of the bathroom.
+The office is east of the hallway.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the bedroom. The garden is west of the hallway. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+n,w
+
+EVAL NUM: 568 (wrong)
+
+CONTEXT:
+The office is east of the garden.
+The bedroom is east of the hallway.
+The garden is east of the kitchen.
+The bathroom is north of the hallway.
+The hallway is north of the garden.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is east of the kitchen. The kitchen is east of the hallway. The hallway is east of the bedroom. You have to go west, west, and then west. So the answer is w,w,w.
+
+PREDICTION:
+w,w,w
+
+Answer:
+n,e
+
+EVAL NUM: 569 (wrong)
+
+CONTEXT:
+The hallway is south of the kitchen.
+The garden is east of the kitchen.
+The bedroom is south of the hallway.
+The hallway is east of the office.
+The hallway is west of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the bathroom. So the answer is w.
+
+PREDICTION:
+w
+
+Answer:
+s,e
+
+EVAL NUM: 571 (wrong)
+
+CONTEXT:
+The bedroom is west of the kitchen.
+The bathroom is east of the office.
+The office is north of the garden.
+The kitchen is west of the hallway.
+The kitchen is south of the bathroom.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the office. The kitchen is south of the bathroom. You have to go west and then south. So the answer is w,s.
+
+PREDICTION:
+w,s
+
+Answer:
+e,s
+
+EVAL NUM: 575 (wrong)
+
+CONTEXT:
+The office is east of the garden.
+The hallway is east of the bathroom.
+The bedroom is north of the kitchen.
+The bathroom is south of the garden.
+The bathroom is north of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the kitchen. The kitchen is south of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+n,n
+
+EVAL NUM: 579 (wrong)
+
+CONTEXT:
+The bedroom is south of the hallway.
+The garden is west of the hallway.
+The office is west of the kitchen.
+The bathroom is south of the kitchen.
+The office is east of the hallway.
+
+QUERY:
+How do you go from the hallway to the kitchen?
+
+EXTRACTED PREDICTION:
+The office is east of the hallway. The office is west of the kitchen. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 582 (wrong)
+
+CONTEXT:
+The bedroom is north of the hallway.
+The bathroom is east of the kitchen.
+The garden is west of the office.
+The kitchen is east of the office.
+The kitchen is north of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the hallway. The kitchen is north of the bedroom. The kitchen is east of the office. You have to go south, south and then west. So the answer is s,s,w.
+
+PREDICTION:
+s,s,w
+
+Answer:
+n,w
+
+EVAL NUM: 583 (wrong)
+
+CONTEXT:
+The kitchen is east of the hallway.
+The bedroom is south of the kitchen.
+The bathroom is north of the hallway.
+The office is west of the garden.
+The kitchen is west of the office.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the hallway. The kitchen is west of the office. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 587 (wrong)
+
+CONTEXT:
+The garden is north of the office.
+The hallway is west of the kitchen.
+The bathroom is north of the kitchen.
+The bedroom is east of the office.
+The office is east of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The garden is north of the office. The office is east of the kitchen. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+e,n
+
+EVAL NUM: 588 (wrong)
+
+CONTEXT:
+The bathroom is south of the bedroom.
+The hallway is south of the kitchen.
+The garden is north of the bedroom.
+The office is west of the kitchen.
+The bedroom is west of the office.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the bedroom. The hallway is south of the kitchen. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+e,e
+
+EVAL NUM: 590 (wrong)
+
+CONTEXT:
+The bedroom is south of the kitchen.
+The office is east of the bathroom.
+The garden is south of the bathroom.
+The office is north of the kitchen.
+The hallway is east of the office.
+
+QUERY:
+How do you go from the kitchen to the bathroom?
+
+EXTRACTED PREDICTION:
+The bedroom is south of the kitchen. The garden is south of the bathroom. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+n,w
+
+EVAL NUM: 593 (wrong)
+
+CONTEXT:
+The bedroom is east of the kitchen.
+The bathroom is north of the kitchen.
+The hallway is east of the garden.
+The hallway is west of the office.
+The kitchen is north of the office.
+
+QUERY:
+How do you go from the hallway to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is west of the office. The kitchen is north of the office. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+e,n
+
+EVAL NUM: 597 (wrong)
+
+CONTEXT:
+The bedroom is west of the garden.
+The hallway is east of the bathroom.
+The bathroom is north of the garden.
+The kitchen is west of the office.
+The office is south of the garden.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the garden. The office is south of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 599 (wrong)
+
+CONTEXT:
+The garden is north of the bedroom.
+The office is east of the bathroom.
+The kitchen is east of the garden.
+The bathroom is south of the bedroom.
+The hallway is south of the bathroom.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden. The bathroom is south of the bedroom. The garden is north of the bedroom. You have to go west, south, and then north. So the answer is w,s,n.
+
+PREDICTION:
+w,s,n
+
+Answer:
+s,s
+
+EVAL NUM: 600 (wrong)
+
+CONTEXT:
+The bathroom is south of the bedroom.
+The office is north of the hallway.
+The garden is south of the hallway.
+The office is south of the bathroom.
+The kitchen is east of the hallway.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the bedroom. The office is north of the hallway. You have to go south. So the answer is s.
+
+PREDICTION:
+s
+
+Answer:
+n,n
+
+EVAL NUM: 607 (wrong)
+
+CONTEXT:
+The kitchen is north of the bedroom.
+The bedroom is east of the hallway.
+The bathroom is west of the office.
+The garden is west of the bathroom.
+The bathroom is north of the kitchen.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the hallway. The bathroom is west of the office. You have to go west and then north. So the answer is w,n.
+
+PREDICTION:
+w,n
+
+Answer:
+n,n
+
+EVAL NUM: 610 (wrong)
+
+CONTEXT:
+The kitchen is south of the bedroom.
+The kitchen is west of the office.
+The bathroom is west of the hallway.
+The bedroom is east of the hallway.
+The garden is east of the bedroom.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the office. The office is east of the hallway. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+n,w
+
+EVAL NUM: 617 (wrong)
+
+CONTEXT:
+The office is west of the garden.
+The bathroom is west of the kitchen.
+The bedroom is east of the garden.
+The hallway is north of the kitchen.
+The kitchen is north of the garden.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the garden. The kitchen is north of the garden. You have to go west and then south. So the answer is w,s.
+
+PREDICTION:
+w,s
+
+Answer:
+w,n
+
+EVAL NUM: 620 (wrong)
+
+CONTEXT:
+The hallway is east of the kitchen.
+The garden is south of the office.
+The bedroom is west of the garden.
+The bathroom is west of the bedroom.
+The bedroom is north of the kitchen.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the garden. The bedroom is north of the kitchen. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,s
+
+EVAL NUM: 622 (wrong)
+
+CONTEXT:
+The bathroom is south of the office.
+The kitchen is west of the hallway.
+The bedroom is west of the office.
+The garden is north of the kitchen.
+The garden is east of the office.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the office. The kitchen is west of the hallway. The hallway is south of the office. You have to go south and then west. So the answer is s,w.
+
+PREDICTION:
+s,w
+
+Answer:
+e,s
+
+EVAL NUM: 626 (wrong)
+
+CONTEXT:
+The bedroom is east of the office.
+The bathroom is east of the garden.
+The hallway is west of the office.
+The office is south of the garden.
+The kitchen is south of the office.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the garden. The bedroom is east of the office. The office is south of the garden. You have to go west, north and then east. So the answer is w,n,e.
+
+PREDICTION:
+w,n,e
+
+Answer:
+s,e
+
+EVAL NUM: 629 (wrong)
+
+CONTEXT:
+The kitchen is north of the hallway.
+The office is north of the garden.
+The bathroom is north of the bedroom.
+The garden is west of the bedroom.
+The kitchen is south of the bedroom.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the hallway. The office is north of the garden. The garden is west of the bedroom. The kitchen is south of the bedroom. You have to go south, east and then north. So the answer is s,e,n.
+
+PREDICTION:
+s,e,n
+
+Answer:
+n,w
+
+EVAL NUM: 632 (wrong)
+
+CONTEXT:
+The bedroom is west of the bathroom.
+The kitchen is south of the garden.
+The bathroom is west of the hallway.
+The bathroom is south of the kitchen.
+The office is south of the hallway.
+
+QUERY:
+How do you go from the hallway to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is south of the kitchen. You have to go north. So the answer is n.
+
+PREDICTION:
+n
+
+Answer:
+w,n
+
+EVAL NUM: 633 (wrong)
+
+CONTEXT:
+The bathroom is east of the office.
+The office is north of the bedroom.
+The bedroom is north of the hallway.
+The kitchen is north of the garden.
+The bedroom is west of the garden.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the office. The bedroom is west of the garden. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+s,e
+
+EVAL NUM: 635 (wrong)
+
+CONTEXT:
+The bathroom is south of the bedroom.
+The bedroom is south of the garden.
+The hallway is west of the kitchen.
+The bathroom is east of the kitchen.
+The office is north of the kitchen.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the bedroom. The bathroom is east of the kitchen. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 639 (wrong)
+
+CONTEXT:
+The hallway is north of the bedroom.
+The garden is north of the kitchen.
+The office is east of the hallway.
+The bedroom is west of the bathroom.
+The bedroom is east of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the garden. The garden is south of the hallway. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+e,n
+
+EVAL NUM: 643 (wrong)
+
+CONTEXT:
+The bathroom is north of the office.
+The kitchen is east of the office.
+The bedroom is south of the hallway.
+The garden is west of the office.
+The garden is east of the hallway.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The garden is east of the hallway. The garden is west of the office. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 647 (wrong)
+
+CONTEXT:
+The hallway is south of the bedroom.
+The bathroom is north of the kitchen.
+The kitchen is west of the garden.
+The office is north of the bedroom.
+The bathroom is east of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is south of the bedroom. The kitchen is west of the garden. The garden is east of the hallway. You have to go south, east and then west. So the answer is s,e,w.
+
+PREDICTION:
+s,e,w
+
+Answer:
+e,s
+
+EVAL NUM: 649 (wrong)
+
+CONTEXT:
+The kitchen is west of the garden.
+The hallway is south of the bedroom.
+The garden is west of the hallway.
+The office is west of the bedroom.
+The bathroom is north of the garden.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The hallway is south of the bedroom. The garden is west of the hallway. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+s,w
+
+EVAL NUM: 650 (wrong)
+
+CONTEXT:
+The bedroom is east of the office.
+The kitchen is west of the hallway.
+The office is south of the hallway.
+The office is east of the garden.
+The bathroom is west of the garden.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The office is south of the hallway. The office is east of the garden. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 652 (wrong)
+
+CONTEXT:
+The garden is west of the hallway.
+The bathroom is south of the hallway.
+The bedroom is east of the hallway.
+The kitchen is south of the office.
+The kitchen is north of the bedroom.
+
+QUERY:
+How do you go from the hallway to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the hallway. The kitchen is south of the office. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+e,n
+
+EVAL NUM: 653 (wrong)
+
+CONTEXT:
+The hallway is north of the kitchen.
+The bathroom is west of the garden.
+The bedroom is north of the garden.
+The office is west of the hallway.
+The office is east of the garden.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The hallway is north of the kitchen. The kitchen is south of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+e,e
+
+EVAL NUM: 657 (wrong)
+
+CONTEXT:
+The office is east of the kitchen.
+The hallway is east of the garden.
+The bathroom is north of the bedroom.
+The bedroom is west of the kitchen.
+The bedroom is north of the garden.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is east of the garden. The office is east of the kitchen. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+n,e
+
+EVAL NUM: 661 (wrong)
+
+CONTEXT:
+The garden is east of the bedroom.
+The garden is north of the office.
+The kitchen is east of the bathroom.
+The bathroom is south of the hallway.
+The garden is west of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the hallway. The garden is north of the office. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+w,s
+
+EVAL NUM: 662 (wrong)
+
+CONTEXT:
+The bedroom is east of the hallway.
+The bathroom is north of the office.
+The bedroom is south of the kitchen.
+The bedroom is west of the office.
+The garden is north of the hallway.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the office. The bedroom is east of the hallway. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,w
+
+EVAL NUM: 664 (wrong)
+
+CONTEXT:
+The garden is north of the kitchen.
+The hallway is south of the bedroom.
+The garden is east of the office.
+The bathroom is east of the garden.
+The office is north of the bedroom.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is north of the kitchen. The kitchen is south of the bedroom. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+w,s
+
+EVAL NUM: 665 (wrong)
+
+CONTEXT:
+The bedroom is west of the office.
+The bedroom is north of the kitchen.
+The kitchen is east of the hallway.
+The hallway is north of the garden.
+The bathroom is east of the kitchen.
+
+QUERY:
+How do you go from the hallway to the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is north of the garden. The kitchen is east of the hallway. The bedroom is north of the kitchen. You have to go south, then west, then north. So the answer is s,w,n.
+
+PREDICTION:
+s,w,n
+
+Answer:
+e,n
+
+EVAL NUM: 666 (wrong)
+
+CONTEXT:
+The hallway is west of the bedroom.
+The bathroom is south of the garden.
+The office is east of the bedroom.
+The bedroom is south of the kitchen.
+The bedroom is north of the garden.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The garden is north of the bedroom. The office is east of the bedroom. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+n,e
+
+EVAL NUM: 668 (wrong)
+
+CONTEXT:
+The bathroom is west of the garden.
+The bedroom is south of the office.
+The kitchen is north of the office.
+The hallway is east of the office.
+The garden is south of the hallway.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the garden. The bedroom is south of the office. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+n,w
+
+EVAL NUM: 672 (wrong)
+
+CONTEXT:
+The hallway is west of the garden.
+The bathroom is north of the kitchen.
+The bedroom is north of the hallway.
+The kitchen is north of the garden.
+The garden is north of the office.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the kitchen. The hallway is west of the garden. The kitchen is north of the garden. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 680 (wrong)
+
+CONTEXT:
+The office is east of the bathroom.
+The kitchen is north of the hallway.
+The hallway is east of the garden.
+The office is south of the garden.
+The bedroom is west of the garden.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The office is south of the garden. The hallway is east of the garden. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+n,e
+
+EVAL NUM: 681 (wrong)
+
+CONTEXT:
+The kitchen is west of the hallway.
+The bedroom is north of the office.
+The kitchen is east of the office.
+The garden is east of the bedroom.
+The bedroom is south of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the bedroom?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the hallway. The bedroom is north of the office. The kitchen is east of the office. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 692 (wrong)
+
+CONTEXT:
+The bathroom is south of the hallway.
+The kitchen is east of the garden.
+The bedroom is west of the bathroom.
+The office is south of the kitchen.
+The garden is south of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden. The garden is south of the bathroom. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 694 (wrong)
+
+CONTEXT:
+The office is south of the bathroom.
+The kitchen is east of the office.
+The hallway is west of the bedroom.
+The hallway is north of the garden.
+The office is north of the hallway.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The hallway is west of the bedroom. The office is north of the hallway. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 697 (wrong)
+
+CONTEXT:
+The bedroom is east of the kitchen.
+The garden is south of the bathroom.
+The garden is west of the hallway.
+The office is south of the bedroom.
+The hallway is north of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the garden?
+
+EXTRACTED PREDICTION:
+The garden is south of the bathroom. The bathroom is west of the bedroom. You have to go west and then south. So the answer is w,s.
+
+PREDICTION:
+w,s
+
+Answer:
+n,w
+
+EVAL NUM: 699 (wrong)
+
+CONTEXT:
+The hallway is north of the bedroom.
+The garden is east of the kitchen.
+The office is north of the kitchen.
+The bedroom is east of the bathroom.
+The bedroom is west of the office.
+
+QUERY:
+How do you go from the kitchen to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is east of the kitchen. The hallway is north of the bedroom. The bedroom is west of the office. You have to go east, then north, then west. So the answer is e,n,w.
+
+PREDICTION:
+e,n,w
+
+Answer:
+n,w
+
+EVAL NUM: 702 (wrong)
+
+CONTEXT:
+The office is east of the bedroom.
+The garden is north of the hallway.
+The kitchen is south of the bathroom.
+The hallway is west of the kitchen.
+The hallway is north of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bedroom. The kitchen is south of the hallway. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,e
+
+EVAL NUM: 703 (wrong)
+
+CONTEXT:
+The bathroom is north of the bedroom.
+The kitchen is west of the hallway.
+The office is south of the bedroom.
+The bedroom is east of the garden.
+The office is north of the hallway.
+
+QUERY:
+How do you go from the bedroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the bedroom. The kitchen is west of the hallway. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,s
+
+EVAL NUM: 704 (wrong)
+
+CONTEXT:
+The garden is west of the bedroom.
+The bathroom is north of the garden.
+The office is east of the kitchen.
+The hallway is west of the garden.
+The bedroom is west of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The garden is west of the bedroom. The bedroom is west of the kitchen. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,w
+
+EVAL NUM: 725 (wrong)
+
+CONTEXT:
+The kitchen is west of the bathroom.
+The office is north of the bedroom.
+The hallway is south of the kitchen.
+The office is west of the garden.
+The hallway is north of the office.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the bathroom. The hallway is south of the kitchen. The hallway is north of the office. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 730 (wrong)
+
+CONTEXT:
+The office is south of the kitchen.
+The bedroom is west of the hallway.
+The garden is west of the bathroom.
+The bathroom is south of the bedroom.
+The bathroom is west of the office.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the hallway. The hallway is east of the office. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 732 (wrong)
+
+CONTEXT:
+The bedroom is east of the hallway.
+The hallway is south of the office.
+The kitchen is west of the hallway.
+The bathroom is west of the office.
+The kitchen is north of the garden.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The office is south of the hallway. The kitchen is west of the hallway. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 737 (wrong)
+
+CONTEXT:
+The bedroom is north of the bathroom.
+The bedroom is south of the hallway.
+The garden is east of the kitchen.
+The office is west of the kitchen.
+The kitchen is north of the hallway.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the bathroom. The kitchen is north of the hallway. The bedroom is south of the hallway. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+n,n
+
+EVAL NUM: 740 (wrong)
+
+CONTEXT:
+The office is south of the garden.
+The bedroom is north of the hallway.
+The garden is west of the bathroom.
+The office is west of the hallway.
+The kitchen is east of the hallway.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The office is south of the garden. The office is west of the hallway. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 746 (wrong)
+
+CONTEXT:
+The garden is west of the kitchen.
+The bedroom is south of the garden.
+The bedroom is east of the bathroom.
+The bathroom is east of the office.
+The hallway is south of the bedroom.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the office. The office is west of the kitchen. The kitchen is east of the garden. You have to go west, then west, then east. So the answer is w,w,e.
+
+PREDICTION:
+w,w,e
+
+Answer:
+e,n
+
+EVAL NUM: 749 (wrong)
+
+CONTEXT:
+The kitchen is south of the bedroom.
+The bathroom is west of the kitchen.
+The hallway is west of the garden.
+The office is north of the hallway.
+The kitchen is west of the hallway.
+
+QUERY:
+How do you go from the hallway to the bedroom?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the hallway. The kitchen is south of the bedroom. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 754 (wrong)
+
+CONTEXT:
+The hallway is north of the kitchen.
+The garden is south of the bedroom.
+The bedroom is west of the bathroom.
+The office is north of the bathroom.
+The bedroom is south of the kitchen.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the kitchen. You have to go south. So the answer is s.
+
+PREDICTION:
+s
+
+Answer:
+w,n
+
+EVAL NUM: 763 (wrong)
+
+CONTEXT:
+The garden is west of the office.
+The garden is south of the kitchen.
+The office is north of the hallway.
+The bathroom is west of the kitchen.
+The bedroom is north of the kitchen.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The office is north of the hallway. The hallway is south of the kitchen. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+w,n
+
+EVAL NUM: 766 (wrong)
+
+CONTEXT:
+The garden is east of the hallway.
+The kitchen is north of the bedroom.
+The bathroom is south of the bedroom.
+The office is east of the bathroom.
+The bathroom is east of the garden.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is east of the hallway. The kitchen is north of the bedroom. You have to go west and then south. So the answer is w,s.
+
+PREDICTION:
+w,s
+
+Answer:
+e,n
+
+EVAL NUM: 768 (wrong)
+
+CONTEXT:
+The kitchen is east of the office.
+The bedroom is east of the garden.
+The office is north of the bathroom.
+The hallway is west of the garden.
+The bathroom is north of the garden.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the office. The garden is west of the kitchen. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+n,n
+
+EVAL NUM: 770 (wrong)
+
+CONTEXT:
+The bedroom is east of the garden.
+The office is east of the kitchen.
+The hallway is north of the garden.
+The office is west of the bathroom.
+The office is south of the garden.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The hallway is north of the garden. The office is south of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 772 (wrong)
+
+CONTEXT:
+The kitchen is west of the office.
+The bedroom is north of the garden.
+The bedroom is west of the hallway.
+The bathroom is west of the bedroom.
+The bedroom is south of the office.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is south of the office. The bedroom is north of the garden. You have to go south and then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+s,s
+
+EVAL NUM: 776 (wrong)
+
+CONTEXT:
+The office is east of the bathroom.
+The garden is south of the kitchen.
+The hallway is west of the kitchen.
+The bedroom is west of the garden.
+The kitchen is west of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom. The bedroom is west of the garden. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+w,s
+
+EVAL NUM: 788 (wrong)
+
+CONTEXT:
+The bedroom is south of the kitchen.
+The kitchen is south of the garden.
+The office is south of the bathroom.
+The office is east of the kitchen.
+The bedroom is east of the hallway.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the hallway. The kitchen is south of the garden. The office is east of the kitchen. You have to go west, north and then east. So the answer is w,n,e.
+
+PREDICTION:
+w,n,e
+
+Answer:
+n,e
+
+EVAL NUM: 789 (wrong)
+
+CONTEXT:
+The bedroom is east of the hallway.
+The bathroom is north of the kitchen.
+The kitchen is north of the office.
+The office is east of the garden.
+The office is north of the bedroom.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the hallway. The kitchen is north of the office. The office is north of the bedroom. You have to go south, then north. So the answer is s,n.
+
+PREDICTION:
+s,n
+
+Answer:
+n,n
+
+EVAL NUM: 792 (wrong)
+
+CONTEXT:
+The kitchen is north of the garden.
+The bedroom is west of the office.
+The hallway is north of the bathroom.
+The kitchen is west of the hallway.
+The office is north of the kitchen.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bathroom. The office is north of the kitchen. The kitchen is west of the hallway. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 794 (wrong)
+
+CONTEXT:
+The bedroom is north of the garden.
+The hallway is west of the office.
+The bathroom is east of the bedroom.
+The kitchen is north of the bedroom.
+The bathroom is north of the office.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is west of the office. The bedroom is north of the garden. The garden is east of the hallway. You have to go east, then south, then north. So the answer is e,s,n.
+
+PREDICTION:
+e,s,n
+
+Answer:
+n,w
+
+EVAL NUM: 796 (wrong)
+
+CONTEXT:
+The office is north of the bathroom.
+The bedroom is west of the bathroom.
+The hallway is south of the bedroom.
+The kitchen is east of the bathroom.
+The garden is north of the bedroom.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The office is north of the bathroom. The garden is north of the office. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+w,n
+
+EVAL NUM: 798 (wrong)
+
+CONTEXT:
+The hallway is west of the bathroom.
+The kitchen is south of the garden.
+The hallway is north of the bedroom.
+The garden is south of the bedroom.
+The office is east of the garden.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bedroom. The garden is south of the bedroom. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 799 (wrong)
+
+CONTEXT:
+The bedroom is west of the hallway.
+The office is north of the hallway.
+The hallway is west of the garden.
+The bathroom is south of the hallway.
+The kitchen is south of the garden.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The garden is west of the hallway. The bathroom is south of the hallway. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,s
+
+EVAL NUM: 801 (wrong)
+
+CONTEXT:
+The bedroom is west of the kitchen.
+The hallway is north of the kitchen.
+The office is north of the bathroom.
+The hallway is west of the garden.
+The office is west of the hallway.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the bedroom. The bedroom is west of the office. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+n,w
+
+EVAL NUM: 809 (wrong)
+
+CONTEXT:
+The bedroom is west of the kitchen.
+The garden is west of the office.
+The office is south of the hallway.
+The bedroom is north of the hallway.
+The bathroom is east of the office.
+
+QUERY:
+How do you go from the bedroom to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the kitchen. The office is south of the hallway. The bedroom is north of the hallway. You have to go south, east and then south. So the answer is s,e,s.
+
+PREDICTION:
+s,e,s
+
+Answer:
+s,s
+
+EVAL NUM: 815 (wrong)
+
+CONTEXT:
+The hallway is west of the office.
+The bathroom is east of the kitchen.
+The office is north of the garden.
+The kitchen is south of the bedroom.
+The bedroom is east of the office.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the kitchen. The hallway is west of the office. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+n,w
+
+EVAL NUM: 821 (wrong)
+
+CONTEXT:
+The garden is east of the kitchen.
+The bedroom is south of the garden.
+The bedroom is west of the bathroom.
+The hallway is south of the bedroom.
+The office is east of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The garden is east of the kitchen. The bathroom is west of the bedroom. The bedroom is south of the garden. You have to go east, north and then east. So the answer is e,n,e.
+
+PREDICTION:
+e,n,e
+
+Answer:
+w,n
+
+EVAL NUM: 822 (wrong)
+
+CONTEXT:
+The hallway is east of the kitchen.
+The bathroom is west of the office.
+The bedroom is west of the kitchen.
+The bathroom is east of the garden.
+The bedroom is north of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is east of the kitchen. The bathroom is west of the office. The office is east of the hallway. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+w,s
+
+EVAL NUM: 825 (wrong)
+
+CONTEXT:
+The bedroom is north of the bathroom.
+The hallway is east of the bathroom.
+The bedroom is west of the office.
+The office is south of the garden.
+The kitchen is west of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bathroom. The bedroom is west of the office. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+n,e
+
+EVAL NUM: 831 (wrong)
+
+CONTEXT:
+The hallway is west of the bedroom.
+The kitchen is west of the hallway.
+The office is west of the garden.
+The kitchen is east of the garden.
+The bathroom is north of the hallway.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the hallway. The kitchen is east of the garden. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,w
+
+EVAL NUM: 842 (wrong)
+
+CONTEXT:
+The office is north of the bedroom.
+The bathroom is east of the office.
+The kitchen is east of the bedroom.
+The hallway is south of the bedroom.
+The garden is west of the office.
+
+QUERY:
+How do you go from the office to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the office. The kitchen is east of the bedroom. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 850 (wrong)
+
+CONTEXT:
+The office is west of the garden.
+The hallway is north of the bedroom.
+The bathroom is west of the kitchen.
+The kitchen is west of the hallway.
+The kitchen is south of the garden.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bedroom. The kitchen is west of the hallway. The kitchen is south of the garden. You have to go east, then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,n
+
+EVAL NUM: 854 (wrong)
+
+CONTEXT:
+The bathroom is north of the hallway.
+The bedroom is west of the kitchen.
+The bathroom is west of the garden.
+The office is north of the kitchen.
+The kitchen is north of the bathroom.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the garden. The kitchen is north of the bathroom. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 861 (wrong)
+
+CONTEXT:
+The bedroom is east of the hallway.
+The office is south of the bathroom.
+The kitchen is west of the bathroom.
+The garden is south of the hallway.
+The office is west of the hallway.
+
+QUERY:
+How do you go from the bathroom to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the kitchen. The kitchen is west of the hallway. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 863 (wrong)
+
+CONTEXT:
+The bathroom is west of the garden.
+The bedroom is east of the office.
+The kitchen is west of the office.
+The office is south of the garden.
+The hallway is north of the garden.
+
+QUERY:
+How do you go from the garden to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the garden. The bedroom is east of the office. The office is south of the garden. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,e
+
+EVAL NUM: 864 (wrong)
+
+CONTEXT:
+The bedroom is south of the garden.
+The hallway is west of the office.
+The kitchen is south of the office.
+The bathroom is south of the bedroom.
+The kitchen is west of the bedroom.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is west of the office. The bedroom is south of the garden. The garden is east of the hallway. You have to go west, then east, then south. So the answer is w,e,s.
+
+PREDICTION:
+w,e,s
+
+Answer:
+s,e
+
+EVAL NUM: 869 (wrong)
+
+CONTEXT:
+The bedroom is north of the garden.
+The hallway is east of the bedroom.
+The garden is east of the kitchen.
+The bathroom is south of the office.
+The bedroom is east of the office.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is east of the office. The garden is east of the kitchen. The kitchen is west of the bedroom. You have to go east, then west, then south. So the answer is e,w,s.
+
+PREDICTION:
+e,w,s
+
+Answer:
+e,s
+
+EVAL NUM: 873 (wrong)
+
+CONTEXT:
+The garden is east of the bathroom.
+The bathroom is north of the bedroom.
+The office is south of the hallway.
+The kitchen is north of the hallway.
+The kitchen is west of the bathroom.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the hallway. The kitchen is west of the bathroom. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+n,e
+
+EVAL NUM: 881 (wrong)
+
+CONTEXT:
+The bathroom is east of the garden.
+The kitchen is west of the bedroom.
+The bathroom is north of the kitchen.
+The hallway is south of the office.
+The kitchen is east of the office.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the garden. The kitchen is east of the office. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+s,w
+
+EVAL NUM: 883 (wrong)
+
+CONTEXT:
+The kitchen is north of the garden.
+The bathroom is west of the bedroom.
+The hallway is west of the kitchen.
+The kitchen is south of the bathroom.
+The office is east of the kitchen.
+
+QUERY:
+How do you go from the bathroom to the garden?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the bedroom. The kitchen is north of the garden. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+s,s
+
+EVAL NUM: 885 (wrong)
+
+CONTEXT:
+The kitchen is south of the office.
+The kitchen is north of the garden.
+The hallway is north of the bathroom.
+The bedroom is east of the bathroom.
+The bathroom is east of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the garden. The hallway is north of the bathroom. The bathroom is east of the kitchen. You have to go east, then south, then north. So the answer is e,s,n.
+
+PREDICTION:
+e,s,n
+
+Answer:
+e,n
+
+EVAL NUM: 888 (wrong)
+
+CONTEXT:
+The garden is west of the kitchen.
+The bathroom is west of the office.
+The kitchen is west of the hallway.
+The hallway is north of the bedroom.
+The kitchen is north of the office.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the hallway. The kitchen is north of the office. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,s
+
+EVAL NUM: 889 (wrong)
+
+CONTEXT:
+The garden is south of the kitchen.
+The office is north of the bathroom.
+The bathroom is west of the hallway.
+The bedroom is west of the kitchen.
+The bathroom is east of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the kitchen. The bathroom is west of the hallway. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+e,e
+
+EVAL NUM: 891 (wrong)
+
+CONTEXT:
+The bathroom is north of the garden.
+The garden is east of the bedroom.
+The hallway is north of the kitchen.
+The office is east of the kitchen.
+The garden is west of the hallway.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The garden is east of the bedroom. The hallway is north of the kitchen. The garden is west of the hallway. You have to go west, south and then east. So the answer is w,s,e.
+
+PREDICTION:
+w,s,e
+
+Answer:
+e,s
+
+EVAL NUM: 892 (wrong)
+
+CONTEXT:
+The bathroom is north of the office.
+The kitchen is north of the bedroom.
+The garden is west of the office.
+The bathroom is east of the hallway.
+The office is west of the bedroom.
+
+QUERY:
+How do you go from the bathroom to the bedroom?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the hallway. The hallway is west of the bedroom. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+s,e
+
+EVAL NUM: 896 (wrong)
+
+CONTEXT:
+The hallway is west of the kitchen.
+The hallway is south of the bedroom.
+The bathroom is east of the garden.
+The garden is east of the bedroom.
+The office is north of the bedroom.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The hallway is west of the kitchen. The garden is east of the bedroom. The hallway is south of the bedroom. You have to go east, north, and then east. So the answer is e,n,e.
+
+PREDICTION:
+e,n,e
+
+Answer:
+n,e
+
+EVAL NUM: 897 (wrong)
+
+CONTEXT:
+The garden is south of the office.
+The bedroom is south of the bathroom.
+The kitchen is east of the hallway.
+The office is south of the kitchen.
+The office is west of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The bathroom is north of the bedroom. The kitchen is east of the hallway. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+w,n
+
+EVAL NUM: 900 (wrong)
+
+CONTEXT:
+The kitchen is south of the garden.
+The bedroom is east of the garden.
+The office is south of the hallway.
+The bedroom is south of the bathroom.
+The bedroom is west of the office.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The bedroom is west of the office. The bedroom is east of the garden. You have to go west and then east. So the answer is w,e.
+
+PREDICTION:
+w,e
+
+Answer:
+w,w
+
+EVAL NUM: 908 (wrong)
+
+CONTEXT:
+The hallway is north of the bathroom.
+The kitchen is west of the bedroom.
+The bedroom is west of the office.
+The garden is east of the bathroom.
+The office is south of the bathroom.
+
+QUERY:
+How do you go from the bedroom to the bathroom?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the bedroom. The hallway is north of the bathroom. The bedroom is west of the office. The office is south of the bathroom. You have to go east, south, and then south. So the answer is e,s,s.
+
+PREDICTION:
+e,s,s
+
+Answer:
+e,n
+
+EVAL NUM: 912 (wrong)
+
+CONTEXT:
+The garden is west of the bedroom.
+The bathroom is east of the kitchen.
+The garden is north of the office.
+The hallway is south of the office.
+The office is west of the kitchen.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The garden is west of the bedroom. The bedroom is east of the kitchen. You have to go west. So the answer is w.
+
+PREDICTION:
+w
+
+Answer:
+w,n
+
+EVAL NUM: 916 (wrong)
+
+CONTEXT:
+The bedroom is south of the garden.
+The hallway is north of the office.
+The garden is west of the office.
+The bathroom is west of the garden.
+The office is west of the kitchen.
+
+QUERY:
+How do you go from the office to the bedroom?
+
+EXTRACTED PREDICTION:
+The office is west of the kitchen. The kitchen is south of the bedroom. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,s
+
+EVAL NUM: 920 (wrong)
+
+CONTEXT:
+The bedroom is north of the office.
+The bathroom is north of the bedroom.
+The garden is east of the hallway.
+The office is east of the kitchen.
+The hallway is east of the office.
+
+QUERY:
+How do you go from the hallway to the bedroom?
+
+EXTRACTED PREDICTION:
+The garden is east of the hallway. The bedroom is north of the office. The office is east of the kitchen. The hallway is east of the office. You have to go west, north and then west. So the answer is w,n,w.
+
+PREDICTION:
+w,n,w
+
+Answer:
+w,n
+
+EVAL NUM: 926 (wrong)
+
+CONTEXT:
+The kitchen is east of the hallway.
+The bedroom is north of the bathroom.
+The office is north of the hallway.
+The garden is north of the bedroom.
+The bathroom is west of the hallway.
+
+QUERY:
+How do you go from the hallway to the bedroom?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the bathroom. The bathroom is west of the hallway. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 928 (wrong)
+
+CONTEXT:
+The kitchen is north of the bathroom.
+The hallway is south of the garden.
+The hallway is east of the bathroom.
+The office is east of the bedroom.
+The bedroom is south of the hallway.
+
+QUERY:
+How do you go from the bathroom to the bedroom?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the bathroom. The hallway is east of the bathroom. The bedroom is south of the hallway. You have to go north, then east, then south. So the answer is n,e,s.
+
+PREDICTION:
+n,e,s
+
+Answer:
+e,s
+
+EVAL NUM: 929 (wrong)
+
+CONTEXT:
+The kitchen is east of the bathroom.
+The bedroom is north of the bathroom.
+The hallway is west of the garden.
+The office is south of the kitchen.
+The garden is north of the kitchen.
+
+QUERY:
+How do you go from the garden to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is west of the garden. The kitchen is east of the bathroom. You have to go east and then west. So the answer is e,w.
+
+PREDICTION:
+e,w
+
+Answer:
+s,w
+
+EVAL NUM: 939 (wrong)
+
+CONTEXT:
+The office is north of the kitchen.
+The kitchen is north of the bathroom.
+The hallway is south of the bedroom.
+The garden is north of the bedroom.
+The garden is east of the kitchen.
+
+QUERY:
+How do you go from the bedroom to the kitchen?
+
+EXTRACTED PREDICTION:
+The hallway is south of the bedroom. The kitchen is north of the bathroom. The bathroom is south of the hallway. You have to go north, south, and then north. So the answer is n,s,n.
+
+PREDICTION:
+n,s,n
+
+Answer:
+n,w
+
+EVAL NUM: 940 (wrong)
+
+CONTEXT:
+The bedroom is east of the garden.
+The office is west of the garden.
+The office is east of the kitchen.
+The bathroom is north of the hallway.
+The garden is south of the hallway.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The garden is south of the hallway. The office is west of the garden. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 942 (wrong)
+
+CONTEXT:
+The hallway is south of the kitchen.
+The office is east of the bedroom.
+The office is south of the garden.
+The office is west of the kitchen.
+The kitchen is west of the bathroom.
+
+QUERY:
+How do you go from the kitchen to the garden?
+
+EXTRACTED PREDICTION:
+The kitchen is west of the bathroom. The office is south of the garden. You have to go east and then north. So the answer is e,n.
+
+PREDICTION:
+e,n
+
+Answer:
+w,n
+
+EVAL NUM: 943 (wrong)
+
+CONTEXT:
+The bedroom is north of the bathroom.
+The garden is west of the office.
+The kitchen is east of the bathroom.
+The hallway is west of the garden.
+The garden is south of the bathroom.
+
+QUERY:
+How do you go from the bathroom to the office?
+
+EXTRACTED PREDICTION:
+The garden is south of the bathroom. The garden is west of the office. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,e
+
+EVAL NUM: 945 (wrong)
+
+CONTEXT:
+The office is south of the bathroom.
+The hallway is west of the garden.
+The office is east of the bedroom.
+The kitchen is east of the garden.
+The garden is south of the bedroom.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The office is south of the bathroom. The garden is south of the bedroom. The office is east of the bedroom. You have to go north, west, and then south. So the answer is n,w,s.
+
+PREDICTION:
+n,w,s
+
+Answer:
+w,s
+
+EVAL NUM: 953 (wrong)
+
+CONTEXT:
+The hallway is east of the office.
+The bedroom is north of the office.
+The garden is north of the kitchen.
+The hallway is north of the garden.
+The bathroom is south of the office.
+
+QUERY:
+How do you go from the office to the garden?
+
+EXTRACTED PREDICTION:
+The office is south of the bedroom. The garden is north of the kitchen. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+e,s
+
+EVAL NUM: 955 (wrong)
+
+CONTEXT:
+The bedroom is west of the office.
+The hallway is south of the kitchen.
+The office is south of the garden.
+The garden is west of the bathroom.
+The office is west of the hallway.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The hallway is south of the kitchen. The kitchen is south of the garden. You have to go north and then north. So the answer is n,n.
+
+PREDICTION:
+n,n
+
+Answer:
+w,n
+
+EVAL NUM: 956 (wrong)
+
+CONTEXT:
+The bedroom is north of the office.
+The hallway is north of the bathroom.
+The garden is west of the hallway.
+The kitchen is south of the garden.
+The office is north of the garden.
+
+QUERY:
+How do you go from the hallway to the office?
+
+EXTRACTED PREDICTION:
+The hallway is north of the bathroom. The office is north of the garden. The garden is west of the hallway. You have to go east and then south. So the answer is e,s.
+
+PREDICTION:
+e,s
+
+Answer:
+w,n
+
+EVAL NUM: 957 (wrong)
+
+CONTEXT:
+The bathroom is west of the garden.
+The kitchen is east of the hallway.
+The office is east of the kitchen.
+The garden is north of the kitchen.
+The bedroom is south of the kitchen.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the garden. The kitchen is east of the hallway. You have to go east and then east. So the answer is e,e.
+
+PREDICTION:
+e,e
+
+Answer:
+s,w
+
+EVAL NUM: 964 (wrong)
+
+CONTEXT:
+The hallway is east of the bedroom.
+The hallway is south of the garden.
+The kitchen is north of the bathroom.
+The bathroom is north of the garden.
+The bathroom is east of the office.
+
+QUERY:
+How do you go from the hallway to the bathroom?
+
+EXTRACTED PREDICTION:
+The hallway is south of the garden. The bathroom is north of the garden. You have to go north and then south. So the answer is n,s.
+
+PREDICTION:
+n,s
+
+Answer:
+n,n
+
+EVAL NUM: 967 (wrong)
+
+CONTEXT:
+The office is north of the bathroom.
+The office is west of the bedroom.
+The garden is north of the kitchen.
+The bedroom is south of the kitchen.
+The hallway is east of the bedroom.
+
+QUERY:
+How do you go from the kitchen to the office?
+
+EXTRACTED PREDICTION:
+The bedroom is south of the kitchen. The office is west of the bedroom. You have to go north and then west. So the answer is n,w.
+
+PREDICTION:
+n,w
+
+Answer:
+s,w
+
+EVAL NUM: 987 (wrong)
+
+CONTEXT:
+The garden is south of the kitchen.
+The bathroom is south of the hallway.
+The bedroom is north of the office.
+The garden is west of the hallway.
+The hallway is south of the office.
+
+QUERY:
+How do you go from the garden to the office?
+
+EXTRACTED PREDICTION:
+The garden is south of the kitchen. The kitchen is south of the hallway. The hallway is south of the office. You have to go north, north, and then north. So the answer is n,n,n.
+
+PREDICTION:
+n,n,n
+
+Answer:
+e,n
+
+EVAL NUM: 989 (wrong)
+
+CONTEXT:
+The bedroom is east of the hallway.
+The office is east of the bathroom.
+The hallway is south of the garden.
+The kitchen is east of the office.
+The bedroom is north of the office.
+
+QUERY:
+How do you go from the office to the hallway?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom. The bathroom is west of the hallway. You have to go west and then west. So the answer is w,w.
+
+PREDICTION:
+w,w
+
+Answer:
+n,w
+
+EVAL NUM: 992 (wrong)
+
+CONTEXT:
+The garden is east of the bathroom.
+The kitchen is south of the hallway.
+The bedroom is north of the hallway.
+The garden is north of the bedroom.
+The office is east of the hallway.
+
+QUERY:
+How do you go from the hallway to the garden?
+
+EXTRACTED PREDICTION:
+The garden is east of the bathroom. The bathroom is south of the hallway. You have to go south and then east. So the answer is s,e.
+
+PREDICTION:
+s,e
+
+Answer:
+n,n
+
+EVAL NUM: 996 (wrong)
+
+CONTEXT:
+The garden is south of the bathroom.
+The kitchen is west of the bedroom.
+The bedroom is south of the garden.
+The office is north of the kitchen.
+The garden is east of the hallway.
+
+QUERY:
+How do you go from the garden to the kitchen?
+
+EXTRACTED PREDICTION:
+The garden is south of the bathroom. The kitchen is west of the bedroom. The bedroom is south of the garden. You have to go north and then east. So the answer is n,e.
+
+PREDICTION:
+n,e
+
+Answer:
+s,w
+
+EVAL NUM: 999 (wrong)
+
+CONTEXT:
+The bathroom is west of the hallway.
+The garden is east of the kitchen.
+The office is west of the kitchen.
+The bedroom is north of the garden.
+The kitchen is north of the hallway.
+
+QUERY:
+How do you go from the garden to the hallway?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the garden. The bathroom is west of the hallway. The kitchen is north of the hallway. You have to go south, east and then south. So the answer is s,e,s.
+
+PREDICTION:
+s,e,s
+
+Answer:
+w,s
+

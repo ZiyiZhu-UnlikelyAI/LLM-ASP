@@ -1,0 +1,130 @@
+EVAL NUM: 89 (wrong)
+
+CONTEXT:
+John travelled to the office.
+Daniel went back to the kitchen.
+Daniel got the milk there.
+Sandra went to the office.
+Sandra travelled to the hallway.
+John went to the bathroom.
+Mary travelled to the bathroom.
+Mary took the football there.
+Mary left the football.
+Daniel went to the bedroom.
+
+QUERY:
+Is Mary in the bathroom?
+
+EXTRACTED PREDICTION:
+Mary went to the bathroom. Then Mary went to the bedroom. The final location of Mary is the bedroom. So the answer is no.
+
+PREDICTION:
+no
+
+Answer:
+yes
+
+EVAL NUM: 361 (wrong)
+
+CONTEXT:
+Daniel grabbed the apple there.
+Mary went back to the office.
+Daniel dropped the apple.
+John journeyed to the office.
+
+QUERY:
+Is Mary in the bedroom?
+
+EXTRACTED PREDICTION:
+The story does not provide information on Mary's location after going back to the office. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 482 (wrong)
+
+CONTEXT:
+Sandra journeyed to the bedroom.
+John went to the bedroom.
+Sandra took the football there.
+Daniel moved to the garden.
+Sandra went to the hallway.
+Sandra went back to the garden.
+
+QUERY:
+Is John in the garden?
+
+EXTRACTED PREDICTION:
+The story does not provide information on John's location after the bedroom. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 546 (wrong)
+
+CONTEXT:
+Daniel grabbed the milk there.
+Sandra journeyed to the garden.
+Daniel picked up the apple there.
+Daniel discarded the milk.
+
+QUERY:
+Is Sandra in the kitchen?
+
+EXTRACTED PREDICTION:
+The story does not provide information on Sandra's location after she journeyed to the garden. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 591 (wrong)
+
+CONTEXT:
+Sandra moved to the hallway.
+John grabbed the football there.
+Mary picked up the milk there.
+Mary dropped the milk.
+
+QUERY:
+Is Sandra in the kitchen?
+
+EXTRACTED PREDICTION:
+The story does not provide information on Sandra's final location. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 882 (wrong)
+
+CONTEXT:
+Mary took the milk there.
+Sandra went to the hallway.
+Mary went back to the bathroom.
+John went to the garden.
+Mary picked up the football there.
+Mary travelled to the hallway.
+
+QUERY:
+Is Sandra in the office?
+
+EXTRACTED PREDICTION:
+The story does not provide information on Sandra's final location. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+

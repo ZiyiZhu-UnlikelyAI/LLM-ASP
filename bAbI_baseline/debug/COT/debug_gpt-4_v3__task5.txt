@@ -1,0 +1,2938 @@
+EVAL NUM: 24 (wrong)
+
+CONTEXT:
+Fred travelled to the kitchen.
+Bill travelled to the office.
+Mary travelled to the office.
+Jeff went back to the kitchen.
+Bill travelled to the hallway.
+Fred went to the bathroom.
+Mary travelled to the hallway.
+Mary travelled to the bedroom.
+Fred journeyed to the hallway.
+Mary moved to the bathroom.
+Bill went back to the kitchen.
+Bill went to the hallway.
+Mary journeyed to the kitchen.
+Mary went to the bathroom.
+Jeff journeyed to the office.
+Fred travelled to the garden.
+Fred grabbed the football there.
+Fred discarded the football.
+Bill travelled to the kitchen.
+Jeff went to the garden.
+Jeff travelled to the bedroom.
+Jeff moved to the garden.
+Jeff grabbed the football there.
+Jeff went back to the bedroom.
+Jeff journeyed to the office.
+Bill travelled to the hallway.
+Jeff left the football.
+Bill went to the bedroom.
+Jeff got the milk there.
+Mary went to the kitchen.
+Bill went to the kitchen.
+Jeff journeyed to the bathroom.
+Bill went to the hallway.
+Jeff dropped the milk.
+Mary went to the hallway.
+Mary went to the kitchen.
+Fred travelled to the office.
+Fred went back to the hallway.
+Jeff got the milk there.
+Fred travelled to the office.
+Bill went to the garden.
+Mary journeyed to the bathroom.
+Fred went back to the bathroom.
+Fred journeyed to the office.
+Jeff passed the milk to Mary.
+Fred grabbed the football there.
+Mary passed the milk to Jeff.
+Fred dropped the football.
+Fred got the football there.
+Bill went to the hallway.
+Jeff dropped the milk.
+Mary moved to the garden.
+Jeff got the milk there.
+Fred discarded the football.
+Fred journeyed to the hallway.
+Jeff discarded the milk.
+Bill travelled to the bedroom.
+Bill went back to the hallway.
+Bill travelled to the office.
+Jeff took the milk there.
+Fred went to the office.
+Fred travelled to the hallway.
+Mary journeyed to the kitchen.
+Bill grabbed the apple there.
+Bill travelled to the bathroom.
+Bill passed the apple to Jeff.
+Jeff handed the apple to Bill.
+Bill dropped the apple.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Jeff. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Jeff
+
+EVAL NUM: 31 (wrong)
+
+CONTEXT:
+Fred grabbed the football there.
+Jeff picked up the apple there.
+Bill took the milk there.
+Jeff travelled to the hallway.
+Bill dropped the milk.
+Jeff left the apple.
+Jeff moved to the kitchen.
+Mary got the milk there.
+Mary handed the milk to Bill.
+Fred went to the hallway.
+Fred picked up the apple there.
+Bill gave the milk to Mary.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Mary picked up the milk. Then Mary gave the milk to Bill. Then Bill gave the milk to Mary. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Bill
+
+EVAL NUM: 40 (wrong)
+
+CONTEXT:
+Fred picked up the football there.
+Jeff travelled to the hallway.
+Bill went back to the kitchen.
+Bill went to the hallway.
+Fred travelled to the garden.
+Fred grabbed the milk there.
+Bill travelled to the office.
+Fred put down the milk there.
+Fred put down the football.
+Bill journeyed to the hallway.
+Fred journeyed to the kitchen.
+Jeff travelled to the garden.
+Jeff picked up the milk there.
+Mary went back to the office.
+Mary moved to the kitchen.
+Jeff grabbed the football there.
+Bill travelled to the garden.
+Fred went to the office.
+Fred went to the kitchen.
+Jeff dropped the milk.
+Jeff picked up the milk there.
+Jeff went to the bedroom.
+Jeff left the football.
+Jeff dropped the milk.
+Jeff grabbed the milk there.
+Jeff journeyed to the kitchen.
+Jeff passed the milk to Mary.
+Mary passed the milk to Fred.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Jeff picked up the milk. Then Jeff gave the milk to Mary. Then Mary gave the milk to Fred. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 44 (wrong)
+
+CONTEXT:
+Fred picked up the football there.
+Jeff travelled to the hallway.
+Bill went back to the kitchen.
+Bill went to the hallway.
+Fred travelled to the garden.
+Fred grabbed the milk there.
+Bill travelled to the office.
+Fred put down the milk there.
+Fred put down the football.
+Bill journeyed to the hallway.
+Fred journeyed to the kitchen.
+Jeff travelled to the garden.
+Jeff picked up the milk there.
+Mary went back to the office.
+Mary moved to the kitchen.
+Jeff grabbed the football there.
+Bill travelled to the garden.
+Fred went to the office.
+Fred went to the kitchen.
+Jeff dropped the milk.
+Jeff picked up the milk there.
+Jeff went to the bedroom.
+Jeff left the football.
+Jeff dropped the milk.
+Jeff grabbed the milk there.
+Jeff journeyed to the kitchen.
+Jeff passed the milk to Mary.
+Mary passed the milk to Fred.
+Fred discarded the milk.
+Jeff got the milk there.
+Jeff passed the milk to Mary.
+Bill moved to the kitchen.
+Jeff went back to the bedroom.
+Mary passed the milk to Fred.
+Fred put down the milk.
+Bill grabbed the milk there.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Jeff picked up the milk. Then Jeff gave the milk to Mary. Then Mary gave the milk to Fred. Then Jeff picked up the milk. Then Jeff gave the milk to Mary. Then Mary gave the milk to Fred. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 51 (wrong)
+
+CONTEXT:
+Bill grabbed the apple there.
+Jeff went back to the kitchen.
+Fred went to the garden.
+Bill dropped the apple.
+Jeff went to the garden.
+Bill moved to the bathroom.
+Bill journeyed to the office.
+Fred travelled to the hallway.
+Bill went to the hallway.
+Fred travelled to the kitchen.
+Jeff journeyed to the hallway.
+Jeff went back to the office.
+Fred moved to the hallway.
+Bill travelled to the office.
+Jeff grabbed the apple there.
+Jeff went back to the kitchen.
+Mary went back to the hallway.
+Jeff went back to the hallway.
+Jeff passed the apple to Mary.
+Mary gave the apple to Fred.
+Fred handed the apple to Mary.
+Fred moved to the bathroom.
+
+QUERY:
+Who gave the apple to Mary?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Fred
+
+EVAL NUM: 63 (wrong)
+
+CONTEXT:
+Mary travelled to the kitchen.
+Jeff travelled to the garden.
+Mary picked up the football there.
+Jeff took the milk there.
+Bill moved to the bathroom.
+Jeff put down the milk.
+Mary put down the football.
+Fred moved to the kitchen.
+Fred took the football there.
+Fred dropped the football.
+Mary travelled to the garden.
+Jeff went to the bedroom.
+Mary picked up the milk there.
+Jeff got the apple there.
+Mary put down the milk.
+Jeff dropped the apple.
+Bill moved to the bedroom.
+Bill picked up the apple there.
+Mary took the milk there.
+Fred took the football there.
+Fred left the football.
+Mary went to the bedroom.
+Mary moved to the garden.
+Bill gave the apple to Jeff.
+Jeff gave the apple to Bill.
+Bill passed the apple to Jeff.
+Jeff gave the apple to Bill.
+Bill went back to the hallway.
+Mary went to the bedroom.
+Mary gave the milk to Jeff.
+
+QUERY:
+Who received the apple?
+
+EXTRACTED PREDICTION:
+Bill gave the apple to Jeff. Then Jeff gave the apple to Bill. Then Bill gave the apple to Jeff. Then Jeff gave the apple to Bill. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Bill
+
+EVAL NUM: 78 (wrong)
+
+CONTEXT:
+Fred took the football there.
+Fred journeyed to the hallway.
+Fred passed the football to Mary.
+Mary dropped the football.
+Bill travelled to the hallway.
+Bill got the football there.
+Bill left the football.
+Fred got the football there.
+Jeff journeyed to the office.
+Fred passed the football to Mary.
+Mary passed the football to Fred.
+Mary moved to the kitchen.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Fred picked up the football. Then Fred gave the football to Mary. Then Mary gave the football to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 87 (wrong)
+
+CONTEXT:
+Bill went back to the kitchen.
+Bill took the apple there.
+Bill passed the apple to Mary.
+Mary handed the apple to Fred.
+Fred gave the apple to Mary.
+Mary journeyed to the office.
+Mary handed the apple to Jeff.
+Mary got the football there.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Mary. Then Mary gave the apple to Fred. Then Fred gave the apple to Mary. Then Mary gave the apple to Jeff. So the answer is Bill, Mary, Fred, and Mary again.
+
+PREDICTION:
+bill, mary, fred, and mary again
+
+Answer:
+Mary
+
+EVAL NUM: 103 (wrong)
+
+CONTEXT:
+Bill moved to the bedroom.
+Jeff went to the office.
+Jeff went to the bathroom.
+Jeff moved to the kitchen.
+Jeff got the football there.
+Jeff travelled to the garden.
+Jeff travelled to the kitchen.
+Jeff went back to the bathroom.
+Bill journeyed to the bathroom.
+Jeff put down the football.
+Mary went back to the bathroom.
+Mary took the apple there.
+Mary gave the apple to Bill.
+Bill put down the apple.
+Fred journeyed to the bedroom.
+Jeff picked up the apple there.
+Mary went to the office.
+Bill took the football there.
+Jeff moved to the hallway.
+Jeff dropped the apple.
+Bill journeyed to the garden.
+Bill went back to the kitchen.
+Jeff moved to the garden.
+Bill journeyed to the bathroom.
+Mary picked up the milk there.
+Fred went to the hallway.
+Fred got the apple there.
+Bill went back to the hallway.
+Fred passed the apple to Bill.
+Bill moved to the office.
+Bill handed the apple to Mary.
+Jeff moved to the hallway.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. Then Bill gave the apple to Mary. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Bill
+
+EVAL NUM: 112 (wrong)
+
+CONTEXT:
+Mary journeyed to the bedroom.
+Fred went back to the kitchen.
+Mary grabbed the football there.
+Mary dropped the football.
+Bill went back to the office.
+Jeff moved to the bedroom.
+Jeff picked up the apple there.
+Jeff gave the apple to Mary.
+Mary gave the apple to Jeff.
+Jeff handed the apple to Mary.
+Mary gave the apple to Jeff.
+Jeff went back to the kitchen.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 113 (wrong)
+
+CONTEXT:
+Mary journeyed to the bedroom.
+Fred went back to the kitchen.
+Mary grabbed the football there.
+Mary dropped the football.
+Bill went back to the office.
+Jeff moved to the bedroom.
+Jeff picked up the apple there.
+Jeff gave the apple to Mary.
+Mary gave the apple to Jeff.
+Jeff handed the apple to Mary.
+Mary gave the apple to Jeff.
+Jeff went back to the kitchen.
+Jeff travelled to the hallway.
+Fred travelled to the bedroom.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 134 (wrong)
+
+CONTEXT:
+Mary got the apple there.
+Mary passed the apple to Bill.
+Bill gave the apple to Mary.
+Mary passed the apple to Bill.
+Bill left the apple.
+Fred moved to the bedroom.
+Jeff took the apple there.
+Jeff passed the apple to Mary.
+Mary passed the apple to Fred.
+Fred passed the apple to Mary.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+The apple was passed around multiple times. First, Mary gave the apple to Bill. Then, Bill gave the apple to Mary. Then, Mary gave the apple to Bill. Then, Jeff took the apple and gave it to Mary. Then, Mary gave the apple to Fred. Finally, Fred gave the apple to Mary. So, multiple people gave the apple: Mary, Bill, Jeff, and Fred.
+
+PREDICTION:
+The apple was passed around multiple times. First, Mary gave the apple to Bill. Then, Bill gave the apple to Mary. Then, Mary gave the apple to Bill. Then, Jeff took the apple and gave it to Mary. Then, Mary gave the apple to Fred. Finally, Fred gave the apple to Mary. So, multiple people gave the apple: Mary, Bill, Jeff, and Fred.
+
+Answer:
+Fred
+
+EVAL NUM: 137 (wrong)
+
+CONTEXT:
+Bill went back to the bathroom.
+Mary went to the bathroom.
+Bill went to the bedroom.
+Fred grabbed the football there.
+Fred dropped the football.
+Bill journeyed to the hallway.
+Bill went back to the bathroom.
+Bill went to the kitchen.
+Fred grabbed the football there.
+Fred handed the football to Jeff.
+Jeff gave the football to Fred.
+Fred handed the football to Jeff.
+Jeff gave the football to Fred.
+Bill grabbed the milk there.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Fred picked up the football. Then Fred gave the football to Jeff. Then Jeff gave the football to Fred. Then Fred gave the football to Jeff. Then Jeff gave the football to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Jeff
+
+EVAL NUM: 138 (wrong)
+
+CONTEXT:
+Bill went back to the bathroom.
+Mary went to the bathroom.
+Bill went to the bedroom.
+Fred grabbed the football there.
+Fred dropped the football.
+Bill journeyed to the hallway.
+Bill went back to the bathroom.
+Bill went to the kitchen.
+Fred grabbed the football there.
+Fred handed the football to Jeff.
+Jeff gave the football to Fred.
+Fred handed the football to Jeff.
+Jeff gave the football to Fred.
+Bill grabbed the milk there.
+Bill put down the milk.
+Mary went back to the bedroom.
+
+QUERY:
+Who did Jeff give the football to?
+
+EXTRACTED PREDICTION:
+Jeff gave the football to Fred.
+
+PREDICTION:
+Jeff gave the football to Fred.
+
+Answer:
+Fred
+
+EVAL NUM: 196 (wrong)
+
+CONTEXT:
+Mary moved to the kitchen.
+Mary travelled to the hallway.
+Bill travelled to the garden.
+Fred journeyed to the bedroom.
+Fred went back to the office.
+Bill went back to the bedroom.
+Jeff moved to the bathroom.
+Bill travelled to the office.
+Fred travelled to the hallway.
+Jeff took the football there.
+Jeff left the football.
+Jeff picked up the milk there.
+Bill went to the kitchen.
+Mary journeyed to the garden.
+Jeff went to the office.
+Bill went back to the garden.
+Fred travelled to the bedroom.
+Fred went back to the hallway.
+Jeff left the milk.
+Jeff went back to the bedroom.
+Jeff went to the hallway.
+Jeff journeyed to the bedroom.
+Jeff journeyed to the office.
+Jeff picked up the milk there.
+Jeff journeyed to the garden.
+Fred went to the bedroom.
+Jeff passed the milk to Mary.
+Mary handed the milk to Bill.
+Bill gave the milk to Mary.
+Mary passed the milk to Bill.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Jeff picked up the milk. Then Jeff gave the milk to Mary. Then Mary gave the milk to Bill. Then Bill gave the milk to Mary. Then Mary gave the milk to Bill. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 197 (wrong)
+
+CONTEXT:
+Mary moved to the kitchen.
+Mary travelled to the hallway.
+Bill travelled to the garden.
+Fred journeyed to the bedroom.
+Fred went back to the office.
+Bill went back to the bedroom.
+Jeff moved to the bathroom.
+Bill travelled to the office.
+Fred travelled to the hallway.
+Jeff took the football there.
+Jeff left the football.
+Jeff picked up the milk there.
+Bill went to the kitchen.
+Mary journeyed to the garden.
+Jeff went to the office.
+Bill went back to the garden.
+Fred travelled to the bedroom.
+Fred went back to the hallway.
+Jeff left the milk.
+Jeff went back to the bedroom.
+Jeff went to the hallway.
+Jeff journeyed to the bedroom.
+Jeff journeyed to the office.
+Jeff picked up the milk there.
+Jeff journeyed to the garden.
+Fred went to the bedroom.
+Jeff passed the milk to Mary.
+Mary handed the milk to Bill.
+Bill gave the milk to Mary.
+Mary passed the milk to Bill.
+Bill gave the milk to Mary.
+Jeff travelled to the bedroom.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Jeff picked up the milk. Then Jeff gave the milk to Mary. Then Mary gave the milk to Bill. Then Bill gave the milk to Mary. Then Mary gave the milk to Bill. Then Bill gave the milk to Mary. So the answer is Jeff, Mary, and Bill.
+
+PREDICTION:
+jeff, mary, and bill
+
+Answer:
+Bill
+
+EVAL NUM: 209 (wrong)
+
+CONTEXT:
+Mary journeyed to the hallway.
+Bill went back to the kitchen.
+Jeff went to the bathroom.
+Mary journeyed to the bathroom.
+Fred travelled to the garden.
+Fred journeyed to the office.
+Jeff travelled to the office.
+Fred travelled to the garden.
+Fred travelled to the bathroom.
+Jeff picked up the milk there.
+Jeff put down the milk.
+Jeff moved to the bathroom.
+Fred went back to the bedroom.
+Bill travelled to the bedroom.
+Bill went to the hallway.
+Bill went back to the bathroom.
+Bill travelled to the garden.
+Bill got the football there.
+Jeff went to the bedroom.
+Jeff went to the hallway.
+Bill discarded the football.
+Mary travelled to the kitchen.
+Fred went to the kitchen.
+Bill went back to the office.
+Bill went back to the kitchen.
+Mary journeyed to the garden.
+Mary took the football there.
+Mary dropped the football.
+Mary grabbed the football there.
+Mary dropped the football.
+Bill travelled to the bathroom.
+Jeff went back to the office.
+Bill went back to the hallway.
+Fred moved to the bedroom.
+Jeff travelled to the bedroom.
+Fred journeyed to the office.
+Bill went to the office.
+Bill went to the bathroom.
+Mary got the football there.
+Fred travelled to the garden.
+Bill moved to the office.
+Mary gave the football to Fred.
+Fred went to the kitchen.
+Jeff went back to the kitchen.
+Fred passed the football to Jeff.
+Bill got the milk there.
+Mary moved to the kitchen.
+Mary went to the garden.
+Jeff passed the football to Fred.
+Jeff moved to the hallway.
+
+QUERY:
+Who gave the football to Fred?
+
+EXTRACTED PREDICTION:
+Mary picked up the football. Then Mary gave the football to Fred. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Jeff
+
+EVAL NUM: 219 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+Mary moved to the kitchen.
+Bill travelled to the hallway.
+Fred went to the bathroom.
+Jeff moved to the office.
+Mary journeyed to the bedroom.
+Fred journeyed to the bedroom.
+Fred journeyed to the office.
+Fred moved to the hallway.
+Fred journeyed to the garden.
+Bill moved to the garden.
+Mary moved to the bathroom.
+Mary moved to the garden.
+Fred went to the kitchen.
+Bill journeyed to the kitchen.
+Jeff went back to the kitchen.
+Fred travelled to the garden.
+Bill went to the office.
+Bill went to the garden.
+Jeff travelled to the garden.
+Mary journeyed to the bathroom.
+Bill went to the office.
+Jeff went back to the office.
+Mary travelled to the kitchen.
+Mary travelled to the hallway.
+Fred travelled to the kitchen.
+Jeff travelled to the garden.
+Mary moved to the office.
+Fred travelled to the office.
+Jeff went back to the hallway.
+Mary went back to the hallway.
+Mary went back to the garden.
+Fred journeyed to the bedroom.
+Jeff journeyed to the office.
+Fred took the apple there.
+Bill journeyed to the bathroom.
+Mary travelled to the office.
+Fred put down the apple.
+Fred grabbed the apple there.
+Fred grabbed the football there.
+Jeff journeyed to the bathroom.
+Bill went back to the garden.
+Fred grabbed the milk there.
+Mary went to the garden.
+Fred went to the hallway.
+Jeff travelled to the kitchen.
+Fred went back to the garden.
+Fred gave the apple to Mary.
+Fred dropped the football.
+Fred went back to the bathroom.
+Fred journeyed to the kitchen.
+Mary handed the apple to Bill.
+Mary moved to the kitchen.
+Fred passed the milk to Mary.
+Bill put down the apple.
+Mary handed the milk to Fred.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Mary. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 247 (wrong)
+
+CONTEXT:
+Jeff went back to the garden.
+Mary journeyed to the garden.
+Jeff took the football there.
+Bill journeyed to the garden.
+Mary took the milk there.
+Jeff handed the football to Mary.
+Mary handed the football to Bill.
+Bill put down the football.
+Fred went back to the bathroom.
+Mary got the apple there.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Jeff picked up the football. Then Jeff gave the football to Mary. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 248 (wrong)
+
+CONTEXT:
+Jeff went back to the garden.
+Mary journeyed to the garden.
+Jeff took the football there.
+Bill journeyed to the garden.
+Mary took the milk there.
+Jeff handed the football to Mary.
+Mary handed the football to Bill.
+Bill put down the football.
+Fred went back to the bathroom.
+Mary got the apple there.
+Mary gave the apple to Bill.
+Bill handed the apple to Mary.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Bill. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Bill
+
+EVAL NUM: 251 (wrong)
+
+CONTEXT:
+Jeff went back to the office.
+Jeff went to the bedroom.
+Mary journeyed to the garden.
+Fred got the apple there.
+Bill travelled to the office.
+Mary travelled to the hallway.
+Mary went to the bedroom.
+Bill journeyed to the hallway.
+Fred went back to the kitchen.
+Fred got the milk there.
+Fred moved to the office.
+Fred went to the kitchen.
+Fred travelled to the office.
+Bill went back to the kitchen.
+Mary journeyed to the hallway.
+Fred left the apple.
+Fred grabbed the apple there.
+Mary journeyed to the bathroom.
+Fred put down the apple.
+Fred picked up the football there.
+Jeff journeyed to the kitchen.
+Fred took the apple there.
+Mary went to the garden.
+Jeff travelled to the bathroom.
+Mary went to the bedroom.
+Fred discarded the football.
+Bill went back to the hallway.
+Fred dropped the milk.
+Fred moved to the bedroom.
+Bill journeyed to the garden.
+Fred gave the apple to Mary.
+Mary handed the apple to Fred.
+Jeff went to the kitchen.
+Bill travelled to the bathroom.
+
+QUERY:
+Who received the apple?
+
+EXTRACTED PREDICTION:
+Fred gave the apple to Mary. Then Mary gave the apple back to Fred. So the answer is both Mary and Fred.
+
+PREDICTION:
+both mary and fred
+
+Answer:
+Fred
+
+EVAL NUM: 252 (wrong)
+
+CONTEXT:
+Jeff went back to the office.
+Jeff went to the bedroom.
+Mary journeyed to the garden.
+Fred got the apple there.
+Bill travelled to the office.
+Mary travelled to the hallway.
+Mary went to the bedroom.
+Bill journeyed to the hallway.
+Fred went back to the kitchen.
+Fred got the milk there.
+Fred moved to the office.
+Fred went to the kitchen.
+Fred travelled to the office.
+Bill went back to the kitchen.
+Mary journeyed to the hallway.
+Fred left the apple.
+Fred grabbed the apple there.
+Mary journeyed to the bathroom.
+Fred put down the apple.
+Fred picked up the football there.
+Jeff journeyed to the kitchen.
+Fred took the apple there.
+Mary went to the garden.
+Jeff travelled to the bathroom.
+Mary went to the bedroom.
+Fred discarded the football.
+Bill went back to the hallway.
+Fred dropped the milk.
+Fred moved to the bedroom.
+Bill journeyed to the garden.
+Fred gave the apple to Mary.
+Mary handed the apple to Fred.
+Jeff went to the kitchen.
+Bill travelled to the bathroom.
+Bill moved to the hallway.
+Fred travelled to the kitchen.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Mary. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 262 (wrong)
+
+CONTEXT:
+Jeff grabbed the apple there.
+Jeff gave the apple to Mary.
+Mary gave the apple to Fred.
+Fred passed the apple to Mary.
+Fred went to the bedroom.
+Mary handed the apple to Bill.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. Then Mary gave the apple to Fred. Then Fred gave the apple to Mary. Then Mary gave the apple to Bill. So the answer is Jeff, Mary, Fred, and Mary again.
+
+PREDICTION:
+jeff, mary, fred, and mary again
+
+Answer:
+Mary
+
+EVAL NUM: 271 (wrong)
+
+CONTEXT:
+Mary went to the kitchen.
+Mary travelled to the bathroom.
+Bill went to the garden.
+Bill went back to the kitchen.
+Jeff grabbed the apple there.
+Jeff passed the apple to Mary.
+Mary passed the apple to Jeff.
+Mary went back to the bedroom.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 276 (wrong)
+
+CONTEXT:
+Fred journeyed to the bathroom.
+Bill went back to the kitchen.
+Fred moved to the office.
+Bill grabbed the milk there.
+Bill discarded the milk.
+Bill journeyed to the hallway.
+Mary moved to the garden.
+Mary grabbed the apple there.
+Fred went back to the hallway.
+Mary dropped the apple there.
+Jeff moved to the bathroom.
+Fred journeyed to the kitchen.
+Fred moved to the bedroom.
+Mary took the apple there.
+Bill went to the office.
+Mary journeyed to the bedroom.
+Mary discarded the apple.
+Bill journeyed to the bedroom.
+Fred got the apple there.
+Fred put down the apple.
+Fred went back to the kitchen.
+Mary travelled to the office.
+Bill travelled to the hallway.
+Mary travelled to the hallway.
+Fred went back to the bathroom.
+Jeff moved to the kitchen.
+Mary journeyed to the garden.
+Mary went to the kitchen.
+Mary journeyed to the hallway.
+Mary went to the kitchen.
+Mary went back to the hallway.
+Mary moved to the kitchen.
+Mary travelled to the bathroom.
+Fred went to the garden.
+Bill went to the bathroom.
+Mary went to the garden.
+Fred went back to the office.
+Jeff moved to the office.
+Jeff moved to the kitchen.
+Bill travelled to the hallway.
+Jeff went to the garden.
+Mary went back to the kitchen.
+Mary took the football there.
+Mary picked up the milk there.
+Mary dropped the football.
+Mary took the football there.
+Mary put down the milk there.
+Mary travelled to the bathroom.
+Fred went back to the bathroom.
+Mary went back to the garden.
+Mary gave the football to Jeff.
+Jeff gave the football to Mary.
+Mary put down the football.
+Jeff picked up the football there.
+
+QUERY:
+Who received the football?
+
+EXTRACTED PREDICTION:
+Mary picked up the football. Then Mary gave the football to Jeff. Then Jeff gave the football back to Mary. Then Mary put down the football. Then Jeff picked up the football. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 279 (wrong)
+
+CONTEXT:
+Fred journeyed to the bathroom.
+Bill went back to the kitchen.
+Fred moved to the office.
+Bill grabbed the milk there.
+Bill discarded the milk.
+Bill journeyed to the hallway.
+Mary moved to the garden.
+Mary grabbed the apple there.
+Fred went back to the hallway.
+Mary dropped the apple there.
+Jeff moved to the bathroom.
+Fred journeyed to the kitchen.
+Fred moved to the bedroom.
+Mary took the apple there.
+Bill went to the office.
+Mary journeyed to the bedroom.
+Mary discarded the apple.
+Bill journeyed to the bedroom.
+Fred got the apple there.
+Fred put down the apple.
+Fred went back to the kitchen.
+Mary travelled to the office.
+Bill travelled to the hallway.
+Mary travelled to the hallway.
+Fred went back to the bathroom.
+Jeff moved to the kitchen.
+Mary journeyed to the garden.
+Mary went to the kitchen.
+Mary journeyed to the hallway.
+Mary went to the kitchen.
+Mary went back to the hallway.
+Mary moved to the kitchen.
+Mary travelled to the bathroom.
+Fred went to the garden.
+Bill went to the bathroom.
+Mary went to the garden.
+Fred went back to the office.
+Jeff moved to the office.
+Jeff moved to the kitchen.
+Bill travelled to the hallway.
+Jeff went to the garden.
+Mary went back to the kitchen.
+Mary took the football there.
+Mary picked up the milk there.
+Mary dropped the football.
+Mary took the football there.
+Mary put down the milk there.
+Mary travelled to the bathroom.
+Fred went back to the bathroom.
+Mary went back to the garden.
+Mary gave the football to Jeff.
+Jeff gave the football to Mary.
+Mary put down the football.
+Jeff picked up the football there.
+Jeff handed the football to Mary.
+Mary passed the football to Jeff.
+Jeff handed the football to Mary.
+Fred travelled to the garden.
+Mary handed the football to Fred.
+Fred passed the football to Mary.
+
+QUERY:
+Who received the football?
+
+EXTRACTED PREDICTION:
+The football was passed around multiple times. First, Mary gave the football to Jeff. Then, Jeff gave the football back to Mary. Then, Mary gave the football back to Jeff. Then, Jeff gave the football back to Mary. Finally, Mary gave the football to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 311 (wrong)
+
+CONTEXT:
+Mary journeyed to the kitchen.
+Mary went to the bedroom.
+Mary moved to the bathroom.
+Mary grabbed the football there.
+Mary moved to the garden.
+Mary dropped the football.
+Fred went back to the kitchen.
+Jeff went back to the office.
+Jeff went to the bathroom.
+Bill took the apple there.
+Mary picked up the milk there.
+Mary picked up the football there.
+Bill went back to the kitchen.
+Bill went back to the hallway.
+Fred journeyed to the office.
+Bill discarded the apple.
+Mary journeyed to the kitchen.
+Fred journeyed to the garden.
+Mary went to the hallway.
+Mary gave the football to Bill.
+Bill passed the football to Mary.
+Bill took the apple there.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Mary picked up the football. Then Mary gave the football to Bill. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Bill
+
+EVAL NUM: 312 (wrong)
+
+CONTEXT:
+Mary journeyed to the kitchen.
+Mary went to the bedroom.
+Mary moved to the bathroom.
+Mary grabbed the football there.
+Mary moved to the garden.
+Mary dropped the football.
+Fred went back to the kitchen.
+Jeff went back to the office.
+Jeff went to the bathroom.
+Bill took the apple there.
+Mary picked up the milk there.
+Mary picked up the football there.
+Bill went back to the kitchen.
+Bill went back to the hallway.
+Fred journeyed to the office.
+Bill discarded the apple.
+Mary journeyed to the kitchen.
+Fred journeyed to the garden.
+Mary went to the hallway.
+Mary gave the football to Bill.
+Bill passed the football to Mary.
+Bill took the apple there.
+Bill gave the apple to Mary.
+Jeff travelled to the kitchen.
+
+QUERY:
+What did Bill give to Mary?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Mary. So the answer is apple.
+
+PREDICTION:
+apple
+
+Answer:
+football
+
+EVAL NUM: 355 (wrong)
+
+CONTEXT:
+Jeff moved to the bedroom.
+Fred journeyed to the kitchen.
+Fred took the milk there.
+Mary travelled to the office.
+Fred gave the milk to Bill.
+Bill passed the milk to Fred.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Fred went to the kitchen. Then Fred picked up the milk. Then Fred gave the milk to Bill. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Bill
+
+EVAL NUM: 366 (wrong)
+
+CONTEXT:
+Jeff moved to the hallway.
+Jeff picked up the football there.
+Bill journeyed to the office.
+Fred got the apple there.
+Bill went back to the garden.
+Jeff dropped the football.
+Jeff grabbed the football there.
+Jeff discarded the football.
+Bill got the milk there.
+Fred left the apple.
+Fred took the apple there.
+Mary went back to the hallway.
+Mary picked up the football there.
+Jeff went back to the office.
+Fred gave the apple to Jeff.
+Bill went to the office.
+Jeff gave the apple to Fred.
+Fred discarded the apple.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Jeff. Then Jeff gave the apple back to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Jeff
+
+EVAL NUM: 376 (wrong)
+
+CONTEXT:
+Bill moved to the bathroom.
+Mary went to the bathroom.
+Jeff journeyed to the hallway.
+Fred moved to the bathroom.
+Bill grabbed the apple there.
+Bill dropped the apple.
+Bill went to the office.
+Mary grabbed the apple there.
+Mary journeyed to the hallway.
+Mary discarded the apple.
+Mary journeyed to the garden.
+Bill travelled to the hallway.
+Bill got the apple there.
+Bill travelled to the office.
+Mary moved to the kitchen.
+Bill journeyed to the bathroom.
+Bill passed the apple to Fred.
+Jeff moved to the garden.
+Fred handed the apple to Bill.
+Jeff travelled to the bathroom.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill dropped the apple. Then Mary picked up the apple. Then Mary discarded the apple. Then Bill picked up the apple. Then Bill gave the apple to Fred. Then Fred gave the apple to Bill. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Fred
+
+EVAL NUM: 381 (wrong)
+
+CONTEXT:
+Mary got the milk there.
+Mary gave the milk to Bill.
+Jeff went to the hallway.
+Bill gave the milk to Mary.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Mary picked up the milk. Then Mary gave the milk to Bill. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Bill
+
+EVAL NUM: 390 (wrong)
+
+CONTEXT:
+Bill went to the kitchen.
+Jeff picked up the apple there.
+Jeff gave the apple to Fred.
+Fred passed the apple to Jeff.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Fred. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Fred
+
+EVAL NUM: 429 (wrong)
+
+CONTEXT:
+Jeff journeyed to the bedroom.
+Jeff went back to the bathroom.
+Bill went back to the bedroom.
+Fred grabbed the apple there.
+Jeff moved to the kitchen.
+Bill travelled to the office.
+Mary went to the hallway.
+Fred handed the apple to Bill.
+Bill handed the apple to Fred.
+Fred journeyed to the hallway.
+Fred gave the apple to Mary.
+Jeff journeyed to the garden.
+Mary gave the apple to Fred.
+Bill travelled to the bedroom.
+Jeff went to the bedroom.
+Fred dropped the apple.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. Then Bill gave the apple back to Fred. Then Fred gave the apple to Mary. Then Mary gave the apple back to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 437 (wrong)
+
+CONTEXT:
+Jeff went back to the garden.
+Mary travelled to the office.
+Bill went back to the bedroom.
+Mary moved to the hallway.
+Bill went back to the garden.
+Mary went back to the bedroom.
+Jeff journeyed to the office.
+Mary went to the kitchen.
+Bill travelled to the hallway.
+Mary moved to the hallway.
+Fred went to the hallway.
+Bill picked up the football there.
+Bill picked up the apple there.
+Bill passed the apple to Mary.
+Bill discarded the football.
+Mary grabbed the milk there.
+Mary gave the apple to Fred.
+Fred gave the apple to Mary.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Mary. Then Mary gave the apple to Fred. Then Fred gave the apple back to Mary. So the answer is Bill, Mary, and Fred.
+
+PREDICTION:
+bill, mary, and fred
+
+Answer:
+Fred
+
+EVAL NUM: 453 (wrong)
+
+CONTEXT:
+Mary journeyed to the office.
+Jeff journeyed to the office.
+Mary journeyed to the kitchen.
+Mary went back to the bedroom.
+Mary got the apple there.
+Mary moved to the garden.
+Mary discarded the apple.
+Jeff went to the bedroom.
+Jeff journeyed to the garden.
+Fred got the football there.
+Mary picked up the apple there.
+Mary went to the office.
+Mary passed the apple to Bill.
+Bill went back to the kitchen.
+Bill went to the bathroom.
+Bill got the milk there.
+Bill went back to the bedroom.
+Bill gave the apple to Fred.
+Fred handed the apple to Bill.
+Fred journeyed to the garden.
+
+QUERY:
+Who gave the apple to Bill?
+
+EXTRACTED PREDICTION:
+Mary journeyed to the office. Then Mary picked up the apple. Then Mary gave the apple to Bill. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Fred
+
+EVAL NUM: 454 (wrong)
+
+CONTEXT:
+Mary journeyed to the office.
+Jeff journeyed to the office.
+Mary journeyed to the kitchen.
+Mary went back to the bedroom.
+Mary got the apple there.
+Mary moved to the garden.
+Mary discarded the apple.
+Jeff went to the bedroom.
+Jeff journeyed to the garden.
+Fred got the football there.
+Mary picked up the apple there.
+Mary went to the office.
+Mary passed the apple to Bill.
+Bill went back to the kitchen.
+Bill went to the bathroom.
+Bill got the milk there.
+Bill went back to the bedroom.
+Bill gave the apple to Fred.
+Fred handed the apple to Bill.
+Fred journeyed to the garden.
+Fred passed the football to Jeff.
+Jeff passed the football to Fred.
+
+QUERY:
+Who received the apple?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Bill. Then Bill gave the apple to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Bill
+
+EVAL NUM: 470 (wrong)
+
+CONTEXT:
+Mary moved to the office.
+Mary journeyed to the bathroom.
+Fred moved to the hallway.
+Mary went back to the kitchen.
+Bill journeyed to the office.
+Mary went to the bathroom.
+Mary went to the hallway.
+Bill got the football there.
+Bill dropped the football.
+Bill grabbed the football there.
+Bill dropped the football.
+Bill journeyed to the bedroom.
+Jeff travelled to the bedroom.
+Fred went back to the bathroom.
+Fred went to the garden.
+Mary travelled to the garden.
+Bill moved to the kitchen.
+Mary got the apple there.
+Mary moved to the hallway.
+Bill went to the bathroom.
+Mary journeyed to the garden.
+Fred moved to the hallway.
+Mary dropped the apple.
+Mary picked up the apple there.
+Fred moved to the bedroom.
+Fred moved to the office.
+Mary travelled to the office.
+Fred grabbed the football there.
+Mary gave the apple to Fred.
+Fred handed the apple to Mary.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Fred. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Fred
+
+EVAL NUM: 478 (wrong)
+
+CONTEXT:
+Jeff travelled to the garden.
+Jeff journeyed to the bedroom.
+Fred journeyed to the office.
+Bill went back to the office.
+Mary travelled to the hallway.
+Fred journeyed to the garden.
+Fred moved to the hallway.
+Bill moved to the hallway.
+Fred went back to the office.
+Jeff travelled to the bathroom.
+Mary took the apple there.
+Fred went back to the hallway.
+Mary handed the apple to Fred.
+Mary went back to the kitchen.
+Fred gave the apple to Bill.
+Fred took the milk there.
+Mary journeyed to the bathroom.
+Bill took the football there.
+Bill passed the apple to Fred.
+Mary travelled to the garden.
+
+QUERY:
+Who gave the apple to Fred?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Fred. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Bill
+
+EVAL NUM: 487 (wrong)
+
+CONTEXT:
+Mary went to the hallway.
+Fred picked up the football there.
+Fred picked up the apple there.
+Fred handed the apple to Bill.
+Bill journeyed to the bedroom.
+Jeff went back to the garden.
+Bill moved to the hallway.
+Bill handed the apple to Mary.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. Then Bill gave the apple to Mary. So the answer is Fred and Bill.
+
+PREDICTION:
+fred and bill
+
+Answer:
+Bill
+
+EVAL NUM: 489 (wrong)
+
+CONTEXT:
+Mary went to the hallway.
+Fred picked up the football there.
+Fred picked up the apple there.
+Fred handed the apple to Bill.
+Bill journeyed to the bedroom.
+Jeff went back to the garden.
+Bill moved to the hallway.
+Bill handed the apple to Mary.
+Bill moved to the office.
+Fred put down the football.
+Mary took the milk there.
+Jeff moved to the kitchen.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. Then Bill gave the apple to Mary. So the answer is Fred and Bill.
+
+PREDICTION:
+fred and bill
+
+Answer:
+Bill
+
+EVAL NUM: 503 (wrong)
+
+CONTEXT:
+Jeff took the football there.
+Jeff passed the football to Fred.
+Jeff got the milk there.
+Bill travelled to the bedroom.
+Fred passed the football to Jeff.
+Jeff left the milk there.
+Jeff put down the football.
+Fred got the milk there.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Jeff picked up the football. Then Jeff gave the football to Fred. Then Fred gave the football to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Fred
+
+EVAL NUM: 516 (wrong)
+
+CONTEXT:
+Mary went to the hallway.
+Jeff moved to the hallway.
+Fred journeyed to the garden.
+Bill moved to the bedroom.
+Jeff got the football there.
+Bill went back to the kitchen.
+Jeff put down the football.
+Bill moved to the bedroom.
+Bill grabbed the apple there.
+Mary went back to the garden.
+Bill travelled to the garden.
+Bill gave the apple to Mary.
+Mary passed the apple to Fred.
+Fred gave the apple to Mary.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Mary. Then Mary gave the apple to Fred. Then Fred gave the apple back to Mary. So the answer is Bill, Mary, and Fred.
+
+PREDICTION:
+bill, mary, and fred
+
+Answer:
+Fred
+
+EVAL NUM: 517 (wrong)
+
+CONTEXT:
+Mary went to the hallway.
+Jeff moved to the hallway.
+Fred journeyed to the garden.
+Bill moved to the bedroom.
+Jeff got the football there.
+Bill went back to the kitchen.
+Jeff put down the football.
+Bill moved to the bedroom.
+Bill grabbed the apple there.
+Mary went back to the garden.
+Bill travelled to the garden.
+Bill gave the apple to Mary.
+Mary passed the apple to Fred.
+Fred gave the apple to Mary.
+Mary passed the apple to Fred.
+Fred passed the apple to Mary.
+
+QUERY:
+Who gave the apple to Mary?
+
+EXTRACTED PREDICTION:
+Bill went to the bedroom. Then Bill picked up the apple. Then Bill went to the garden. Then Bill gave the apple to Mary. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Fred
+
+EVAL NUM: 519 (wrong)
+
+CONTEXT:
+Mary went to the hallway.
+Jeff moved to the hallway.
+Fred journeyed to the garden.
+Bill moved to the bedroom.
+Jeff got the football there.
+Bill went back to the kitchen.
+Jeff put down the football.
+Bill moved to the bedroom.
+Bill grabbed the apple there.
+Mary went back to the garden.
+Bill travelled to the garden.
+Bill gave the apple to Mary.
+Mary passed the apple to Fred.
+Fred gave the apple to Mary.
+Mary passed the apple to Fred.
+Fred passed the apple to Mary.
+Mary put down the apple.
+Fred went to the office.
+Mary got the apple there.
+Fred picked up the milk there.
+
+QUERY:
+What did Fred give to Mary?
+
+EXTRACTED PREDICTION:
+Fred did not give anything to Mary in the story.
+
+PREDICTION:
+Fred did not give anything to Mary in the story.
+
+Answer:
+apple
+
+EVAL NUM: 523 (wrong)
+
+CONTEXT:
+Mary picked up the apple there.
+Fred travelled to the bedroom.
+Mary handed the apple to Fred.
+Mary took the milk there.
+Fred gave the apple to Mary.
+Mary gave the apple to Fred.
+Fred discarded the apple.
+Mary gave the milk to Fred.
+Fred went to the bathroom.
+Jeff travelled to the office.
+
+QUERY:
+What did Mary give to Fred?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Fred. Then Fred gave the apple back to Mary. Then Mary gave the apple back to Fred. Then Mary picked up the milk. Then Mary gave the milk to Fred. So the answer is apple and milk.
+
+PREDICTION:
+apple and milk
+
+Answer:
+milk
+
+EVAL NUM: 555 (wrong)
+
+CONTEXT:
+Fred took the apple there.
+Fred moved to the garden.
+Fred handed the apple to Bill.
+Bill handed the apple to Fred.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. Then Bill gave the apple back to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Bill
+
+EVAL NUM: 556 (wrong)
+
+CONTEXT:
+Fred took the apple there.
+Fred moved to the garden.
+Fred handed the apple to Bill.
+Bill handed the apple to Fred.
+Mary journeyed to the hallway.
+Mary picked up the milk there.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. Then Bill gave the apple back to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Bill
+
+EVAL NUM: 566 (wrong)
+
+CONTEXT:
+Jeff picked up the apple there.
+Mary travelled to the hallway.
+Jeff discarded the apple.
+Jeff grabbed the apple there.
+Jeff put down the apple.
+Bill went back to the kitchen.
+Fred moved to the hallway.
+Fred moved to the bedroom.
+Jeff got the apple there.
+Jeff gave the apple to Mary.
+Fred travelled to the garden.
+Mary passed the apple to Jeff.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 602 (wrong)
+
+CONTEXT:
+Fred took the football there.
+Jeff got the milk there.
+Mary travelled to the bathroom.
+Bill journeyed to the bathroom.
+Fred went to the bedroom.
+Bill journeyed to the garden.
+Fred dropped the football.
+Fred journeyed to the office.
+Mary went back to the hallway.
+Fred travelled to the kitchen.
+Jeff journeyed to the bedroom.
+Fred got the apple there.
+Jeff went to the office.
+Fred went back to the office.
+Jeff journeyed to the bedroom.
+Mary went to the bedroom.
+Jeff dropped the milk there.
+Mary picked up the football there.
+Bill moved to the kitchen.
+Mary gave the football to Jeff.
+Jeff grabbed the milk there.
+Jeff passed the football to Mary.
+Mary went back to the kitchen.
+Bill moved to the bathroom.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Mary picked up the football. Then Mary gave the football to Jeff. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Jeff
+
+EVAL NUM: 603 (wrong)
+
+CONTEXT:
+Fred took the football there.
+Jeff got the milk there.
+Mary travelled to the bathroom.
+Bill journeyed to the bathroom.
+Fred went to the bedroom.
+Bill journeyed to the garden.
+Fred dropped the football.
+Fred journeyed to the office.
+Mary went back to the hallway.
+Fred travelled to the kitchen.
+Jeff journeyed to the bedroom.
+Fred got the apple there.
+Jeff went to the office.
+Fred went back to the office.
+Jeff journeyed to the bedroom.
+Mary went to the bedroom.
+Jeff dropped the milk there.
+Mary picked up the football there.
+Bill moved to the kitchen.
+Mary gave the football to Jeff.
+Jeff grabbed the milk there.
+Jeff passed the football to Mary.
+Mary went back to the kitchen.
+Bill moved to the bathroom.
+Mary put down the football.
+Fred dropped the apple.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Mary picked up the football. Then Mary gave the football to Jeff. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Jeff
+
+EVAL NUM: 641 (wrong)
+
+CONTEXT:
+Bill took the milk there.
+Fred moved to the hallway.
+Bill moved to the garden.
+Bill gave the milk to Jeff.
+Jeff gave the milk to Bill.
+Bill discarded the milk.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Bill picked up the milk. Then Bill gave the milk to Jeff. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Jeff
+
+EVAL NUM: 675 (wrong)
+
+CONTEXT:
+Jeff moved to the hallway.
+Jeff travelled to the kitchen.
+Bill moved to the office.
+Bill journeyed to the kitchen.
+Fred travelled to the office.
+Bill travelled to the hallway.
+Mary journeyed to the garden.
+Bill moved to the bathroom.
+Mary moved to the bedroom.
+Mary journeyed to the garden.
+Jeff moved to the garden.
+Fred moved to the kitchen.
+Jeff took the apple there.
+Mary got the football there.
+Jeff handed the apple to Mary.
+Mary passed the apple to Jeff.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 678 (wrong)
+
+CONTEXT:
+Jeff moved to the hallway.
+Jeff travelled to the kitchen.
+Bill moved to the office.
+Bill journeyed to the kitchen.
+Fred travelled to the office.
+Bill travelled to the hallway.
+Mary journeyed to the garden.
+Bill moved to the bathroom.
+Mary moved to the bedroom.
+Mary journeyed to the garden.
+Jeff moved to the garden.
+Fred moved to the kitchen.
+Jeff took the apple there.
+Mary got the football there.
+Jeff handed the apple to Mary.
+Mary passed the apple to Jeff.
+Mary discarded the football.
+Jeff gave the apple to Mary.
+Jeff picked up the football there.
+Mary gave the apple to Jeff.
+Jeff grabbed the milk there.
+Fred travelled to the bathroom.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 679 (wrong)
+
+CONTEXT:
+Jeff moved to the hallway.
+Jeff travelled to the kitchen.
+Bill moved to the office.
+Bill journeyed to the kitchen.
+Fred travelled to the office.
+Bill travelled to the hallway.
+Mary journeyed to the garden.
+Bill moved to the bathroom.
+Mary moved to the bedroom.
+Mary journeyed to the garden.
+Jeff moved to the garden.
+Fred moved to the kitchen.
+Jeff took the apple there.
+Mary got the football there.
+Jeff handed the apple to Mary.
+Mary passed the apple to Jeff.
+Mary discarded the football.
+Jeff gave the apple to Mary.
+Jeff picked up the football there.
+Mary gave the apple to Jeff.
+Jeff grabbed the milk there.
+Fred travelled to the bathroom.
+Jeff handed the apple to Mary.
+Mary handed the apple to Jeff.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. Then Jeff gave the apple to Mary. Then Mary gave the apple to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Mary
+
+EVAL NUM: 688 (wrong)
+
+CONTEXT:
+Mary moved to the kitchen.
+Fred went to the bedroom.
+Mary went back to the hallway.
+Bill got the football there.
+Mary went to the kitchen.
+Fred journeyed to the kitchen.
+Mary moved to the bedroom.
+Jeff travelled to the kitchen.
+Mary moved to the hallway.
+Fred moved to the bedroom.
+Jeff took the milk there.
+Mary went to the bathroom.
+Bill gave the football to Mary.
+Mary gave the football to Bill.
+Bill travelled to the garden.
+Jeff left the milk.
+Bill moved to the bedroom.
+Fred went to the office.
+Fred travelled to the kitchen.
+Fred got the milk there.
+Fred gave the milk to Jeff.
+Jeff passed the milk to Fred.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Fred picked up the milk. Then Fred gave the milk to Jeff. Then Jeff gave the milk to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Jeff
+
+EVAL NUM: 705 (wrong)
+
+CONTEXT:
+Bill got the apple there.
+Mary travelled to the bedroom.
+Mary picked up the football there.
+Mary moved to the bathroom.
+Mary handed the football to Fred.
+Fred passed the football to Mary.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Mary picked up the football. Then Mary gave the football to Fred. Then Fred gave the football to Mary. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Fred
+
+EVAL NUM: 714 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+Jeff went back to the garden.
+Fred travelled to the bathroom.
+Jeff took the football there.
+Mary went to the bedroom.
+Jeff picked up the milk there.
+Jeff travelled to the office.
+Mary journeyed to the garden.
+Mary went to the kitchen.
+Jeff went back to the bedroom.
+Jeff moved to the office.
+Bill moved to the garden.
+Mary travelled to the bathroom.
+Jeff left the milk.
+Jeff went back to the hallway.
+Jeff took the apple there.
+Bill journeyed to the bedroom.
+Mary journeyed to the hallway.
+Jeff went back to the garden.
+Jeff travelled to the kitchen.
+Bill went back to the kitchen.
+Jeff gave the apple to Bill.
+Bill handed the apple to Jeff.
+Jeff gave the apple to Bill.
+Bill gave the apple to Jeff.
+Jeff gave the apple to Bill.
+Bill passed the apple to Jeff.
+Jeff handed the apple to Bill.
+Bill handed the apple to Jeff.
+Jeff travelled to the office.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Bill. Then Bill gave the apple to Jeff. Then Jeff gave the apple to Bill. Then Bill gave the apple to Jeff. Then Jeff gave the apple to Bill. Then Bill gave the apple to Jeff. Then Jeff gave the apple to Bill. Then Bill gave the apple to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Bill
+
+EVAL NUM: 721 (wrong)
+
+CONTEXT:
+Jeff travelled to the bedroom.
+Bill picked up the football there.
+Fred moved to the garden.
+Mary went back to the garden.
+Mary went back to the hallway.
+Jeff picked up the milk there.
+Bill travelled to the bathroom.
+Bill grabbed the apple there.
+Jeff moved to the bathroom.
+Mary went back to the bedroom.
+Bill gave the apple to Jeff.
+Mary went to the garden.
+Jeff passed the apple to Bill.
+Bill left the football there.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Jeff. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Jeff
+
+EVAL NUM: 762 (wrong)
+
+CONTEXT:
+Jeff travelled to the kitchen.
+Fred got the apple there.
+Mary went to the kitchen.
+Jeff went to the bathroom.
+Fred passed the apple to Jeff.
+Jeff went back to the kitchen.
+Jeff handed the apple to Mary.
+Mary handed the apple to Jeff.
+Jeff handed the apple to Mary.
+Mary passed the apple to Jeff.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Jeff. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 763 (wrong)
+
+CONTEXT:
+Jeff travelled to the kitchen.
+Fred got the apple there.
+Mary went to the kitchen.
+Jeff went to the bathroom.
+Fred passed the apple to Jeff.
+Jeff went back to the kitchen.
+Jeff handed the apple to Mary.
+Mary handed the apple to Jeff.
+Jeff handed the apple to Mary.
+Mary passed the apple to Jeff.
+Jeff handed the apple to Mary.
+Mary handed the apple to Jeff.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Jeff. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 814 (wrong)
+
+CONTEXT:
+Bill went to the kitchen.
+Mary went to the bedroom.
+Jeff picked up the football there.
+Bill went to the office.
+Jeff passed the football to Mary.
+Mary handed the football to Jeff.
+Bill travelled to the bedroom.
+Jeff gave the football to Mary.
+Jeff journeyed to the kitchen.
+Mary passed the football to Bill.
+Bill handed the football to Mary.
+Mary handed the football to Bill.
+Fred went back to the bathroom.
+Bill went back to the bathroom.
+
+QUERY:
+Who did Mary give the football to?
+
+EXTRACTED PREDICTION:
+Jeff picked up the football. Then Jeff gave the football to Mary. Then Mary gave the football to Jeff. Then Jeff gave the football to Mary. Then Mary gave the football to Bill. So the answer is Jeff and Bill.
+
+PREDICTION:
+jeff and bill
+
+Answer:
+Bill
+
+EVAL NUM: 841 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+Bill moved to the hallway.
+Fred travelled to the bathroom.
+Fred moved to the hallway.
+Bill went to the garden.
+Bill journeyed to the office.
+Jeff travelled to the office.
+Bill got the apple there.
+Fred went back to the bedroom.
+Mary went back to the garden.
+Fred moved to the hallway.
+Bill passed the apple to Jeff.
+Jeff handed the apple to Bill.
+Bill travelled to the garden.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Jeff. Then Jeff gave the apple back to Bill. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Jeff
+
+EVAL NUM: 842 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+Bill moved to the hallway.
+Fred travelled to the bathroom.
+Fred moved to the hallway.
+Bill went to the garden.
+Bill journeyed to the office.
+Jeff travelled to the office.
+Bill got the apple there.
+Fred went back to the bedroom.
+Mary went back to the garden.
+Fred moved to the hallway.
+Bill passed the apple to Jeff.
+Jeff handed the apple to Bill.
+Bill travelled to the garden.
+Mary moved to the kitchen.
+Bill dropped the apple.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Jeff. Then Jeff gave the apple back to Bill. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Jeff
+
+EVAL NUM: 861 (wrong)
+
+CONTEXT:
+Bill moved to the garden.
+Mary travelled to the bathroom.
+Fred moved to the bedroom.
+Mary took the milk there.
+Mary passed the milk to Jeff.
+Jeff passed the milk to Mary.
+Mary moved to the office.
+Mary put down the milk.
+
+QUERY:
+Who received the milk?
+
+EXTRACTED PREDICTION:
+Mary gave the milk to Jeff. Then Jeff gave the milk back to Mary. So the answer is Jeff and Mary.
+
+PREDICTION:
+jeff and mary
+
+Answer:
+Mary
+
+EVAL NUM: 864 (wrong)
+
+CONTEXT:
+Bill moved to the garden.
+Mary travelled to the bathroom.
+Fred moved to the bedroom.
+Mary took the milk there.
+Mary passed the milk to Jeff.
+Jeff passed the milk to Mary.
+Mary moved to the office.
+Mary put down the milk.
+Mary went to the garden.
+Jeff went back to the kitchen.
+Fred moved to the hallway.
+Jeff moved to the bathroom.
+Mary journeyed to the office.
+Bill moved to the bedroom.
+Mary picked up the apple there.
+Fred journeyed to the bathroom.
+Mary travelled to the garden.
+Bill went to the office.
+Jeff travelled to the office.
+Bill moved to the kitchen.
+Jeff grabbed the milk there.
+Fred went to the bedroom.
+Mary discarded the apple.
+Mary took the apple there.
+Jeff went back to the garden.
+Jeff dropped the milk.
+Mary got the milk there.
+Jeff journeyed to the office.
+Mary moved to the office.
+Bill went to the bedroom.
+Bill took the football there.
+Mary handed the apple to Jeff.
+Jeff passed the apple to Mary.
+Bill discarded the football.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Jeff. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Jeff
+
+EVAL NUM: 869 (wrong)
+
+CONTEXT:
+Bill went to the kitchen.
+Jeff went back to the bedroom.
+Fred went back to the hallway.
+Fred journeyed to the garden.
+Bill travelled to the bedroom.
+Fred picked up the milk there.
+Fred went to the office.
+Jeff went back to the hallway.
+Jeff travelled to the kitchen.
+Bill went back to the kitchen.
+Fred journeyed to the hallway.
+Bill moved to the hallway.
+Jeff travelled to the bedroom.
+Jeff journeyed to the bathroom.
+Fred gave the milk to Mary.
+Mary handed the milk to Fred.
+Bill moved to the kitchen.
+Fred gave the milk to Mary.
+Mary passed the milk to Fred.
+Bill went back to the bathroom.
+Fred gave the milk to Mary.
+Jeff journeyed to the hallway.
+Mary gave the milk to Fred.
+Fred dropped the milk.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Fred picked up the milk. Then Fred gave the milk to Mary. Then Mary gave the milk to Fred. Then Fred gave the milk to Mary. Then Mary gave the milk to Fred. Then Fred dropped the milk. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Mary
+
+EVAL NUM: 879 (wrong)
+
+CONTEXT:
+Jeff travelled to the garden.
+Mary went to the garden.
+Mary journeyed to the kitchen.
+Fred picked up the milk there.
+Bill grabbed the football there.
+Mary travelled to the garden.
+Mary travelled to the kitchen.
+Jeff went to the bathroom.
+Bill handed the football to Mary.
+Jeff went to the garden.
+Mary gave the football to Bill.
+Bill passed the football to Mary.
+Mary gave the football to Bill.
+Fred went to the kitchen.
+Fred put down the milk.
+Jeff went to the bathroom.
+Jeff got the apple there.
+Bill got the milk there.
+Bill passed the football to Mary.
+Mary handed the football to Fred.
+
+QUERY:
+Who did Mary give the football to?
+
+EXTRACTED PREDICTION:
+Mary gave the football to Bill and Fred.
+
+PREDICTION:
+Mary gave the football to Bill and Fred.
+
+Answer:
+Fred
+
+EVAL NUM: 893 (wrong)
+
+CONTEXT:
+Jeff moved to the bedroom.
+Jeff journeyed to the office.
+Jeff went to the bedroom.
+Bill picked up the apple there.
+Mary moved to the hallway.
+Mary went to the bedroom.
+Bill journeyed to the office.
+Mary moved to the office.
+Bill handed the apple to Mary.
+Jeff went back to the kitchen.
+Jeff went to the bedroom.
+Mary passed the apple to Fred.
+Fred went back to the hallway.
+Bill journeyed to the bathroom.
+Fred grabbed the milk there.
+Bill grabbed the football there.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Bill picked up the apple. Then Bill gave the apple to Mary. So the answer is Bill.
+
+PREDICTION:
+bill
+
+Answer:
+Mary
+
+EVAL NUM: 895 (wrong)
+
+CONTEXT:
+Mary picked up the milk there.
+Mary put down the milk.
+Mary grabbed the apple there.
+Bill moved to the hallway.
+Fred went back to the bathroom.
+Jeff travelled to the hallway.
+Mary handed the apple to Fred.
+Fred handed the apple to Mary.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Fred. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Fred
+
+EVAL NUM: 904 (wrong)
+
+CONTEXT:
+Jeff went back to the bathroom.
+Jeff travelled to the hallway.
+Bill went back to the garden.
+Jeff grabbed the milk there.
+Jeff dropped the milk there.
+Fred journeyed to the kitchen.
+Jeff picked up the milk there.
+Jeff put down the milk there.
+Jeff moved to the bedroom.
+Fred went to the bathroom.
+Jeff went back to the bathroom.
+Mary moved to the garden.
+Fred went back to the kitchen.
+Fred moved to the bathroom.
+Jeff travelled to the hallway.
+Bill went to the hallway.
+Jeff went back to the bathroom.
+Jeff went back to the bedroom.
+Fred moved to the bedroom.
+Mary went to the kitchen.
+Bill grabbed the milk there.
+Mary moved to the bedroom.
+Mary journeyed to the bathroom.
+Bill put down the milk there.
+Bill went to the kitchen.
+Fred went back to the kitchen.
+Fred went to the garden.
+Mary journeyed to the bedroom.
+Jeff went back to the kitchen.
+Fred travelled to the bedroom.
+Jeff went to the garden.
+Bill journeyed to the bedroom.
+Fred went to the garden.
+Mary went to the bathroom.
+Fred moved to the office.
+Fred went back to the garden.
+Bill went to the kitchen.
+Jeff journeyed to the hallway.
+Fred went back to the bedroom.
+Jeff took the milk there.
+Jeff dropped the milk.
+Bill went to the garden.
+Jeff moved to the garden.
+Fred journeyed to the office.
+Mary journeyed to the garden.
+Fred got the football there.
+Jeff went to the bathroom.
+Fred got the apple there.
+Mary travelled to the bedroom.
+Jeff went to the bedroom.
+Bill went back to the hallway.
+Bill took the milk there.
+Bill dropped the milk.
+Jeff went to the office.
+Fred passed the apple to Jeff.
+Jeff left the apple there.
+Fred put down the football.
+Bill got the milk there.
+Bill went back to the garden.
+Jeff grabbed the apple there.
+Jeff passed the apple to Fred.
+Fred passed the apple to Jeff.
+Mary journeyed to the garden.
+Jeff got the football there.
+Jeff left the football.
+Jeff passed the apple to Fred.
+
+QUERY:
+Who received the apple?
+
+EXTRACTED PREDICTION:
+Jeff picked up the apple. Then Jeff gave the apple to Fred. Then Fred gave the apple to Jeff. So the answer is Jeff.
+
+PREDICTION:
+jeff
+
+Answer:
+Fred
+
+EVAL NUM: 913 (wrong)
+
+CONTEXT:
+Jeff journeyed to the office.
+Mary went back to the hallway.
+Fred travelled to the kitchen.
+Bill travelled to the hallway.
+Fred got the milk there.
+Bill travelled to the office.
+Bill moved to the kitchen.
+Fred journeyed to the office.
+Fred gave the milk to Jeff.
+Bill grabbed the football there.
+Fred travelled to the bathroom.
+Bill went to the office.
+Mary went back to the garden.
+Bill journeyed to the bedroom.
+Mary got the apple there.
+Bill left the football.
+Fred journeyed to the bedroom.
+Mary moved to the office.
+Mary discarded the apple.
+Jeff handed the milk to Mary.
+Mary discarded the milk there.
+Bill went back to the kitchen.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Fred travelled to the kitchen and got the milk. Then Fred gave the milk to Jeff. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Jeff
+
+EVAL NUM: 917 (wrong)
+
+CONTEXT:
+Fred travelled to the kitchen.
+Jeff journeyed to the hallway.
+Fred took the football there.
+Fred handed the football to Mary.
+Fred moved to the hallway.
+Jeff went back to the kitchen.
+Mary passed the football to Jeff.
+Mary journeyed to the bathroom.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Fred picked up the football. Then Fred gave the football to Mary. Then Mary gave the football to Jeff. So the answer is Fred and Mary.
+
+PREDICTION:
+fred and mary
+
+Answer:
+Mary
+
+EVAL NUM: 918 (wrong)
+
+CONTEXT:
+Fred travelled to the kitchen.
+Jeff journeyed to the hallway.
+Fred took the football there.
+Fred handed the football to Mary.
+Fred moved to the hallway.
+Jeff went back to the kitchen.
+Mary passed the football to Jeff.
+Mary journeyed to the bathroom.
+Mary moved to the garden.
+Jeff travelled to the garden.
+
+QUERY:
+Who gave the football?
+
+EXTRACTED PREDICTION:
+Fred picked up the football. Then Fred gave the football to Mary. Then Mary gave the football to Jeff. So the answer is Fred and Mary.
+
+PREDICTION:
+fred and mary
+
+Answer:
+Mary
+
+EVAL NUM: 928 (wrong)
+
+CONTEXT:
+Mary journeyed to the bathroom.
+Mary moved to the hallway.
+Mary went to the kitchen.
+Bill went back to the bedroom.
+Bill grabbed the apple there.
+Fred went back to the garden.
+Mary went to the garden.
+Fred took the milk there.
+Jeff moved to the hallway.
+Bill dropped the apple there.
+Fred handed the milk to Mary.
+Mary handed the milk to Fred.
+Fred went back to the bedroom.
+Fred passed the milk to Bill.
+Fred took the apple there.
+Fred gave the apple to Bill.
+Jeff went to the kitchen.
+Bill dropped the milk.
+
+QUERY:
+What did Fred give to Bill?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. So the answer is apple.
+
+PREDICTION:
+apple
+
+Answer:
+milk
+
+EVAL NUM: 933 (wrong)
+
+CONTEXT:
+Fred went back to the hallway.
+Bill journeyed to the bedroom.
+Jeff travelled to the bathroom.
+Fred got the football there.
+Fred journeyed to the bathroom.
+Mary got the apple there.
+Mary left the apple.
+Mary got the apple there.
+Fred dropped the football there.
+Bill went back to the office.
+Fred took the football there.
+Fred dropped the football.
+Fred grabbed the football there.
+Mary gave the apple to Fred.
+Fred went back to the bedroom.
+Fred went to the bathroom.
+Bill went back to the bedroom.
+Mary went back to the bedroom.
+Fred gave the apple to Jeff.
+Jeff handed the apple to Fred.
+
+QUERY:
+Who gave the apple to Fred?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Fred. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Jeff
+
+EVAL NUM: 934 (wrong)
+
+CONTEXT:
+Fred went back to the hallway.
+Bill journeyed to the bedroom.
+Jeff travelled to the bathroom.
+Fred got the football there.
+Fred journeyed to the bathroom.
+Mary got the apple there.
+Mary left the apple.
+Mary got the apple there.
+Fred dropped the football there.
+Bill went back to the office.
+Fred took the football there.
+Fred dropped the football.
+Fred grabbed the football there.
+Mary gave the apple to Fred.
+Fred went back to the bedroom.
+Fred went to the bathroom.
+Bill went back to the bedroom.
+Mary went back to the bedroom.
+Fred gave the apple to Jeff.
+Jeff handed the apple to Fred.
+Fred dropped the apple there.
+Fred took the apple there.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Fred. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Jeff
+
+EVAL NUM: 969 (wrong)
+
+CONTEXT:
+Mary journeyed to the bedroom.
+Jeff travelled to the hallway.
+Fred travelled to the hallway.
+Mary moved to the bathroom.
+Mary went to the hallway.
+Bill went back to the bedroom.
+Mary went back to the office.
+Bill went to the hallway.
+Mary took the apple there.
+Mary put down the apple there.
+Mary got the apple there.
+Mary went back to the garden.
+Bill moved to the kitchen.
+Bill picked up the football there.
+Mary went to the office.
+Mary journeyed to the garden.
+Mary travelled to the hallway.
+Mary gave the apple to Fred.
+Fred left the apple.
+Mary took the apple there.
+Bill dropped the football.
+Mary gave the apple to Fred.
+Bill travelled to the bathroom.
+Jeff moved to the bedroom.
+Fred handed the apple to Mary.
+Bill moved to the hallway.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Mary picked up the apple. Then Mary gave the apple to Fred. Then Fred gave the apple back to Mary. Then Mary gave the apple to Fred again. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Fred
+
+EVAL NUM: 971 (wrong)
+
+CONTEXT:
+Bill moved to the office.
+Jeff moved to the hallway.
+Mary went to the office.
+Mary went to the kitchen.
+Fred grabbed the football there.
+Mary journeyed to the office.
+Fred dropped the football.
+Mary took the milk there.
+Fred went back to the hallway.
+Mary handed the milk to Bill.
+Fred went back to the bathroom.
+Bill handed the milk to Mary.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Mary picked up the milk. Then Mary gave the milk to Bill. Then Bill gave the milk to Mary. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Bill
+
+EVAL NUM: 981 (wrong)
+
+CONTEXT:
+Bill went to the bedroom.
+Jeff went to the bedroom.
+Mary took the milk there.
+Mary moved to the garden.
+Mary dropped the milk.
+Fred went back to the hallway.
+Mary got the milk there.
+Mary left the milk.
+Mary picked up the milk there.
+Mary went back to the kitchen.
+Bill moved to the garden.
+Jeff moved to the kitchen.
+Fred travelled to the kitchen.
+Jeff went back to the garden.
+Mary handed the milk to Fred.
+Fred handed the milk to Mary.
+Jeff went to the office.
+Mary left the milk.
+
+QUERY:
+Who gave the milk?
+
+EXTRACTED PREDICTION:
+Mary picked up the milk. Then Mary gave the milk to Fred. Then Fred gave the milk back to Mary. So the answer is Mary.
+
+PREDICTION:
+mary
+
+Answer:
+Fred
+
+EVAL NUM: 992 (wrong)
+
+CONTEXT:
+Mary went to the kitchen.
+Bill went back to the hallway.
+Jeff moved to the hallway.
+Fred grabbed the milk there.
+Mary went to the garden.
+Bill travelled to the bathroom.
+Fred moved to the kitchen.
+Fred took the apple there.
+Jeff moved to the bedroom.
+Fred went back to the garden.
+Mary went back to the hallway.
+Bill went back to the garden.
+Fred handed the apple to Bill.
+Bill passed the apple to Fred.
+Bill went to the hallway.
+Fred left the milk there.
+Fred left the apple.
+Fred journeyed to the kitchen.
+
+QUERY:
+Who gave the apple?
+
+EXTRACTED PREDICTION:
+Fred picked up the apple. Then Fred gave the apple to Bill. Then Bill gave the apple back to Fred. So the answer is Fred.
+
+PREDICTION:
+fred
+
+Answer:
+Bill
+

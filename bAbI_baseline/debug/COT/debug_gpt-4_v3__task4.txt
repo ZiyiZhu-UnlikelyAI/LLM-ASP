@@ -1,0 +1,882 @@
+EVAL NUM: 0 (wrong)
+
+CONTEXT:
+The hallway is east of the bathroom.
+The bedroom is west of the bathroom.
+
+QUERY:
+What is the bathroom east of?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bathroom so the bathroom is west of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 20 (wrong)
+
+CONTEXT:
+The hallway is east of the office.
+The garden is west of the office.
+
+QUERY:
+What is the office east of?
+
+EXTRACTED PREDICTION:
+The hallway is east of the office so the office is west of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 21 (wrong)
+
+CONTEXT:
+The kitchen is south of the bathroom.
+The garden is north of the bathroom.
+
+QUERY:
+What is the bathroom south of?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the bathroom so the bathroom is north of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 34 (wrong)
+
+CONTEXT:
+The hallway is south of the kitchen.
+The bedroom is north of the kitchen.
+
+QUERY:
+What is the kitchen south of?
+
+EXTRACTED PREDICTION:
+The hallway is south of the kitchen so the kitchen is north of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 130 (wrong)
+
+CONTEXT:
+The hallway is east of the bedroom.
+The garden is west of the bedroom.
+
+QUERY:
+What is the bedroom east of?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bedroom so the bedroom is west of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 151 (wrong)
+
+CONTEXT:
+The hallway is east of the bathroom.
+The garden is west of the bathroom.
+
+QUERY:
+What is the bathroom east of?
+
+EXTRACTED PREDICTION:
+The hallway is east of the bathroom so the bathroom is west of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 170 (wrong)
+
+CONTEXT:
+The office is north of the bedroom.
+The hallway is south of the bedroom.
+
+QUERY:
+What is the bedroom north of?
+
+EXTRACTED PREDICTION:
+The office is north of the bedroom so the bedroom is north of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 177 (wrong)
+
+CONTEXT:
+The kitchen is south of the office.
+The hallway is north of the office.
+
+QUERY:
+What is the office south of?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the office so the office is south of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 179 (wrong)
+
+CONTEXT:
+The office is south of the garden.
+The bathroom is north of the garden.
+
+QUERY:
+What is the garden south of?
+
+EXTRACTED PREDICTION:
+The office is south of the garden so the garden is north of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 192 (wrong)
+
+CONTEXT:
+The hallway is south of the office.
+The bedroom is north of the office.
+
+QUERY:
+What is the office south of?
+
+EXTRACTED PREDICTION:
+The hallway is south of the office so the office is north of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 203 (wrong)
+
+CONTEXT:
+The kitchen is east of the bedroom.
+The kitchen is west of the hallway.
+
+QUERY:
+What is west of the hallway?
+
+EXTRACTED PREDICTION:
+There is no information given about what is west of the hallway.
+
+PREDICTION:
+There is no information given about what is west of the hallway.
+
+Answer:
+kitchen
+
+EVAL NUM: 221 (wrong)
+
+CONTEXT:
+The kitchen is west of the bedroom.
+The bedroom is west of the hallway.
+
+QUERY:
+What is west of the bedroom?
+
+EXTRACTED PREDICTION:
+The hallway is west of the bedroom. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+kitchen
+
+EVAL NUM: 225 (wrong)
+
+CONTEXT:
+The kitchen is east of the garden.
+The hallway is west of the garden.
+
+QUERY:
+What is the garden east of?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden so the garden is west of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 228 (wrong)
+
+CONTEXT:
+The kitchen is north of the garden.
+The hallway is south of the garden.
+
+QUERY:
+What is the garden north of?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the garden so the garden is north of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 232 (wrong)
+
+CONTEXT:
+The office is east of the bathroom.
+The hallway is west of the bathroom.
+
+QUERY:
+What is the bathroom east of?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom so the bathroom is west of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 274 (wrong)
+
+CONTEXT:
+The kitchen is east of the bathroom.
+The office is west of the bathroom.
+
+QUERY:
+What is the bathroom east of?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the bathroom so the bathroom is west of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+office
+
+EVAL NUM: 275 (wrong)
+
+CONTEXT:
+The bathroom is south of the garden.
+The bedroom is north of the garden.
+
+QUERY:
+What is the garden south of?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the garden so the garden is north of the bathroom. So the answer is bathroom.
+
+PREDICTION:
+bathroom
+
+Answer:
+bedroom
+
+EVAL NUM: 299 (wrong)
+
+CONTEXT:
+The office is east of the bathroom.
+The kitchen is west of the bathroom.
+
+QUERY:
+What is the bathroom east of?
+
+EXTRACTED PREDICTION:
+The office is east of the bathroom so the bathroom is west of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 359 (wrong)
+
+CONTEXT:
+The kitchen is north of the office.
+The bedroom is south of the office.
+
+QUERY:
+What is the office north of?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the office so the office is south of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 379 (wrong)
+
+CONTEXT:
+The garden is south of the bedroom.
+The office is north of the bedroom.
+
+QUERY:
+What is the bedroom south of?
+
+EXTRACTED PREDICTION:
+The garden is south of the bedroom so the bedroom is north of the garden. So the answer is garden.
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 394 (wrong)
+
+CONTEXT:
+The bathroom is east of the office.
+The bedroom is west of the office.
+
+QUERY:
+What is the office east of?
+
+EXTRACTED PREDICTION:
+The bathroom is east of the office so the office is west of the bathroom. So the answer is bathroom.
+
+PREDICTION:
+bathroom
+
+Answer:
+bedroom
+
+EVAL NUM: 408 (wrong)
+
+CONTEXT:
+The kitchen is east of the office.
+The bedroom is west of the office.
+
+QUERY:
+What is the office east of?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the office so the office is west of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 469 (wrong)
+
+CONTEXT:
+The kitchen is north of the bathroom.
+The hallway is south of the bathroom.
+
+QUERY:
+What is the bathroom north of?
+
+EXTRACTED PREDICTION:
+The kitchen is north of the bathroom so the bathroom is north of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 489 (wrong)
+
+CONTEXT:
+The bathroom is south of the bedroom.
+The hallway is north of the bedroom.
+
+QUERY:
+What is the bedroom south of?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the bedroom so the bedroom is north of the bathroom. So the answer is bathroom.
+
+PREDICTION:
+bathroom
+
+Answer:
+hallway
+
+EVAL NUM: 503 (wrong)
+
+CONTEXT:
+The hallway is west of the bathroom.
+The bathroom is west of the bedroom.
+
+QUERY:
+What is the bathroom east of?
+
+EXTRACTED PREDICTION:
+The bathroom is west of the bedroom, so the bathroom is east of the bedroom. So the answer is bedroom.
+
+PREDICTION:
+bedroom
+
+Answer:
+hallway
+
+EVAL NUM: 511 (wrong)
+
+CONTEXT:
+The hallway is west of the office.
+The office is west of the garden.
+
+QUERY:
+What is the office east of?
+
+EXTRACTED PREDICTION:
+The office is west of the garden so the office is east of the garden. So the answer is garden.
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 512 (wrong)
+
+CONTEXT:
+The bedroom is north of the garden.
+The hallway is south of the garden.
+
+QUERY:
+What is the garden north of?
+
+EXTRACTED PREDICTION:
+The bedroom is north of the garden so the garden is south of the bedroom. So the answer is bedroom.
+
+PREDICTION:
+bedroom
+
+Answer:
+hallway
+
+EVAL NUM: 522 (wrong)
+
+CONTEXT:
+The hallway is south of the bedroom.
+The kitchen is north of the bedroom.
+
+QUERY:
+What is the bedroom south of?
+
+EXTRACTED PREDICTION:
+The hallway is south of the bedroom so the bedroom is north of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+kitchen
+
+EVAL NUM: 537 (wrong)
+
+CONTEXT:
+The hallway is south of the garden.
+The bedroom is north of the garden.
+
+QUERY:
+What is the garden south of?
+
+EXTRACTED PREDICTION:
+The hallway is south of the garden so the garden is north of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 546 (wrong)
+
+CONTEXT:
+The office is east of the bedroom.
+The hallway is west of the bedroom.
+
+QUERY:
+What is the bedroom east of?
+
+EXTRACTED PREDICTION:
+The office is east of the bedroom so the bedroom is west of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 578 (wrong)
+
+CONTEXT:
+The office is south of the kitchen.
+The garden is north of the kitchen.
+
+QUERY:
+What is the kitchen south of?
+
+EXTRACTED PREDICTION:
+The office is south of the kitchen so the kitchen is north of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 620 (wrong)
+
+CONTEXT:
+The kitchen is east of the garden.
+The bedroom is west of the garden.
+
+QUERY:
+What is the garden east of?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden so the garden is west of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 630 (wrong)
+
+CONTEXT:
+The bathroom is west of the bedroom.
+The bathroom is east of the kitchen.
+
+QUERY:
+What is east of the kitchen?
+
+EXTRACTED PREDICTION:
+There is no information given about what is east of the kitchen.
+
+PREDICTION:
+There is no information given about what is east of the kitchen.
+
+Answer:
+bathroom
+
+EVAL NUM: 638 (wrong)
+
+CONTEXT:
+The kitchen is west of the office.
+The office is west of the bedroom.
+
+QUERY:
+What is the office east of?
+
+EXTRACTED PREDICTION:
+The office is west of the bedroom so the office is east of the bedroom. So the answer is bedroom.
+
+PREDICTION:
+bedroom
+
+Answer:
+kitchen
+
+EVAL NUM: 640 (wrong)
+
+CONTEXT:
+The kitchen is east of the garden.
+The bedroom is west of the garden.
+
+QUERY:
+What is the garden east of?
+
+EXTRACTED PREDICTION:
+The kitchen is east of the garden so the garden is west of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 707 (wrong)
+
+CONTEXT:
+The garden is south of the office.
+The hallway is north of the office.
+
+QUERY:
+What is the office south of?
+
+EXTRACTED PREDICTION:
+The garden is south of the office so the office is north of the garden. So the answer is garden.
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 782 (wrong)
+
+CONTEXT:
+The garden is west of the bathroom.
+The hallway is east of the bathroom.
+
+QUERY:
+What is the bathroom west of?
+
+EXTRACTED PREDICTION:
+The garden is west of the bathroom so the bathroom is east of the garden. So the answer is garden.
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 785 (wrong)
+
+CONTEXT:
+The office is north of the garden.
+The hallway is south of the garden.
+
+QUERY:
+What is the garden north of?
+
+EXTRACTED PREDICTION:
+The office is north of the garden so the garden is north of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 788 (wrong)
+
+CONTEXT:
+The office is north of the bedroom.
+The kitchen is south of the bedroom.
+
+QUERY:
+What is the bedroom north of?
+
+EXTRACTED PREDICTION:
+The office is north of the bedroom so the bedroom is north of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 833 (wrong)
+
+CONTEXT:
+The hallway is south of the garden.
+The office is north of the garden.
+
+QUERY:
+What is the garden south of?
+
+EXTRACTED PREDICTION:
+The hallway is south of the garden so the garden is north of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+office
+
+EVAL NUM: 834 (wrong)
+
+CONTEXT:
+The hallway is east of the garden.
+The kitchen is west of the garden.
+
+QUERY:
+What is the garden east of?
+
+EXTRACTED PREDICTION:
+The hallway is east of the garden so the garden is west of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+kitchen
+
+EVAL NUM: 842 (wrong)
+
+CONTEXT:
+The kitchen is south of the office.
+The bedroom is north of the office.
+
+QUERY:
+What is the office south of?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the office so the office is south of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 848 (wrong)
+
+CONTEXT:
+The office is north of the bathroom.
+The bedroom is south of the bathroom.
+
+QUERY:
+What is the bathroom north of?
+
+EXTRACTED PREDICTION:
+The office is north of the bathroom so the bathroom is north of the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+bedroom
+
+EVAL NUM: 872 (wrong)
+
+CONTEXT:
+The kitchen is south of the hallway.
+The garden is north of the hallway.
+
+QUERY:
+What is the hallway south of?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the hallway so the hallway is north of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 895 (wrong)
+
+CONTEXT:
+The bathroom is west of the office.
+The office is west of the hallway.
+
+QUERY:
+What is the office east of?
+
+EXTRACTED PREDICTION:
+The office is west of the hallway so the office is east of the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 903 (wrong)
+
+CONTEXT:
+The kitchen is south of the bedroom.
+The garden is north of the bedroom.
+
+QUERY:
+What is the bedroom south of?
+
+EXTRACTED PREDICTION:
+The kitchen is south of the bedroom so the bedroom is north of the kitchen. So the answer is kitchen.
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 912 (wrong)
+
+CONTEXT:
+The kitchen is east of the garden.
+The kitchen is west of the office.
+
+QUERY:
+What is west of the office?
+
+EXTRACTED PREDICTION:
+There is no information given about what is west of the office.
+
+PREDICTION:
+There is no information given about what is west of the office.
+
+Answer:
+kitchen
+
+EVAL NUM: 925 (wrong)
+
+CONTEXT:
+The bathroom is south of the kitchen.
+The garden is north of the kitchen.
+
+QUERY:
+What is the kitchen south of?
+
+EXTRACTED PREDICTION:
+The bathroom is south of the kitchen so the kitchen is north of the bathroom. So the answer is bathroom.
+
+PREDICTION:
+bathroom
+
+Answer:
+garden
+
+EVAL NUM: 971 (wrong)
+
+CONTEXT:
+The garden is west of the hallway.
+The hallway is west of the bathroom.
+
+QUERY:
+What is the hallway east of?
+
+EXTRACTED PREDICTION:
+The hallway is west of the bathroom so the bathroom is east of the hallway. So the answer is bathroom.
+
+PREDICTION:
+bathroom
+
+Answer:
+garden
+

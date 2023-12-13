@@ -117,19 +117,6 @@ for task_idx in task_nums:
                 pred = str(str_to_int[pred])
             if pred.lower() == answer.lower():
                 correct += 1
-                debug.append(
-                    [
-                        eval_num,
-                        context,
-                        query,
-                        None,
-                        None,
-                        pred_full,
-                        pred,
-                        answer,
-                        "(correct)",
-                    ]
-                )
             else:
                 wrong_indices.append(eval_num)
                 debug.append(
@@ -152,7 +139,7 @@ for task_idx in task_nums:
 
             pbar.set_description(f"acc: {100*correct / total}")
 
-        # write_debug_COT(debug, correct, total, task_idx, 'COT', f'{gpt_model}_v{prompt_version}_')
+        write_debug_COT(debug, correct, total, task_idx, 'COT', f'{gpt_model}_v{prompt_version}_')
 
     finally:
         # Save GPT-3 responses

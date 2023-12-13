@@ -1,0 +1,94 @@
+EVAL NUM: 32 (wrong)
+
+CONTEXT:
+Sandra went back to the bathroom.
+John is not in the office.
+Sandra is not in the bathroom.
+Daniel went back to the kitchen.
+Sandra is no longer in the hallway.
+John is in the bedroom.
+
+QUERY:
+Is Sandra in the hallway?
+
+EXTRACTED PREDICTION:
+Sandra went to the bathroom. Then Sandra left the bathroom. Then Sandra left the hallway. The final location of Sandra is not stated. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 163 (wrong)
+
+CONTEXT:
+Mary is in the garden.
+Sandra travelled to the garden.
+Mary moved to the bathroom.
+Daniel is in the bathroom.
+John went to the bathroom.
+John went to the garden.
+Mary journeyed to the garden.
+Mary went to the hallway.
+
+QUERY:
+Is Daniel in the office?
+
+EXTRACTED PREDICTION:
+The story does not provide information on Daniel being in the office. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 192 (wrong)
+
+CONTEXT:
+Mary moved to the kitchen.
+Sandra is in the bathroom.
+Mary is in the office.
+Daniel is in the hallway.
+John journeyed to the bathroom.
+John is no longer in the bathroom.
+
+QUERY:
+Is Sandra in the bedroom?
+
+EXTRACTED PREDICTION:
+The story does not provide information on Sandra being in the bedroom. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 954 (wrong)
+
+CONTEXT:
+John is in the hallway.
+John travelled to the bathroom.
+John is in the office.
+Sandra is in the office.
+Daniel travelled to the bathroom.
+Sandra is not in the office.
+Sandra is no longer in the garden.
+Daniel journeyed to the bedroom.
+Daniel journeyed to the hallway.
+John is in the kitchen.
+
+QUERY:
+Is Sandra in the garden?
+
+EXTRACTED PREDICTION:
+Sandra went to the office. Then Sandra left the office. Then Sandra left the garden. The final location of Sandra is not stated. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+

@@ -1,0 +1,814 @@
+EVAL NUM: 3 (wrong)
+
+CONTEXT:
+Mary got the milk there.
+John moved to the bedroom.
+John picked up the football there.
+John journeyed to the bathroom.
+John went to the garden.
+Daniel went back to the hallway.
+John went back to the bathroom.
+Mary went to the office.
+Sandra went back to the kitchen.
+Mary travelled to the hallway.
+John travelled to the bedroom.
+John picked up the apple there.
+
+QUERY:
+What is John carrying?
+
+EXTRACTED PREDICTION:
+John picked up the football. Then John picked up the apple. John is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 4 (wrong)
+
+CONTEXT:
+Mary got the milk there.
+John moved to the bedroom.
+John picked up the football there.
+John journeyed to the bathroom.
+John went to the garden.
+Daniel went back to the hallway.
+John went back to the bathroom.
+Mary went to the office.
+Sandra went back to the kitchen.
+Mary travelled to the hallway.
+John travelled to the bedroom.
+John picked up the apple there.
+Sandra travelled to the bedroom.
+Sandra journeyed to the kitchen.
+
+QUERY:
+What is John carrying?
+
+EXTRACTED PREDICTION:
+John picked up the football. Then John picked up the apple. John is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 27 (wrong)
+
+CONTEXT:
+Sandra travelled to the bathroom.
+Daniel picked up the apple there.
+Sandra picked up the football there.
+Mary travelled to the hallway.
+Sandra dropped the football.
+Sandra moved to the bedroom.
+
+QUERY:
+What is Sandra carrying?
+
+EXTRACTED PREDICTION:
+Sandra picked up the apple. Then Sandra dropped the football. Sandra is carrying the apple. So the answer is apple.
+
+PREDICTION:
+apple
+
+Answer:
+nothing
+
+EVAL NUM: 78 (wrong)
+
+CONTEXT:
+John journeyed to the bedroom.
+Sandra went back to the office.
+John got the apple there.
+Daniel moved to the bathroom.
+John discarded the apple.
+Mary went to the office.
+Mary travelled to the hallway.
+John grabbed the apple there.
+John took the football there.
+John journeyed to the office.
+
+QUERY:
+What is John carrying?
+
+EXTRACTED PREDICTION:
+John got the apple, then discarded it. Then John got another apple and also got the football. John is carrying an apple and a football. So the answer is apple, football.
+
+PREDICTION:
+apple, football
+
+Answer:
+apple,football
+
+EVAL NUM: 271 (wrong)
+
+CONTEXT:
+John went to the hallway.
+Daniel travelled to the hallway.
+Mary went to the bathroom.
+Daniel got the football there.
+Mary journeyed to the office.
+Daniel grabbed the apple there.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel got the apple. Daniel is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 272 (wrong)
+
+CONTEXT:
+John went to the hallway.
+Daniel travelled to the hallway.
+Mary went to the bathroom.
+Daniel got the football there.
+Mary journeyed to the office.
+Daniel grabbed the apple there.
+Mary journeyed to the kitchen.
+Daniel went to the bedroom.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel got the apple. Daniel is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 273 (wrong)
+
+CONTEXT:
+John went to the hallway.
+Daniel travelled to the hallway.
+Mary went to the bathroom.
+Daniel got the football there.
+Mary journeyed to the office.
+Daniel grabbed the apple there.
+Mary journeyed to the kitchen.
+Daniel went to the bedroom.
+Daniel dropped the football there.
+Daniel grabbed the football there.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel got the apple. Then Daniel dropped the football and picked it up again. Daniel is carrying the apple and football. So the answer is apple,football.
+
+PREDICTION:
+apple,football
+
+Answer:
+football,apple
+
+EVAL NUM: 274 (wrong)
+
+CONTEXT:
+John went to the hallway.
+Daniel travelled to the hallway.
+Mary went to the bathroom.
+Daniel got the football there.
+Mary journeyed to the office.
+Daniel grabbed the apple there.
+Mary journeyed to the kitchen.
+Daniel went to the bedroom.
+Daniel dropped the football there.
+Daniel grabbed the football there.
+Sandra went back to the kitchen.
+Mary went to the bathroom.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel got the apple. Then Daniel dropped the football and picked it up again. Daniel is carrying the apple and football. So the answer is apple,football.
+
+PREDICTION:
+apple,football
+
+Answer:
+football,apple
+
+EVAL NUM: 394 (wrong)
+
+CONTEXT:
+Sandra journeyed to the bathroom.
+Mary moved to the bathroom.
+Sandra picked up the apple there.
+John travelled to the kitchen.
+Sandra travelled to the office.
+Mary travelled to the hallway.
+Sandra grabbed the milk there.
+Sandra dropped the milk.
+Sandra picked up the milk there.
+John travelled to the garden.
+John went back to the bathroom.
+Daniel went to the bathroom.
+
+QUERY:
+What is Sandra carrying?
+
+EXTRACTED PREDICTION:
+Sandra picked up the apple. Then Sandra picked up the milk and dropped it. Then Sandra picked up the milk again. Sandra is carrying the apple and milk. So the answer is apple, milk.
+
+PREDICTION:
+apple, milk
+
+Answer:
+apple,milk
+
+EVAL NUM: 436 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+John went to the kitchen.
+John moved to the office.
+Daniel went back to the hallway.
+Sandra went to the bedroom.
+John journeyed to the bedroom.
+Daniel went to the garden.
+Mary moved to the bathroom.
+Daniel got the football there.
+Daniel went to the kitchen.
+Daniel grabbed the apple there.
+Sandra went to the garden.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel got the apple. Daniel is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 547 (wrong)
+
+CONTEXT:
+Mary grabbed the football there.
+Sandra went back to the garden.
+John went back to the bedroom.
+John journeyed to the bathroom.
+Mary took the apple there.
+Sandra went back to the bathroom.
+
+QUERY:
+What is Mary carrying?
+
+EXTRACTED PREDICTION:
+Mary grabbed the football. Then Mary took the apple. Mary is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 548 (wrong)
+
+CONTEXT:
+Mary grabbed the football there.
+Sandra went back to the garden.
+John went back to the bedroom.
+John journeyed to the bathroom.
+Mary took the apple there.
+Sandra went back to the bathroom.
+Mary went back to the hallway.
+Daniel travelled to the office.
+
+QUERY:
+What is Mary carrying?
+
+EXTRACTED PREDICTION:
+Mary grabbed the football. Then Mary took the apple. Mary is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 569 (wrong)
+
+CONTEXT:
+John went back to the office.
+John took the apple there.
+John journeyed to the garden.
+John moved to the bedroom.
+John picked up the football there.
+Sandra travelled to the office.
+Daniel travelled to the hallway.
+John travelled to the garden.
+John got the milk there.
+Sandra moved to the garden.
+
+QUERY:
+What is John carrying?
+
+EXTRACTED PREDICTION:
+John got the apple. Then John got the football. Then John got the milk. John is carrying the apple, football, and milk. So the answer is apple, football, milk.
+
+PREDICTION:
+apple, football, milk
+
+Answer:
+apple,football,milk
+
+EVAL NUM: 673 (wrong)
+
+CONTEXT:
+Daniel journeyed to the hallway.
+Daniel got the football there.
+Mary travelled to the kitchen.
+John travelled to the bathroom.
+Mary went back to the bathroom.
+Daniel went back to the office.
+Daniel grabbed the apple there.
+Daniel travelled to the hallway.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel got the apple. Daniel is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 674 (wrong)
+
+CONTEXT:
+Daniel journeyed to the hallway.
+Daniel got the football there.
+Mary travelled to the kitchen.
+John travelled to the bathroom.
+Mary went back to the bathroom.
+Daniel went back to the office.
+Daniel grabbed the apple there.
+Daniel travelled to the hallway.
+Daniel went back to the bedroom.
+John went back to the bedroom.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel got the apple. Daniel is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 726 (wrong)
+
+CONTEXT:
+Daniel travelled to the bathroom.
+Sandra journeyed to the kitchen.
+Sandra went to the office.
+Daniel moved to the kitchen.
+Sandra grabbed the milk there.
+Sandra dropped the milk.
+Sandra grabbed the milk there.
+Sandra took the apple there.
+
+QUERY:
+What is Sandra carrying?
+
+EXTRACTED PREDICTION:
+Sandra grabbed the milk, dropped it, then grabbed it again. Then Sandra took the apple. Sandra is carrying the milk and apple. So the answer is milk, apple.
+
+PREDICTION:
+milk, apple
+
+Answer:
+milk,apple
+
+EVAL NUM: 772 (wrong)
+
+CONTEXT:
+John grabbed the football there.
+Mary went to the kitchen.
+Sandra travelled to the hallway.
+Daniel journeyed to the office.
+Sandra went back to the bathroom.
+John went back to the kitchen.
+Sandra moved to the garden.
+John picked up the apple there.
+
+QUERY:
+What is John carrying?
+
+EXTRACTED PREDICTION:
+John grabbed the football. Then John picked up the apple. John is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 773 (wrong)
+
+CONTEXT:
+John grabbed the football there.
+Mary went to the kitchen.
+Sandra travelled to the hallway.
+Daniel journeyed to the office.
+Sandra went back to the bathroom.
+John went back to the kitchen.
+Sandra moved to the garden.
+John picked up the apple there.
+Mary travelled to the hallway.
+Daniel moved to the bedroom.
+
+QUERY:
+What is John carrying?
+
+EXTRACTED PREDICTION:
+John got the football. Then John picked up the apple. John is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 774 (wrong)
+
+CONTEXT:
+John grabbed the football there.
+Mary went to the kitchen.
+Sandra travelled to the hallway.
+Daniel journeyed to the office.
+Sandra went back to the bathroom.
+John went back to the kitchen.
+Sandra moved to the garden.
+John picked up the apple there.
+Mary travelled to the hallway.
+Daniel moved to the bedroom.
+Mary journeyed to the garden.
+John moved to the hallway.
+
+QUERY:
+What is John carrying?
+
+EXTRACTED PREDICTION:
+John grabbed the football. Then John picked up the apple. John is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 861 (wrong)
+
+CONTEXT:
+Mary moved to the hallway.
+Mary went back to the kitchen.
+Daniel travelled to the bathroom.
+John went to the bedroom.
+Mary moved to the garden.
+Sandra moved to the bedroom.
+Daniel journeyed to the bedroom.
+John moved to the bathroom.
+John travelled to the office.
+Daniel moved to the garden.
+Sandra travelled to the office.
+Mary grabbed the milk there.
+Mary took the apple there.
+Daniel journeyed to the office.
+
+QUERY:
+What is Mary carrying?
+
+EXTRACTED PREDICTION:
+Mary grabbed the milk. Then Mary took the apple. Mary is carrying the milk and apple. So the answer is milk, apple.
+
+PREDICTION:
+milk, apple
+
+Answer:
+milk,apple
+
+EVAL NUM: 862 (wrong)
+
+CONTEXT:
+Mary moved to the hallway.
+Mary went back to the kitchen.
+Daniel travelled to the bathroom.
+John went to the bedroom.
+Mary moved to the garden.
+Sandra moved to the bedroom.
+Daniel journeyed to the bedroom.
+John moved to the bathroom.
+John travelled to the office.
+Daniel moved to the garden.
+Sandra travelled to the office.
+Mary grabbed the milk there.
+Mary took the apple there.
+Daniel journeyed to the office.
+Daniel journeyed to the hallway.
+Sandra moved to the hallway.
+
+QUERY:
+What is Mary carrying?
+
+EXTRACTED PREDICTION:
+Mary grabbed the milk. Then Mary took the apple. Mary is carrying the milk and apple. So the answer is milk, apple.
+
+PREDICTION:
+milk, apple
+
+Answer:
+milk,apple
+
+EVAL NUM: 916 (wrong)
+
+CONTEXT:
+Daniel got the milk there.
+Sandra picked up the football there.
+Daniel took the apple there.
+Daniel moved to the kitchen.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the milk. Then Daniel got the apple. Daniel is carrying the milk and apple. So the answer is milk, apple.
+
+PREDICTION:
+milk, apple
+
+Answer:
+milk,apple
+
+EVAL NUM: 918 (wrong)
+
+CONTEXT:
+Daniel got the milk there.
+Sandra picked up the football there.
+Daniel took the apple there.
+Daniel moved to the kitchen.
+Mary journeyed to the bedroom.
+John went back to the bathroom.
+Sandra moved to the hallway.
+John went to the hallway.
+Daniel discarded the milk there.
+Daniel got the milk there.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the milk, then the apple. Then Daniel discarded the milk and got the milk again. Daniel is carrying the apple and milk. So the answer is apple,milk.
+
+PREDICTION:
+apple,milk
+
+Answer:
+milk,apple
+
+EVAL NUM: 922 (wrong)
+
+CONTEXT:
+Daniel grabbed the football there.
+John journeyed to the hallway.
+Mary went back to the garden.
+Mary went back to the hallway.
+John journeyed to the kitchen.
+Daniel grabbed the apple there.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel grabbed the football. Then Daniel grabbed the apple. Daniel is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 923 (wrong)
+
+CONTEXT:
+Daniel grabbed the football there.
+John journeyed to the hallway.
+Mary went back to the garden.
+Mary went back to the hallway.
+John journeyed to the kitchen.
+Daniel grabbed the apple there.
+Sandra moved to the office.
+Mary went to the bedroom.
+
+QUERY:
+What is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel grabbed the football. Then Daniel grabbed the apple. Daniel is carrying the football and apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 958 (wrong)
+
+CONTEXT:
+Daniel moved to the kitchen.
+Daniel travelled to the bedroom.
+Daniel went to the office.
+Mary journeyed to the bathroom.
+Daniel travelled to the kitchen.
+John went back to the kitchen.
+Daniel went back to the office.
+John went to the bedroom.
+Sandra travelled to the garden.
+Sandra went back to the office.
+Sandra got the milk there.
+Daniel picked up the football there.
+John travelled to the office.
+Daniel journeyed to the hallway.
+Mary travelled to the office.
+Sandra travelled to the garden.
+Sandra picked up the apple there.
+Daniel went back to the kitchen.
+
+QUERY:
+What is Sandra carrying?
+
+EXTRACTED PREDICTION:
+Sandra got the milk. Then Sandra picked up the apple. Sandra is carrying the milk and apple. So the answer is milk, apple.
+
+PREDICTION:
+milk, apple
+
+Answer:
+milk,apple
+
+EVAL NUM: 959 (wrong)
+
+CONTEXT:
+Daniel moved to the kitchen.
+Daniel travelled to the bedroom.
+Daniel went to the office.
+Mary journeyed to the bathroom.
+Daniel travelled to the kitchen.
+John went back to the kitchen.
+Daniel went back to the office.
+John went to the bedroom.
+Sandra travelled to the garden.
+Sandra went back to the office.
+Sandra got the milk there.
+Daniel picked up the football there.
+John travelled to the office.
+Daniel journeyed to the hallway.
+Mary travelled to the office.
+Sandra travelled to the garden.
+Sandra picked up the apple there.
+Daniel went back to the kitchen.
+Sandra put down the milk.
+Sandra took the milk there.
+
+QUERY:
+What is Sandra carrying?
+
+EXTRACTED PREDICTION:
+Sandra got the milk. Then Sandra got the apple. Then Sandra dropped the milk. Then Sandra got the milk again. Sandra is carrying the apple and milk. So the answer is apple,milk.
+
+PREDICTION:
+apple,milk
+
+Answer:
+milk,apple
+
+EVAL NUM: 976 (wrong)
+
+CONTEXT:
+Sandra moved to the office.
+Sandra got the milk there.
+John went back to the kitchen.
+Sandra grabbed the apple there.
+
+QUERY:
+What is Sandra carrying?
+
+EXTRACTED PREDICTION:
+Sandra got the milk. Then Sandra got the apple. Sandra is carrying the milk and apple. So the answer is milk, apple.
+
+PREDICTION:
+milk, apple
+
+Answer:
+milk,apple
+
+EVAL NUM: 992 (wrong)
+
+CONTEXT:
+Mary grabbed the football there.
+Daniel moved to the bedroom.
+Daniel went back to the garden.
+John went back to the bedroom.
+Mary went to the bedroom.
+Mary travelled to the garden.
+John went to the kitchen.
+Sandra journeyed to the office.
+Mary picked up the apple there.
+Mary picked up the milk there.
+
+QUERY:
+What is Mary carrying?
+
+EXTRACTED PREDICTION:
+Mary grabbed the football. Then Mary picked up the apple. Then Mary picked up the milk. Mary is carrying the football, apple, and milk. So the answer is football, apple, milk.
+
+PREDICTION:
+football, apple, milk
+
+Answer:
+football,apple,milk
+
+EVAL NUM: 993 (wrong)
+
+CONTEXT:
+Mary grabbed the football there.
+Daniel moved to the bedroom.
+Daniel went back to the garden.
+John went back to the bedroom.
+Mary went to the bedroom.
+Mary travelled to the garden.
+John went to the kitchen.
+Sandra journeyed to the office.
+Mary picked up the apple there.
+Mary picked up the milk there.
+Sandra journeyed to the garden.
+Mary left the milk.
+
+QUERY:
+What is Mary carrying?
+
+EXTRACTED PREDICTION:
+Mary grabbed the football. Then Mary picked up the apple. Then Mary picked up the milk. But Mary left the milk. So Mary is carrying the football and the apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+
+EVAL NUM: 994 (wrong)
+
+CONTEXT:
+Mary grabbed the football there.
+Daniel moved to the bedroom.
+Daniel went back to the garden.
+John went back to the bedroom.
+Mary went to the bedroom.
+Mary travelled to the garden.
+John went to the kitchen.
+Sandra journeyed to the office.
+Mary picked up the apple there.
+Mary picked up the milk there.
+Sandra journeyed to the garden.
+Mary left the milk.
+Sandra got the milk there.
+Mary went to the bedroom.
+
+QUERY:
+What is Mary carrying?
+
+EXTRACTED PREDICTION:
+Mary grabbed the football. Then Mary picked up the apple. Then Mary picked up the milk. But Mary left the milk. So Mary is carrying the football and the apple. So the answer is football, apple.
+
+PREDICTION:
+football, apple
+
+Answer:
+football,apple
+

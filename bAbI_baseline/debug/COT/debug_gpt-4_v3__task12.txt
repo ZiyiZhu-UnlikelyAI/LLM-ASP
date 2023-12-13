@@ -1,0 +1,228 @@
+EVAL NUM: 174 (wrong)
+
+CONTEXT:
+Daniel and Sandra moved to the bathroom.
+Daniel and John travelled to the garden.
+John and Daniel went back to the bedroom.
+Sandra and Daniel went back to the kitchen.
+Daniel and John travelled to the hallway.
+Sandra and Mary travelled to the hallway.
+John and Mary went to the bathroom.
+Mary and Sandra travelled to the bedroom.
+Sandra and John went to the office.
+John and Daniel moved to the bathroom.
+
+QUERY:
+Where is Sandra?
+
+EXTRACTED PREDICTION:
+Sandra went to the bathroom. Then Sandra went to the kitchen. Then Sandra went to the hallway. Then Sandra went to the bedroom. The final location of Sandra is the bedroom. So the answer is bedroom.
+
+PREDICTION:
+bedroom
+
+Answer:
+office
+
+EVAL NUM: 424 (wrong)
+
+CONTEXT:
+Daniel and Mary moved to the bedroom.
+John and Sandra went to the hallway.
+John and Mary moved to the kitchen.
+John and Sandra travelled to the garden.
+Daniel and John moved to the hallway.
+John and Daniel travelled to the garden.
+Mary and Daniel went to the office.
+John and Daniel moved to the hallway.
+John and Mary moved to the garden.
+John and Sandra went back to the bathroom.
+
+QUERY:
+Where is Daniel?
+
+EXTRACTED PREDICTION:
+Daniel went to the bedroom. Then Daniel went to the kitchen. Then Daniel went to the hallway. Then Daniel went to the garden. Then Daniel went to the office. Then Daniel went to the hallway. Then Daniel went to the garden. The final location of Daniel is the garden. So the answer is garden.
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 498 (wrong)
+
+CONTEXT:
+Daniel and Mary journeyed to the bedroom.
+Mary and Sandra moved to the bathroom.
+Sandra and John journeyed to the hallway.
+Mary and Sandra went back to the bedroom.
+Sandra and Mary went to the office.
+Sandra and Daniel went back to the bathroom.
+Mary and Daniel went to the bedroom.
+John and Mary travelled to the bathroom.
+
+QUERY:
+Where is John?
+
+EXTRACTED PREDICTION:
+John went to the hallway. The final location of John is the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 641 (wrong)
+
+CONTEXT:
+Sandra and Mary journeyed to the bathroom.
+Daniel and Sandra went to the kitchen.
+John and Mary travelled to the hallway.
+Mary and Sandra journeyed to the bathroom.
+
+QUERY:
+Where is John?
+
+EXTRACTED PREDICTION:
+The story does not provide information on John's location.
+
+PREDICTION:
+The story does not provide information on John's location.
+
+Answer:
+hallway
+
+EVAL NUM: 651 (wrong)
+
+CONTEXT:
+Sandra and John travelled to the bedroom.
+Mary and John went to the office.
+Mary and John went back to the bedroom.
+Sandra and Mary journeyed to the bathroom.
+
+QUERY:
+Where is Sandra?
+
+EXTRACTED PREDICTION:
+Sandra went to the bedroom. The final location of Sandra is the bedroom. So the answer is bedroom.
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 682 (wrong)
+
+CONTEXT:
+Daniel and Mary travelled to the bedroom.
+Sandra and Mary went to the bathroom.
+Mary and Sandra travelled to the office.
+Daniel and Mary travelled to the garden.
+Sandra and Daniel travelled to the kitchen.
+John and Mary moved to the bathroom.
+
+QUERY:
+Where is John?
+
+EXTRACTED PREDICTION:
+John is not mentioned as moving anywhere in the story. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+bathroom
+
+EVAL NUM: 812 (wrong)
+
+CONTEXT:
+Mary and Sandra moved to the garden.
+Sandra and Mary journeyed to the hallway.
+Daniel and Mary went to the kitchen.
+Daniel and Sandra went to the office.
+John and Mary journeyed to the bathroom.
+Daniel and Mary journeyed to the garden.
+
+QUERY:
+Where is John?
+
+EXTRACTED PREDICTION:
+John is not mentioned going anywhere after the office. So the answer is office.
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 904 (wrong)
+
+CONTEXT:
+Daniel and John went to the hallway.
+Mary and Sandra travelled to the hallway.
+Sandra and Mary went to the kitchen.
+John and Daniel journeyed to the garden.
+Mary and Daniel went back to the office.
+Mary and Daniel travelled to the garden.
+Sandra and Mary moved to the hallway.
+Mary and Daniel travelled to the office.
+Mary and John went back to the bathroom.
+Daniel and John travelled to the garden.
+
+QUERY:
+Where is John?
+
+EXTRACTED PREDICTION:
+John went to the hallway. Then John went to the garden. Then John went to the bathroom. The final location of John is the bathroom. So the answer is bathroom.
+
+PREDICTION:
+bathroom
+
+Answer:
+garden
+
+EVAL NUM: 908 (wrong)
+
+CONTEXT:
+Mary and Sandra went to the bedroom.
+Daniel and Mary went back to the office.
+Mary and John travelled to the bedroom.
+Mary and Sandra journeyed to the office.
+Daniel and Sandra went back to the kitchen.
+Sandra and Mary went to the bathroom.
+Daniel and Mary moved to the garden.
+John and Mary went back to the bathroom.
+
+QUERY:
+Where is John?
+
+EXTRACTED PREDICTION:
+John went to the bedroom. The final location of John is the bedroom. So the answer is bedroom.
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 965 (wrong)
+
+CONTEXT:
+Daniel and Mary travelled to the kitchen.
+John and Mary went to the hallway.
+
+QUERY:
+Where is Daniel?
+
+EXTRACTED PREDICTION:
+Daniel went to the kitchen. Then Daniel went to the hallway. The final location of Daniel is the hallway. So the answer is hallway.
+
+PREDICTION:
+hallway
+
+Answer:
+kitchen
+

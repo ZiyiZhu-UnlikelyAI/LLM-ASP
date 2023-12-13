@@ -1,0 +1,958 @@
+EVAL NUM: 9 (wrong)
+
+CONTEXT:
+The box fits inside the chest.
+The chocolate fits inside the box.
+The container is bigger than the chocolate.
+The box of chocolates fits inside the chest.
+The suitcase is bigger than the container.
+
+QUERY:
+Does the suitcase fit in the chocolate?
+
+EXTRACTED PREDICTION:
+Since the chocolate fits inside the box, the box is bigger than the chocolate. Since the box fits inside the chest, the chest is bigger than the box and therefore bigger than the chocolate. The suitcase is bigger than the container, but there is no information about the container's size relative to the chest or the box. Therefore, we cannot definitively say whether the suitcase fits in the chocolate. So the answer is uncertain.
+
+PREDICTION:
+uncertain
+
+Answer:
+no
+
+EVAL NUM: 15 (wrong)
+
+CONTEXT:
+The suitcase is bigger than the box of chocolates.
+The container fits inside the suitcase.
+The suitcase is bigger than the chocolate.
+The suitcase is bigger than the box.
+The box is bigger than the box of chocolates.
+
+QUERY:
+Is the suitcase bigger than the box of chocolates?
+
+EXTRACTED PREDICTION:
+Yes, the suitcase is bigger than the box of chocolates.
+
+PREDICTION:
+Yes, the suitcase is bigger than the box of chocolates.
+
+Answer:
+yes
+
+EVAL NUM: 19 (wrong)
+
+CONTEXT:
+The suitcase is bigger than the box of chocolates.
+The container fits inside the suitcase.
+The suitcase is bigger than the chocolate.
+The suitcase is bigger than the box.
+The box is bigger than the box of chocolates.
+
+QUERY:
+Is the suitcase bigger than the box of chocolates?
+
+EXTRACTED PREDICTION:
+Yes, the suitcase is bigger than the box of chocolates.
+
+PREDICTION:
+Yes, the suitcase is bigger than the box of chocolates.
+
+Answer:
+yes
+
+EVAL NUM: 105 (wrong)
+
+CONTEXT:
+The chest is bigger than the chocolate.
+The chocolate fits inside the container.
+The container is bigger than the chocolate.
+The chocolate fits inside the box.
+The container fits inside the chest.
+
+QUERY:
+Is the chest bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 109 (wrong)
+
+CONTEXT:
+The chest is bigger than the chocolate.
+The chocolate fits inside the container.
+The container is bigger than the chocolate.
+The chocolate fits inside the box.
+The container fits inside the chest.
+
+QUERY:
+Is the chest bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 113 (wrong)
+
+CONTEXT:
+The chest is bigger than the box.
+The chest is bigger than the chocolate.
+The chest is bigger than the chocolate.
+The chest is bigger than the container.
+The container is bigger than the box.
+
+QUERY:
+Is the chest bigger than the box?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the box.
+
+PREDICTION:
+Yes, the chest is bigger than the box.
+
+Answer:
+yes
+
+EVAL NUM: 114 (wrong)
+
+CONTEXT:
+The chest is bigger than the box.
+The chest is bigger than the chocolate.
+The chest is bigger than the chocolate.
+The chest is bigger than the container.
+The container is bigger than the box.
+
+QUERY:
+Is the chest bigger than the box?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the box.
+
+PREDICTION:
+Yes, the chest is bigger than the box.
+
+Answer:
+yes
+
+EVAL NUM: 133 (wrong)
+
+CONTEXT:
+The box of chocolates fits inside the box.
+The box is bigger than the chocolate.
+The container is bigger than the chocolate.
+The chest is bigger than the chocolate.
+The container is bigger than the box of chocolates.
+The chest is bigger than the box of chocolates.
+The chest is bigger than the container.
+The chocolate fits inside the box of chocolates.
+The chocolate fits inside the box of chocolates.
+The chest is bigger than the container.
+
+QUERY:
+Is the chest bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 138 (wrong)
+
+CONTEXT:
+The suitcase fits inside the container.
+The box of chocolates is bigger than the chocolate.
+The container is bigger than the chocolate.
+The chest is bigger than the chocolate.
+The chest is bigger than the box of chocolates.
+
+QUERY:
+Is the chest bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 181 (wrong)
+
+CONTEXT:
+The box of chocolates fits inside the box.
+The chocolate fits inside the container.
+The container fits inside the box.
+The box is bigger than the chocolate.
+The box is bigger than the chocolate.
+
+QUERY:
+Is the box bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the box is bigger than the chocolate.
+
+PREDICTION:
+Yes, the box is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 197 (wrong)
+
+CONTEXT:
+The container is bigger than the chocolate.
+The chest fits inside the box.
+The box of chocolates is bigger than the chocolate.
+The box of chocolates is bigger than the chocolate.
+The container is bigger than the box of chocolates.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 240 (wrong)
+
+CONTEXT:
+The chest is bigger than the suitcase.
+The container is bigger than the suitcase.
+The chest is bigger than the suitcase.
+The box of chocolates fits inside the chest.
+The container is bigger than the chest.
+
+QUERY:
+Is the container bigger than the suitcase?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the suitcase.
+
+PREDICTION:
+Yes, the container is bigger than the suitcase.
+
+Answer:
+yes
+
+EVAL NUM: 335 (wrong)
+
+CONTEXT:
+The chest is bigger than the chocolate.
+The chest is bigger than the chocolate.
+The container is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+The box fits inside the suitcase.
+The box of chocolates fits inside the container.
+The box of chocolates fits inside the box.
+The container is bigger than the suitcase.
+The box of chocolates fits inside the container.
+The container is bigger than the suitcase.
+
+QUERY:
+Is the suitcase bigger than the box of chocolates?
+
+EXTRACTED PREDICTION:
+Since the box of chocolates fits inside the container, the container is bigger than the box of chocolates. Since the container is bigger than the suitcase, the suitcase is not bigger than the box of chocolates. So the answer is no.
+
+PREDICTION:
+no
+
+Answer:
+yes
+
+EVAL NUM: 343 (wrong)
+
+CONTEXT:
+The box of chocolates is bigger than the chocolate.
+The container is bigger than the box.
+The chocolate fits inside the box.
+The box is bigger than the suitcase.
+The box is bigger than the chest.
+
+QUERY:
+Is the suitcase bigger than the container?
+
+EXTRACTED PREDICTION:
+The box is bigger than the suitcase. Since the container is smaller than the box, the container is smaller than the suitcase. Therefore, the suitcase is bigger than the container. So the answer is yes.
+
+PREDICTION:
+yes
+
+Answer:
+no
+
+EVAL NUM: 351 (wrong)
+
+CONTEXT:
+The container fits inside the suitcase.
+The box is bigger than the container.
+The container is bigger than the chocolate.
+The container is bigger than the chest.
+The box of chocolates fits inside the suitcase.
+
+QUERY:
+Does the suitcase fit in the chest?
+
+EXTRACTED PREDICTION:
+The container is bigger than the chest. Since the box is bigger than the container, the box is bigger than the chest. Since the suitcase is bigger than the box of chocolates, and the box of chocolates fits inside the suitcase, the suitcase is bigger than the box of chocolates. However, there is no information given about the size of the suitcase in relation to the chest. Therefore, it cannot be determined if the suitcase fits in the chest. So the answer is cannot be determined.
+
+PREDICTION:
+cannot be determined
+
+Answer:
+no
+
+EVAL NUM: 377 (wrong)
+
+CONTEXT:
+The chest is bigger than the container.
+The box of chocolates fits inside the chest.
+The container is bigger than the box of chocolates.
+The chest is bigger than the box of chocolates.
+The chocolate fits inside the suitcase.
+
+QUERY:
+Is the chest bigger than the box of chocolates?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the box of chocolates.
+
+PREDICTION:
+Yes, the chest is bigger than the box of chocolates.
+
+Answer:
+yes
+
+EVAL NUM: 378 (wrong)
+
+CONTEXT:
+The chest is bigger than the container.
+The box of chocolates fits inside the chest.
+The container is bigger than the box of chocolates.
+The chest is bigger than the box of chocolates.
+The chocolate fits inside the suitcase.
+
+QUERY:
+Is the chest bigger than the box of chocolates?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the box of chocolates.
+
+PREDICTION:
+Yes, the chest is bigger than the box of chocolates.
+
+Answer:
+yes
+
+EVAL NUM: 424 (wrong)
+
+CONTEXT:
+The chest fits inside the suitcase.
+The suitcase is bigger than the chocolate.
+The box of chocolates fits inside the box.
+The chest is bigger than the chocolate.
+The chocolate fits inside the container.
+
+QUERY:
+Is the suitcase bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 427 (wrong)
+
+CONTEXT:
+The chest fits inside the suitcase.
+The suitcase is bigger than the chocolate.
+The box of chocolates fits inside the box.
+The chest is bigger than the chocolate.
+The chocolate fits inside the container.
+
+QUERY:
+Is the suitcase bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 469 (wrong)
+
+CONTEXT:
+The chest is bigger than the chocolate.
+The box of chocolates fits inside the chest.
+The suitcase is bigger than the chocolate.
+The suitcase fits inside the chest.
+The box of chocolates fits inside the box.
+
+QUERY:
+Is the chest bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 478 (wrong)
+
+CONTEXT:
+The box fits inside the suitcase.
+The suitcase is bigger than the chest.
+The suitcase is bigger than the box.
+The container fits inside the suitcase.
+The container is bigger than the box.
+
+QUERY:
+Is the suitcase bigger than the box?
+
+EXTRACTED PREDICTION:
+Yes, the suitcase is bigger than the box.
+
+PREDICTION:
+Yes, the suitcase is bigger than the box.
+
+Answer:
+yes
+
+EVAL NUM: 494 (wrong)
+
+CONTEXT:
+The container is bigger than the box of chocolates.
+The box is bigger than the box of chocolates.
+The box is bigger than the chest.
+The container fits inside the chest.
+The suitcase fits inside the chest.
+
+QUERY:
+Does the box fit in the container?
+
+EXTRACTED PREDICTION:
+The box is bigger than the box of chocolates. Since the container is bigger than the box of chocolates, it does not necessarily mean that the container is bigger than the box. Therefore, we cannot determine if the box fits in the container. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 496 (wrong)
+
+CONTEXT:
+The container is bigger than the box of chocolates.
+The box is bigger than the box of chocolates.
+The box is bigger than the chest.
+The container fits inside the chest.
+The suitcase fits inside the chest.
+
+QUERY:
+Is the container bigger than the box?
+
+EXTRACTED PREDICTION:
+The box is bigger than the box of chocolates. Since the container is also bigger than the box of chocolates, we cannot determine from the information given whether the container is bigger than the box. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 497 (wrong)
+
+CONTEXT:
+The container is bigger than the box of chocolates.
+The box is bigger than the box of chocolates.
+The box is bigger than the chest.
+The container fits inside the chest.
+The suitcase fits inside the chest.
+
+QUERY:
+Does the box fit in the container?
+
+EXTRACTED PREDICTION:
+The box is bigger than the box of chocolates. Since the container is bigger than the box of chocolates, it does not necessarily mean that the container is bigger than the box. Therefore, we cannot determine if the box fits in the container. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 498 (wrong)
+
+CONTEXT:
+The container is bigger than the box of chocolates.
+The box is bigger than the box of chocolates.
+The box is bigger than the chest.
+The container fits inside the chest.
+The suitcase fits inside the chest.
+
+QUERY:
+Does the box fit in the container?
+
+EXTRACTED PREDICTION:
+The box is bigger than the box of chocolates. Since the container is bigger than the box of chocolates, it does not necessarily mean that the container is bigger than the box. Therefore, we cannot determine if the box fits in the container. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 519 (wrong)
+
+CONTEXT:
+The chest is bigger than the container.
+The chest is bigger than the box of chocolates.
+The box is bigger than the chocolate.
+The chest is bigger than the suitcase.
+The box of chocolates fits inside the chest.
+The chocolate fits inside the box.
+The chocolate fits inside the container.
+The box is bigger than the box of chocolates.
+The chest is bigger than the suitcase.
+The box fits inside the suitcase.
+
+QUERY:
+Does the chest fit in the box?
+
+EXTRACTED PREDICTION:
+The box is bigger than the chocolate and the box of chocolates. The chest is bigger than the box of chocolates. However, it is not stated whether the chest is bigger or smaller than the box. Therefore, we cannot determine if the chest fits in the box. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 522 (wrong)
+
+CONTEXT:
+The chest is bigger than the container.
+The chest is bigger than the box of chocolates.
+The box is bigger than the chocolate.
+The chest is bigger than the suitcase.
+The box of chocolates fits inside the chest.
+The chocolate fits inside the box.
+The chocolate fits inside the container.
+The box is bigger than the box of chocolates.
+The chest is bigger than the suitcase.
+The box fits inside the suitcase.
+
+QUERY:
+Does the chest fit in the box?
+
+EXTRACTED PREDICTION:
+The box is bigger than the chocolate and the box of chocolates. The chest is bigger than the box of chocolates. However, it is not stated whether the chest is bigger or smaller than the box. Therefore, we cannot determine if the chest fits in the box. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 554 (wrong)
+
+CONTEXT:
+The chest fits inside the suitcase.
+The suitcase is bigger than the chocolate.
+The box is bigger than the chocolate.
+The chest is bigger than the chocolate.
+The box is bigger than the chocolate.
+
+QUERY:
+Is the suitcase bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 593 (wrong)
+
+CONTEXT:
+The suitcase is bigger than the chocolate.
+The container is bigger than the chocolate.
+The chest is bigger than the suitcase.
+The box fits inside the container.
+The chest is bigger than the chocolate.
+
+QUERY:
+Is the chest bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+PREDICTION:
+Yes, the chest is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 631 (wrong)
+
+CONTEXT:
+The suitcase fits inside the box.
+The box is bigger than the chocolate.
+The box is bigger than the chocolate.
+The chest is bigger than the container.
+The box is bigger than the container.
+The container is bigger than the box of chocolates.
+The chocolate fits inside the chest.
+The box of chocolates fits inside the suitcase.
+The suitcase is bigger than the box of chocolates.
+The chest fits inside the box.
+
+QUERY:
+Is the box bigger than the container?
+
+EXTRACTED PREDICTION:
+Yes, the box is bigger than the container.
+
+PREDICTION:
+Yes, the box is bigger than the container.
+
+Answer:
+yes
+
+EVAL NUM: 638 (wrong)
+
+CONTEXT:
+The container is bigger than the box of chocolates.
+The container is bigger than the suitcase.
+The suitcase is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+The chocolate fits inside the container.
+
+QUERY:
+Is the container bigger than the box of chocolates?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the box of chocolates.
+
+PREDICTION:
+Yes, the container is bigger than the box of chocolates.
+
+Answer:
+yes
+
+EVAL NUM: 723 (wrong)
+
+CONTEXT:
+The chocolate fits inside the suitcase.
+The chocolate fits inside the chest.
+The chocolate fits inside the suitcase.
+The box fits inside the chest.
+The box of chocolates fits inside the container.
+The chocolate fits inside the box of chocolates.
+The container is bigger than the chest.
+The chocolate fits inside the suitcase.
+The container is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 724 (wrong)
+
+CONTEXT:
+The chocolate fits inside the suitcase.
+The chocolate fits inside the chest.
+The chocolate fits inside the suitcase.
+The box fits inside the chest.
+The box of chocolates fits inside the container.
+The chocolate fits inside the box of chocolates.
+The container is bigger than the chest.
+The chocolate fits inside the suitcase.
+The container is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 726 (wrong)
+
+CONTEXT:
+The chocolate fits inside the suitcase.
+The chocolate fits inside the chest.
+The chocolate fits inside the suitcase.
+The box fits inside the chest.
+The box of chocolates fits inside the container.
+The chocolate fits inside the box of chocolates.
+The container is bigger than the chest.
+The chocolate fits inside the suitcase.
+The container is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 728 (wrong)
+
+CONTEXT:
+The box fits inside the container.
+The suitcase is bigger than the box of chocolates.
+The box is bigger than the chocolate.
+The chest is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 730 (wrong)
+
+CONTEXT:
+The box fits inside the container.
+The suitcase is bigger than the box of chocolates.
+The box is bigger than the chocolate.
+The chest is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 731 (wrong)
+
+CONTEXT:
+The box fits inside the container.
+The suitcase is bigger than the box of chocolates.
+The box is bigger than the chocolate.
+The chest is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 747 (wrong)
+
+CONTEXT:
+The box is bigger than the chocolate.
+The chocolate fits inside the suitcase.
+The chocolate fits inside the box.
+The container is bigger than the chest.
+The chocolate fits inside the box.
+The container is bigger than the box of chocolates.
+The chocolate fits inside the box.
+The chocolate fits inside the suitcase.
+The container is bigger than the chocolate.
+The container is bigger than the box.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 749 (wrong)
+
+CONTEXT:
+The box is bigger than the chocolate.
+The chocolate fits inside the suitcase.
+The chocolate fits inside the box.
+The container is bigger than the chest.
+The chocolate fits inside the box.
+The container is bigger than the box of chocolates.
+The chocolate fits inside the box.
+The chocolate fits inside the suitcase.
+The container is bigger than the chocolate.
+The container is bigger than the box.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 750 (wrong)
+
+CONTEXT:
+The box is bigger than the chocolate.
+The chocolate fits inside the suitcase.
+The chocolate fits inside the box.
+The container is bigger than the chest.
+The chocolate fits inside the box.
+The container is bigger than the box of chocolates.
+The chocolate fits inside the box.
+The chocolate fits inside the suitcase.
+The container is bigger than the chocolate.
+The container is bigger than the box.
+
+QUERY:
+Is the container bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+PREDICTION:
+Yes, the container is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 764 (wrong)
+
+CONTEXT:
+The box fits inside the container.
+The box of chocolates fits inside the box.
+The chest fits inside the suitcase.
+The chest is bigger than the box of chocolates.
+The chest is bigger than the chocolate.
+
+QUERY:
+Does the suitcase fit in the box of chocolates?
+
+EXTRACTED PREDICTION:
+The box of chocolates fits inside the box, which means the box is bigger than the box of chocolates. The chest fits inside the suitcase, which means the suitcase is bigger than the chest. However, there is no information given about the size of the suitcase in relation to the box of chocolates. Therefore, we cannot determine if the suitcase fits in the box of chocolates. So the answer is unknown.
+
+PREDICTION:
+unknown
+
+Answer:
+no
+
+EVAL NUM: 868 (wrong)
+
+CONTEXT:
+The box is bigger than the box of chocolates.
+The chocolate fits inside the chest.
+The suitcase is bigger than the chocolate.
+The chest fits inside the suitcase.
+The chocolate fits inside the box.
+
+QUERY:
+Is the suitcase bigger than the chocolate?
+
+EXTRACTED PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+PREDICTION:
+Yes, the suitcase is bigger than the chocolate.
+
+Answer:
+yes
+
+EVAL NUM: 883 (wrong)
+
+CONTEXT:
+The chest is bigger than the suitcase.
+The container is bigger than the box of chocolates.
+The chocolate fits inside the box of chocolates.
+The box of chocolates fits inside the chest.
+The suitcase is bigger than the container.
+
+QUERY:
+Does the box of chocolates fit in the suitcase?
+
+EXTRACTED PREDICTION:
+Since the box of chocolates fits inside the chest, the chest is bigger than the box of chocolates. The chest is bigger than the suitcase. Therefore, the box of chocolates does not fit in the suitcase. So the answer is no.
+
+PREDICTION:
+no
+
+Answer:
+yes
+

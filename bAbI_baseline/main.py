@@ -107,15 +107,15 @@ for task_idx in task_nums:
             # 3. Concatenate GPT-3 generated facts with task rules and relevant module rules
             if check_answer(pred, answer, task_idx):
                 correct += 1
-                debug.append([eval_num, context, query, pred, answer, "(correct)"])
             else:
                 wrong_indices.append(eval_num)
                 debug.append([eval_num, context, query, pred, answer, "(wrong)"])
             total += 1
 
             pbar.set_description(f"acc: {100*correct / total}")
+
         accuracies.append(correct / total)
-        ##write_debug_baseline(debug, correct, total, task_idx, 'baseline', f'{gpt_model}_v{prompt_version}')
+        write_debug_baseline(debug, correct, total, task_idx, 'baseline', f'{gpt_model}_v{prompt_version}')
 
     finally:
         # Save GPT responses

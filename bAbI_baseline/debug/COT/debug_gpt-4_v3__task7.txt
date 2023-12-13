@@ -1,0 +1,108 @@
+EVAL NUM: 434 (wrong)
+
+CONTEXT:
+John went to the bedroom.
+Sandra went to the hallway.
+Mary went to the hallway.
+Sandra got the milk there.
+Sandra gave the milk to Mary.
+John moved to the kitchen.
+Sandra picked up the football there.
+Sandra passed the football to Mary.
+Mary put down the milk.
+Mary handed the football to Sandra.
+Sandra handed the football to Mary.
+Mary handed the football to Sandra.
+
+QUERY:
+How many objects is Mary carrying?
+
+EXTRACTED PREDICTION:
+Sandra gave the milk to Mary. Then Mary put down the milk. Then Sandra gave the football to Mary. Then Mary gave the football to Sandra. Then Mary gave the football to Sandra. Mary is carrying the football. So the answer is one.
+
+PREDICTION:
+1
+
+Answer:
+0
+
+EVAL NUM: 468 (wrong)
+
+CONTEXT:
+Mary got the football there.
+John went back to the bathroom.
+Sandra got the milk there.
+Sandra passed the milk to John.
+John passed the milk to Sandra.
+Sandra passed the milk to John.
+John passed the milk to Sandra.
+Mary travelled to the hallway.
+
+QUERY:
+How many objects is Sandra carrying?
+
+EXTRACTED PREDICTION:
+Sandra got the milk. Then Sandra gave the milk to John. Then John gave the milk to Sandra. Then Sandra gave the milk to John. Sandra is carrying nothing. So the answer is none.
+
+PREDICTION:
+0
+
+Answer:
+1
+
+EVAL NUM: 643 (wrong)
+
+CONTEXT:
+Daniel moved to the bedroom.
+Mary took the football there.
+John took the milk there.
+Mary passed the football to John.
+John discarded the football.
+Daniel went back to the kitchen.
+Daniel picked up the football there.
+Daniel handed the football to John.
+
+QUERY:
+How many objects is John carrying?
+
+EXTRACTED PREDICTION:
+John got the football from Mary. Then John dropped the football. Then Daniel gave the football to John. John is carrying the football. So the answer is one.
+
+PREDICTION:
+1
+
+Answer:
+2
+
+EVAL NUM: 838 (wrong)
+
+CONTEXT:
+Sandra went back to the bedroom.
+Daniel went to the kitchen.
+Daniel went to the bedroom.
+Mary went back to the hallway.
+John went to the office.
+Mary moved to the bedroom.
+Daniel moved to the office.
+Daniel went to the garden.
+Sandra travelled to the bathroom.
+Daniel took the football there.
+Sandra travelled to the garden.
+Daniel handed the football to Sandra.
+Sandra passed the football to Daniel.
+Daniel passed the football to Sandra.
+Sandra passed the football to Daniel.
+Daniel passed the football to Sandra.
+
+QUERY:
+How many objects is Daniel carrying?
+
+EXTRACTED PREDICTION:
+Daniel got the football. Then Daniel gave the football to Sandra. Then Sandra gave the football to Daniel. Then Daniel gave the football to Sandra. Then Sandra gave the football to Daniel. Daniel is carrying the football. So the answer is one.
+
+PREDICTION:
+1
+
+Answer:
+0
+

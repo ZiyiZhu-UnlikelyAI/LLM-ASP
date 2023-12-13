@@ -1,0 +1,5375 @@
+EVAL NUM: 4 (wrong)
+
+CONTEXT:
+Mary got the milk there.
+John moved to the bedroom.
+Sandra went back to the kitchen.
+Mary travelled to the hallway.
+John got the football there.
+John went to the hallway.
+John put down the football.
+Mary went to the garden.
+John went to the kitchen.
+Sandra travelled to the hallway.
+Daniel went to the hallway.
+Mary discarded the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 22 (wrong)
+
+CONTEXT:
+Mary moved to the kitchen.
+Mary travelled to the office.
+Daniel grabbed the football there.
+Mary moved to the hallway.
+Sandra moved to the bedroom.
+Mary went back to the bedroom.
+John grabbed the milk there.
+John put down the milk.
+Daniel journeyed to the bathroom.
+Sandra journeyed to the bathroom.
+John got the milk there.
+Mary took the apple there.
+Mary left the apple.
+John journeyed to the bedroom.
+Mary travelled to the office.
+Daniel put down the football.
+John went back to the kitchen.
+Sandra got the football there.
+John travelled to the hallway.
+Sandra discarded the football there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 23 (wrong)
+
+CONTEXT:
+Mary moved to the kitchen.
+Mary travelled to the office.
+Daniel grabbed the football there.
+Mary moved to the hallway.
+Sandra moved to the bedroom.
+Mary went back to the bedroom.
+John grabbed the milk there.
+John put down the milk.
+Daniel journeyed to the bathroom.
+Sandra journeyed to the bathroom.
+John got the milk there.
+Mary took the apple there.
+Mary left the apple.
+John journeyed to the bedroom.
+Mary travelled to the office.
+Daniel put down the football.
+John went back to the kitchen.
+Sandra got the football there.
+John travelled to the hallway.
+Sandra discarded the football there.
+John left the milk.
+John grabbed the milk there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 28 (wrong)
+
+CONTEXT:
+Daniel moved to the kitchen.
+John grabbed the football there.
+John left the football there.
+Mary journeyed to the hallway.
+John grabbed the milk there.
+John travelled to the kitchen.
+Mary journeyed to the kitchen.
+Sandra went to the office.
+Daniel went to the bathroom.
+Daniel picked up the apple there.
+Sandra travelled to the garden.
+Daniel dropped the apple there.
+Sandra went back to the office.
+Daniel journeyed to the kitchen.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 35 (wrong)
+
+CONTEXT:
+John went back to the office.
+Mary went back to the hallway.
+Daniel journeyed to the bedroom.
+Mary went back to the bathroom.
+Sandra went back to the hallway.
+Sandra got the milk there.
+Mary moved to the office.
+Mary went to the hallway.
+Daniel went to the bathroom.
+Sandra went to the office.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+office
+
+EVAL NUM: 38 (wrong)
+
+CONTEXT:
+John went back to the office.
+Mary went back to the hallway.
+Daniel journeyed to the bedroom.
+Mary went back to the bathroom.
+Sandra went back to the hallway.
+Sandra got the milk there.
+Mary moved to the office.
+Mary went to the hallway.
+Daniel went to the bathroom.
+Sandra went to the office.
+John journeyed to the garden.
+Sandra journeyed to the hallway.
+Daniel moved to the office.
+Mary went back to the office.
+John moved to the kitchen.
+Sandra journeyed to the bedroom.
+Sandra went back to the office.
+Daniel moved to the kitchen.
+John took the football there.
+John left the football.
+Sandra went back to the bedroom.
+Sandra went back to the hallway.
+John grabbed the football there.
+Daniel went to the bathroom.
+John left the football.
+Sandra went back to the bedroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+kitchen
+
+EVAL NUM: 47 (wrong)
+
+CONTEXT:
+John travelled to the bathroom.
+John travelled to the hallway.
+Mary picked up the milk there.
+Mary went back to the bedroom.
+Sandra took the football there.
+Sandra moved to the office.
+Sandra went back to the bathroom.
+John journeyed to the bedroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 50 (wrong)
+
+CONTEXT:
+Daniel took the milk there.
+John journeyed to the garden.
+Daniel went back to the hallway.
+Daniel journeyed to the bathroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 62 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Daniel travelled to the bedroom.
+John took the milk there.
+John travelled to the garden.
+Sandra moved to the office.
+Daniel went back to the office.
+John went to the kitchen.
+Mary travelled to the garden.
+John picked up the football there.
+John dropped the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 63 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Daniel travelled to the bedroom.
+John took the milk there.
+John travelled to the garden.
+Sandra moved to the office.
+Daniel went back to the office.
+John went to the kitchen.
+Mary travelled to the garden.
+John picked up the football there.
+John dropped the football.
+John put down the milk.
+Daniel moved to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 64 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Daniel travelled to the bedroom.
+John took the milk there.
+John travelled to the garden.
+Sandra moved to the office.
+Daniel went back to the office.
+John went to the kitchen.
+Mary travelled to the garden.
+John picked up the football there.
+John dropped the football.
+John put down the milk.
+Daniel moved to the kitchen.
+Mary travelled to the bathroom.
+Daniel went to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 73 (wrong)
+
+CONTEXT:
+Sandra moved to the garden.
+Daniel took the apple there.
+Daniel dropped the apple.
+Sandra travelled to the office.
+John moved to the kitchen.
+Sandra moved to the garden.
+Daniel went back to the bathroom.
+Mary travelled to the hallway.
+Sandra went to the bathroom.
+John went back to the bedroom.
+Mary moved to the garden.
+John picked up the apple there.
+John went back to the kitchen.
+John went back to the garden.
+Mary went to the office.
+Daniel went to the bedroom.
+John went to the bathroom.
+John dropped the apple.
+Mary journeyed to the bedroom.
+Sandra grabbed the apple there.
+Daniel moved to the kitchen.
+Sandra left the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 74 (wrong)
+
+CONTEXT:
+Sandra moved to the garden.
+Daniel took the apple there.
+Daniel dropped the apple.
+Sandra travelled to the office.
+John moved to the kitchen.
+Sandra moved to the garden.
+Daniel went back to the bathroom.
+Mary travelled to the hallway.
+Sandra went to the bathroom.
+John went back to the bedroom.
+Mary moved to the garden.
+John picked up the apple there.
+John went back to the kitchen.
+John went back to the garden.
+Mary went to the office.
+Daniel went to the bedroom.
+John went to the bathroom.
+John dropped the apple.
+Mary journeyed to the bedroom.
+Sandra grabbed the apple there.
+Daniel moved to the kitchen.
+Sandra left the apple.
+John grabbed the apple there.
+Sandra journeyed to the kitchen.
+Sandra journeyed to the bathroom.
+Daniel travelled to the office.
+John put down the apple.
+Mary journeyed to the kitchen.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 75 (wrong)
+
+CONTEXT:
+Sandra journeyed to the garden.
+Sandra travelled to the bathroom.
+Daniel went back to the garden.
+Sandra got the apple there.
+Mary travelled to the bedroom.
+John went to the hallway.
+Sandra travelled to the office.
+Mary grabbed the milk there.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+office
+
+EVAL NUM: 93 (wrong)
+
+CONTEXT:
+Daniel moved to the bathroom.
+Sandra went back to the kitchen.
+John moved to the bathroom.
+Mary picked up the milk there.
+John travelled to the garden.
+Mary dropped the milk there.
+Sandra journeyed to the bedroom.
+John journeyed to the bathroom.
+Daniel went back to the office.
+John moved to the hallway.
+Mary got the milk there.
+Daniel took the apple there.
+John picked up the football there.
+Mary went to the kitchen.
+Mary dropped the milk.
+Daniel travelled to the bedroom.
+John journeyed to the office.
+Daniel went to the garden.
+Mary picked up the milk there.
+Mary left the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 104 (wrong)
+
+CONTEXT:
+Mary moved to the bathroom.
+Sandra went to the kitchen.
+John travelled to the bedroom.
+Mary journeyed to the kitchen.
+Mary moved to the office.
+Sandra travelled to the bathroom.
+John travelled to the bathroom.
+John journeyed to the office.
+John took the milk there.
+Daniel travelled to the garden.
+Mary went to the kitchen.
+Daniel journeyed to the bathroom.
+John discarded the milk.
+Sandra went back to the kitchen.
+Daniel journeyed to the office.
+Sandra went back to the office.
+Daniel picked up the milk there.
+Sandra went back to the bedroom.
+John went to the garden.
+Daniel travelled to the kitchen.
+John journeyed to the bedroom.
+Sandra journeyed to the garden.
+Sandra moved to the kitchen.
+Daniel discarded the milk.
+John picked up the football there.
+Daniel took the milk there.
+John left the football.
+Mary went to the bedroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 113 (wrong)
+
+CONTEXT:
+Mary went back to the kitchen.
+Mary travelled to the hallway.
+John journeyed to the bedroom.
+John moved to the garden.
+Daniel went to the hallway.
+John moved to the hallway.
+Daniel journeyed to the bathroom.
+Mary travelled to the garden.
+Daniel went to the hallway.
+John travelled to the office.
+John travelled to the bedroom.
+Mary journeyed to the bedroom.
+John picked up the football there.
+John dropped the football.
+Sandra travelled to the office.
+Mary travelled to the hallway.
+Sandra grabbed the apple there.
+John grabbed the football there.
+Mary went back to the bathroom.
+John discarded the football.
+John picked up the football there.
+Daniel went to the office.
+Sandra discarded the apple.
+Sandra grabbed the apple there.
+John put down the football.
+Daniel moved to the garden.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 114 (wrong)
+
+CONTEXT:
+Mary went back to the kitchen.
+Mary travelled to the hallway.
+John journeyed to the bedroom.
+John moved to the garden.
+Daniel went to the hallway.
+John moved to the hallway.
+Daniel journeyed to the bathroom.
+Mary travelled to the garden.
+Daniel went to the hallway.
+John travelled to the office.
+John travelled to the bedroom.
+Mary journeyed to the bedroom.
+John picked up the football there.
+John dropped the football.
+Sandra travelled to the office.
+Mary travelled to the hallway.
+Sandra grabbed the apple there.
+John grabbed the football there.
+Mary went back to the bathroom.
+John discarded the football.
+John picked up the football there.
+Daniel went to the office.
+Sandra discarded the apple.
+Sandra grabbed the apple there.
+John put down the football.
+Daniel moved to the garden.
+Sandra left the apple.
+John journeyed to the garden.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 118 (wrong)
+
+CONTEXT:
+John grabbed the football there.
+John journeyed to the office.
+John went back to the garden.
+John went to the hallway.
+John dropped the football.
+John grabbed the football there.
+Sandra travelled to the bathroom.
+Sandra picked up the milk there.
+Sandra went to the office.
+John moved to the bathroom.
+John grabbed the apple there.
+Sandra travelled to the bedroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+bedroom
+
+EVAL NUM: 121 (wrong)
+
+CONTEXT:
+Sandra grabbed the football there.
+Sandra put down the football.
+John grabbed the apple there.
+Sandra went to the hallway.
+John journeyed to the hallway.
+Mary grabbed the milk there.
+John journeyed to the garden.
+Sandra moved to the bathroom.
+Mary journeyed to the bedroom.
+John picked up the football there.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 124 (wrong)
+
+CONTEXT:
+Sandra grabbed the football there.
+Sandra put down the football.
+John grabbed the apple there.
+Sandra went to the hallway.
+John journeyed to the hallway.
+Mary grabbed the milk there.
+John journeyed to the garden.
+Sandra moved to the bathroom.
+Mary journeyed to the bedroom.
+John picked up the football there.
+John dropped the football.
+John discarded the apple.
+John got the apple there.
+John picked up the football there.
+Daniel moved to the garden.
+Sandra journeyed to the kitchen.
+John discarded the football.
+Daniel travelled to the bedroom.
+John grabbed the football there.
+Daniel went back to the hallway.
+Mary journeyed to the hallway.
+Mary went back to the kitchen.
+John dropped the football.
+Daniel went to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 130 (wrong)
+
+CONTEXT:
+Daniel travelled to the hallway.
+Mary moved to the kitchen.
+John grabbed the football there.
+John discarded the football.
+Sandra journeyed to the kitchen.
+Sandra picked up the milk there.
+Daniel moved to the office.
+John took the football there.
+John went to the kitchen.
+Mary moved to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 131 (wrong)
+
+CONTEXT:
+Daniel travelled to the hallway.
+Mary moved to the kitchen.
+John grabbed the football there.
+John discarded the football.
+Sandra journeyed to the kitchen.
+Sandra picked up the milk there.
+Daniel moved to the office.
+John took the football there.
+John went to the kitchen.
+Mary moved to the office.
+Sandra put down the milk.
+John left the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 139 (wrong)
+
+CONTEXT:
+Sandra went back to the hallway.
+Mary travelled to the hallway.
+Mary picked up the football there.
+John travelled to the bathroom.
+Daniel moved to the bedroom.
+Sandra moved to the bedroom.
+Sandra travelled to the hallway.
+Sandra travelled to the office.
+Mary moved to the office.
+Mary put down the football.
+Sandra grabbed the milk there.
+Sandra left the milk.
+Mary took the football there.
+Sandra took the milk there.
+Mary dropped the football.
+Mary travelled to the bedroom.
+John went to the hallway.
+Sandra took the football there.
+Mary went back to the hallway.
+Sandra travelled to the kitchen.
+John journeyed to the garden.
+Sandra journeyed to the bathroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 145 (wrong)
+
+CONTEXT:
+John got the football there.
+John left the football.
+Daniel went back to the bathroom.
+Mary went back to the bathroom.
+Sandra travelled to the office.
+Daniel got the apple there.
+John got the football there.
+John left the football.
+Daniel journeyed to the kitchen.
+John moved to the bathroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+kitchen
+
+EVAL NUM: 146 (wrong)
+
+CONTEXT:
+John got the football there.
+John left the football.
+Daniel went back to the bathroom.
+Mary went back to the bathroom.
+Sandra travelled to the office.
+Daniel got the apple there.
+John got the football there.
+John left the football.
+Daniel journeyed to the kitchen.
+John moved to the bathroom.
+John went to the office.
+Mary took the milk there.
+John journeyed to the garden.
+Sandra went to the garden.
+Daniel grabbed the football there.
+Mary discarded the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 148 (wrong)
+
+CONTEXT:
+John got the football there.
+John left the football.
+Daniel went back to the bathroom.
+Mary went back to the bathroom.
+Sandra travelled to the office.
+Daniel got the apple there.
+John got the football there.
+John left the football.
+Daniel journeyed to the kitchen.
+John moved to the bathroom.
+John went to the office.
+Mary took the milk there.
+John journeyed to the garden.
+Sandra went to the garden.
+Daniel grabbed the football there.
+Mary discarded the milk.
+Sandra moved to the office.
+Mary got the milk there.
+Mary moved to the garden.
+Mary left the milk.
+Daniel dropped the apple.
+Sandra went back to the bathroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 153 (wrong)
+
+CONTEXT:
+Daniel travelled to the garden.
+Sandra went back to the bedroom.
+John travelled to the bedroom.
+Sandra grabbed the apple there.
+Daniel travelled to the kitchen.
+Sandra left the apple.
+Sandra travelled to the office.
+Sandra went back to the bathroom.
+John travelled to the bathroom.
+Daniel went back to the hallway.
+Sandra travelled to the bedroom.
+Sandra journeyed to the hallway.
+Sandra went back to the kitchen.
+Mary travelled to the office.
+Sandra journeyed to the hallway.
+Mary went back to the hallway.
+Mary travelled to the garden.
+Mary took the football there.
+Mary went to the kitchen.
+Mary grabbed the milk there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 154 (wrong)
+
+CONTEXT:
+Daniel travelled to the garden.
+Sandra went back to the bedroom.
+John travelled to the bedroom.
+Sandra grabbed the apple there.
+Daniel travelled to the kitchen.
+Sandra left the apple.
+Sandra travelled to the office.
+Sandra went back to the bathroom.
+John travelled to the bathroom.
+Daniel went back to the hallway.
+Sandra travelled to the bedroom.
+Sandra journeyed to the hallway.
+Sandra went back to the kitchen.
+Mary travelled to the office.
+Sandra journeyed to the hallway.
+Mary went back to the hallway.
+Mary travelled to the garden.
+Mary took the football there.
+Mary went to the kitchen.
+Mary grabbed the milk there.
+John went to the garden.
+John travelled to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 159 (wrong)
+
+CONTEXT:
+Mary travelled to the bathroom.
+John took the milk there.
+Sandra moved to the hallway.
+Sandra grabbed the football there.
+Daniel went back to the bedroom.
+Daniel travelled to the kitchen.
+Sandra put down the football.
+John moved to the bedroom.
+Mary journeyed to the hallway.
+John dropped the milk.
+Mary travelled to the bathroom.
+Mary moved to the kitchen.
+Daniel travelled to the bedroom.
+Daniel travelled to the bathroom.
+Sandra grabbed the football there.
+Sandra left the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bathroom
+
+Answer:
+hallway
+
+EVAL NUM: 164 (wrong)
+
+CONTEXT:
+John moved to the bedroom.
+Sandra journeyed to the office.
+Sandra moved to the kitchen.
+Daniel travelled to the bedroom.
+John went back to the office.
+Mary travelled to the garden.
+Sandra moved to the hallway.
+Sandra went to the garden.
+John went back to the kitchen.
+Daniel went to the office.
+Sandra moved to the hallway.
+Daniel picked up the apple there.
+Mary went to the bedroom.
+Daniel went back to the garden.
+Daniel left the apple.
+Daniel grabbed the apple there.
+Sandra took the football there.
+Daniel discarded the apple.
+Mary journeyed to the kitchen.
+Sandra journeyed to the kitchen.
+Daniel travelled to the bedroom.
+Sandra went to the bedroom.
+Daniel went back to the hallway.
+John went to the hallway.
+John went to the office.
+John moved to the kitchen.
+Sandra dropped the football.
+Daniel went to the garden.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 217 (wrong)
+
+CONTEXT:
+Daniel went to the office.
+Mary took the football there.
+Sandra journeyed to the garden.
+Sandra went to the bedroom.
+John took the apple there.
+John put down the apple.
+Mary put down the football.
+John took the apple there.
+Mary went back to the bedroom.
+John put down the apple.
+Mary journeyed to the kitchen.
+Daniel moved to the garden.
+Sandra moved to the kitchen.
+Daniel picked up the milk there.
+John went to the hallway.
+John journeyed to the bedroom.
+Sandra picked up the apple there.
+Mary travelled to the bedroom.
+Mary went back to the bathroom.
+Sandra journeyed to the office.
+John went back to the kitchen.
+John moved to the garden.
+Sandra left the apple.
+Sandra took the apple there.
+Sandra put down the apple.
+John went back to the bathroom.
+Sandra travelled to the garden.
+Daniel went to the bathroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 218 (wrong)
+
+CONTEXT:
+Daniel went to the office.
+Mary took the football there.
+Sandra journeyed to the garden.
+Sandra went to the bedroom.
+John took the apple there.
+John put down the apple.
+Mary put down the football.
+John took the apple there.
+Mary went back to the bedroom.
+John put down the apple.
+Mary journeyed to the kitchen.
+Daniel moved to the garden.
+Sandra moved to the kitchen.
+Daniel picked up the milk there.
+John went to the hallway.
+John journeyed to the bedroom.
+Sandra picked up the apple there.
+Mary travelled to the bedroom.
+Mary went back to the bathroom.
+Sandra journeyed to the office.
+John went back to the kitchen.
+John moved to the garden.
+Sandra left the apple.
+Sandra took the apple there.
+Sandra put down the apple.
+John went back to the bathroom.
+Sandra travelled to the garden.
+Daniel went to the bathroom.
+Daniel left the milk.
+Mary took the milk there.
+Mary put down the milk.
+Mary journeyed to the kitchen.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 223 (wrong)
+
+CONTEXT:
+John picked up the apple there.
+John moved to the office.
+Mary went to the office.
+John discarded the apple.
+John travelled to the kitchen.
+Mary went back to the hallway.
+Daniel grabbed the apple there.
+Daniel left the apple.
+Mary grabbed the milk there.
+Daniel moved to the kitchen.
+Sandra got the apple there.
+Mary travelled to the bedroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 228 (wrong)
+
+CONTEXT:
+Mary grabbed the football there.
+Sandra travelled to the office.
+Sandra picked up the apple there.
+Sandra journeyed to the bedroom.
+Sandra journeyed to the kitchen.
+Mary travelled to the garden.
+John moved to the bathroom.
+Daniel went to the bathroom.
+Mary left the football.
+Daniel took the milk there.
+Mary picked up the football there.
+John went to the garden.
+Mary put down the football there.
+Daniel put down the milk there.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 230 (wrong)
+
+CONTEXT:
+Daniel took the apple there.
+John moved to the office.
+John moved to the bedroom.
+Sandra journeyed to the bathroom.
+Sandra journeyed to the garden.
+Mary took the milk there.
+Mary put down the milk.
+Mary went to the garden.
+Sandra grabbed the football there.
+John journeyed to the garden.
+Sandra went to the hallway.
+Sandra went back to the bathroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 234 (wrong)
+
+CONTEXT:
+Daniel took the apple there.
+John moved to the office.
+John moved to the bedroom.
+Sandra journeyed to the bathroom.
+Sandra journeyed to the garden.
+Mary took the milk there.
+Mary put down the milk.
+Mary went to the garden.
+Sandra grabbed the football there.
+John journeyed to the garden.
+Sandra went to the hallway.
+Sandra went back to the bathroom.
+Sandra discarded the football.
+Daniel moved to the kitchen.
+John travelled to the office.
+Daniel travelled to the garden.
+Daniel put down the apple.
+Daniel took the apple there.
+Daniel discarded the apple there.
+Sandra grabbed the football there.
+Mary picked up the apple there.
+Sandra dropped the football there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 245 (wrong)
+
+CONTEXT:
+Mary journeyed to the office.
+John grabbed the apple there.
+John left the apple.
+Mary went back to the bathroom.
+John grabbed the apple there.
+Mary went back to the garden.
+John put down the apple.
+Daniel got the milk there.
+Daniel went back to the hallway.
+John journeyed to the office.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 251 (wrong)
+
+CONTEXT:
+Daniel grabbed the apple there.
+Daniel went back to the bathroom.
+John journeyed to the garden.
+Daniel went back to the hallway.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+hallway
+
+EVAL NUM: 256 (wrong)
+
+CONTEXT:
+Sandra moved to the kitchen.
+John moved to the bathroom.
+Mary travelled to the garden.
+Sandra moved to the office.
+Mary travelled to the hallway.
+Daniel grabbed the milk there.
+Daniel went to the bathroom.
+Sandra got the apple there.
+Daniel put down the milk.
+John got the milk there.
+Sandra went back to the kitchen.
+Mary went to the office.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 274 (wrong)
+
+CONTEXT:
+John travelled to the office.
+Daniel went back to the garden.
+John went back to the kitchen.
+Daniel went back to the hallway.
+Sandra journeyed to the bedroom.
+Daniel moved to the bedroom.
+John grabbed the football there.
+Daniel journeyed to the garden.
+John put down the football.
+John took the apple there.
+John journeyed to the office.
+Mary journeyed to the hallway.
+Mary journeyed to the kitchen.
+John picked up the milk there.
+Mary got the football there.
+Sandra journeyed to the hallway.
+Mary left the football.
+John left the apple.
+Mary journeyed to the bedroom.
+John put down the milk.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+kitchen
+
+Answer:
+office
+
+EVAL NUM: 279 (wrong)
+
+CONTEXT:
+Sandra moved to the hallway.
+John travelled to the office.
+Sandra took the milk there.
+Sandra put down the milk.
+Mary went to the bedroom.
+Sandra went back to the kitchen.
+Mary went to the kitchen.
+Sandra got the apple there.
+Sandra dropped the apple.
+Daniel went back to the office.
+Mary grabbed the apple there.
+Daniel journeyed to the hallway.
+Daniel moved to the kitchen.
+Daniel travelled to the office.
+Sandra journeyed to the bathroom.
+Mary left the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 286 (wrong)
+
+CONTEXT:
+John went back to the bedroom.
+Sandra picked up the apple there.
+Mary moved to the bedroom.
+Sandra left the apple.
+John went back to the garden.
+Mary went back to the hallway.
+Sandra grabbed the apple there.
+Daniel went back to the office.
+Sandra left the apple there.
+Sandra took the apple there.
+Sandra discarded the apple.
+Daniel went to the garden.
+Sandra went back to the garden.
+John went back to the bedroom.
+Sandra grabbed the football there.
+Sandra went back to the bedroom.
+John went to the garden.
+Sandra dropped the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 287 (wrong)
+
+CONTEXT:
+John went back to the bedroom.
+Sandra picked up the apple there.
+Mary moved to the bedroom.
+Sandra left the apple.
+John went back to the garden.
+Mary went back to the hallway.
+Sandra grabbed the apple there.
+Daniel went back to the office.
+Sandra left the apple there.
+Sandra took the apple there.
+Sandra discarded the apple.
+Daniel went to the garden.
+Sandra went back to the garden.
+John went back to the bedroom.
+Sandra grabbed the football there.
+Sandra went back to the bedroom.
+John went to the garden.
+Sandra dropped the football.
+Sandra got the football there.
+Sandra put down the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 298 (wrong)
+
+CONTEXT:
+Sandra got the football there.
+John journeyed to the hallway.
+John journeyed to the office.
+Daniel travelled to the bedroom.
+John went to the bedroom.
+Mary went back to the kitchen.
+John journeyed to the bathroom.
+Sandra journeyed to the bedroom.
+Sandra put down the football.
+Sandra picked up the football there.
+John went back to the hallway.
+Daniel moved to the bathroom.
+John grabbed the milk there.
+Mary travelled to the garden.
+Sandra moved to the hallway.
+Daniel went back to the office.
+Sandra left the football there.
+John grabbed the football there.
+John dropped the football.
+John discarded the milk there.
+Mary went to the office.
+Mary travelled to the garden.
+Sandra moved to the bathroom.
+Sandra went to the kitchen.
+Mary moved to the bathroom.
+Sandra travelled to the office.
+John went to the bedroom.
+Mary grabbed the apple there.
+Mary put down the apple.
+Mary travelled to the hallway.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 303 (wrong)
+
+CONTEXT:
+John moved to the bathroom.
+Daniel moved to the bedroom.
+Mary went back to the bedroom.
+Mary moved to the office.
+Sandra moved to the garden.
+John travelled to the garden.
+Sandra went back to the hallway.
+Mary took the football there.
+Sandra journeyed to the kitchen.
+Mary went to the bedroom.
+Daniel went to the garden.
+John travelled to the office.
+Mary moved to the office.
+Mary discarded the football there.
+Sandra moved to the garden.
+John took the football there.
+Mary travelled to the kitchen.
+Daniel journeyed to the bathroom.
+Daniel journeyed to the bedroom.
+Mary went back to the office.
+Sandra moved to the office.
+John went back to the bedroom.
+Mary travelled to the garden.
+John dropped the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 308 (wrong)
+
+CONTEXT:
+Mary grabbed the milk there.
+John picked up the apple there.
+Mary went to the bathroom.
+Daniel moved to the garden.
+John put down the apple.
+Mary left the milk.
+John went to the bathroom.
+Daniel went back to the kitchen.
+Mary picked up the milk there.
+Sandra moved to the bedroom.
+Mary left the milk.
+Mary went back to the bedroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 309 (wrong)
+
+CONTEXT:
+Mary grabbed the milk there.
+John picked up the apple there.
+Mary went to the bathroom.
+Daniel moved to the garden.
+John put down the apple.
+Mary left the milk.
+John went to the bathroom.
+Daniel went back to the kitchen.
+Mary picked up the milk there.
+Sandra moved to the bedroom.
+Mary left the milk.
+Mary went back to the bedroom.
+Daniel went back to the bedroom.
+Daniel journeyed to the garden.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 322 (wrong)
+
+CONTEXT:
+Daniel grabbed the football there.
+Sandra picked up the apple there.
+Daniel dropped the football.
+Sandra discarded the apple.
+John got the football there.
+Sandra got the apple there.
+John went to the bathroom.
+Mary journeyed to the garden.
+Sandra dropped the apple.
+Daniel went back to the bedroom.
+Sandra got the apple there.
+Daniel travelled to the garden.
+Daniel moved to the bedroom.
+John dropped the football.
+Sandra left the apple.
+John grabbed the football there.
+Daniel got the apple there.
+John left the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 323 (wrong)
+
+CONTEXT:
+Daniel grabbed the football there.
+Sandra picked up the apple there.
+Daniel dropped the football.
+Sandra discarded the apple.
+John got the football there.
+Sandra got the apple there.
+John went to the bathroom.
+Mary journeyed to the garden.
+Sandra dropped the apple.
+Daniel went back to the bedroom.
+Sandra got the apple there.
+Daniel travelled to the garden.
+Daniel moved to the bedroom.
+John dropped the football.
+Sandra left the apple.
+John grabbed the football there.
+Daniel got the apple there.
+John left the football.
+Daniel discarded the apple.
+Sandra went back to the bathroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 324 (wrong)
+
+CONTEXT:
+Daniel grabbed the football there.
+Sandra picked up the apple there.
+Daniel dropped the football.
+Sandra discarded the apple.
+John got the football there.
+Sandra got the apple there.
+John went to the bathroom.
+Mary journeyed to the garden.
+Sandra dropped the apple.
+Daniel went back to the bedroom.
+Sandra got the apple there.
+Daniel travelled to the garden.
+Daniel moved to the bedroom.
+John dropped the football.
+Sandra left the apple.
+John grabbed the football there.
+Daniel got the apple there.
+John left the football.
+Daniel discarded the apple.
+Sandra went back to the bathroom.
+Sandra went to the kitchen.
+Daniel travelled to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 335 (wrong)
+
+CONTEXT:
+John went back to the office.
+Daniel journeyed to the garden.
+Mary took the apple there.
+John went back to the hallway.
+Mary grabbed the milk there.
+Daniel moved to the bedroom.
+Mary dropped the apple there.
+Sandra grabbed the football there.
+Mary travelled to the garden.
+Mary went back to the hallway.
+Sandra went back to the kitchen.
+Sandra went back to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 338 (wrong)
+
+CONTEXT:
+John went back to the office.
+Daniel journeyed to the garden.
+Mary took the apple there.
+John went back to the hallway.
+Mary grabbed the milk there.
+Daniel moved to the bedroom.
+Mary dropped the apple there.
+Sandra grabbed the football there.
+Mary travelled to the garden.
+Mary went back to the hallway.
+Sandra went back to the kitchen.
+Sandra went back to the hallway.
+Sandra put down the football.
+Sandra went to the garden.
+Mary picked up the football there.
+Sandra moved to the hallway.
+Sandra journeyed to the kitchen.
+Daniel journeyed to the bathroom.
+Sandra went to the office.
+Sandra journeyed to the bathroom.
+Mary went to the bathroom.
+Mary moved to the bedroom.
+Mary went to the hallway.
+Daniel went to the office.
+Daniel journeyed to the bathroom.
+Daniel went back to the garden.
+Mary discarded the football.
+Daniel went to the bathroom.
+Mary journeyed to the bedroom.
+John moved to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 339 (wrong)
+
+CONTEXT:
+John went back to the office.
+Daniel journeyed to the garden.
+Mary took the apple there.
+John went back to the hallway.
+Mary grabbed the milk there.
+Daniel moved to the bedroom.
+Mary dropped the apple there.
+Sandra grabbed the football there.
+Mary travelled to the garden.
+Mary went back to the hallway.
+Sandra went back to the kitchen.
+Sandra went back to the hallway.
+Sandra put down the football.
+Sandra went to the garden.
+Mary picked up the football there.
+Sandra moved to the hallway.
+Sandra journeyed to the kitchen.
+Daniel journeyed to the bathroom.
+Sandra went to the office.
+Sandra journeyed to the bathroom.
+Mary went to the bathroom.
+Mary moved to the bedroom.
+Mary went to the hallway.
+Daniel went to the office.
+Daniel journeyed to the bathroom.
+Daniel went back to the garden.
+Mary discarded the football.
+Daniel went to the bathroom.
+Mary journeyed to the bedroom.
+John moved to the office.
+John journeyed to the bedroom.
+Daniel went back to the office.
+Daniel travelled to the kitchen.
+Daniel went to the bedroom.
+John went back to the hallway.
+Mary left the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 342 (wrong)
+
+CONTEXT:
+John travelled to the office.
+John journeyed to the garden.
+Mary got the football there.
+Mary left the football there.
+Daniel got the football there.
+Sandra got the milk there.
+John travelled to the office.
+Mary travelled to the garden.
+Sandra travelled to the garden.
+John moved to the bedroom.
+Daniel travelled to the hallway.
+Sandra put down the milk.
+Mary grabbed the milk there.
+Daniel journeyed to the bedroom.
+John journeyed to the hallway.
+John went back to the office.
+Sandra went back to the office.
+John journeyed to the bedroom.
+John went to the bathroom.
+John travelled to the kitchen.
+Daniel moved to the hallway.
+John travelled to the bedroom.
+Daniel put down the football.
+Mary went to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+hallway
+
+EVAL NUM: 343 (wrong)
+
+CONTEXT:
+John travelled to the office.
+John journeyed to the garden.
+Mary got the football there.
+Mary left the football there.
+Daniel got the football there.
+Sandra got the milk there.
+John travelled to the office.
+Mary travelled to the garden.
+Sandra travelled to the garden.
+John moved to the bedroom.
+Daniel travelled to the hallway.
+Sandra put down the milk.
+Mary grabbed the milk there.
+Daniel journeyed to the bedroom.
+John journeyed to the hallway.
+John went back to the office.
+Sandra went back to the office.
+John journeyed to the bedroom.
+John went to the bathroom.
+John travelled to the kitchen.
+Daniel moved to the hallway.
+John travelled to the bedroom.
+Daniel put down the football.
+Mary went to the kitchen.
+Daniel travelled to the garden.
+Mary journeyed to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+hallway
+
+EVAL NUM: 351 (wrong)
+
+CONTEXT:
+Mary picked up the football there.
+Sandra got the milk there.
+Sandra went back to the bedroom.
+Daniel went back to the garden.
+Daniel travelled to the office.
+Sandra travelled to the office.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+office
+
+EVAL NUM: 358 (wrong)
+
+CONTEXT:
+John went to the bedroom.
+John moved to the garden.
+Daniel travelled to the bathroom.
+Sandra moved to the hallway.
+Sandra got the football there.
+Sandra put down the football.
+Daniel moved to the hallway.
+Mary took the milk there.
+Mary moved to the office.
+Sandra went to the garden.
+Daniel went to the office.
+Mary went to the hallway.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 370 (wrong)
+
+CONTEXT:
+Sandra travelled to the office.
+Daniel moved to the kitchen.
+Mary travelled to the bathroom.
+Sandra took the football there.
+Daniel picked up the apple there.
+Sandra went back to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 382 (wrong)
+
+CONTEXT:
+Sandra grabbed the football there.
+Sandra discarded the football.
+Daniel travelled to the office.
+Sandra grabbed the football there.
+Mary travelled to the kitchen.
+Sandra went to the bathroom.
+Sandra dropped the football.
+Sandra took the football there.
+Daniel journeyed to the kitchen.
+Sandra discarded the football.
+Sandra picked up the football there.
+Daniel went to the hallway.
+John travelled to the kitchen.
+Sandra left the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 387 (wrong)
+
+CONTEXT:
+Sandra travelled to the bathroom.
+Mary journeyed to the bedroom.
+John travelled to the bathroom.
+John got the football there.
+Sandra got the milk there.
+Sandra left the milk.
+John discarded the football.
+Sandra went to the garden.
+John travelled to the garden.
+Sandra journeyed to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 394 (wrong)
+
+CONTEXT:
+John journeyed to the garden.
+Sandra went to the office.
+Sandra moved to the hallway.
+Mary went to the office.
+Sandra picked up the milk there.
+Sandra dropped the milk there.
+Mary journeyed to the bedroom.
+Sandra got the milk there.
+John moved to the office.
+Sandra travelled to the garden.
+Mary journeyed to the kitchen.
+Mary took the football there.
+Sandra discarded the milk.
+Daniel moved to the hallway.
+Mary discarded the football.
+Mary travelled to the garden.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 398 (wrong)
+
+CONTEXT:
+Sandra journeyed to the office.
+Mary went back to the kitchen.
+John picked up the football there.
+Sandra journeyed to the bedroom.
+John put down the football.
+Sandra got the apple there.
+John went to the office.
+John went back to the garden.
+John moved to the bathroom.
+Sandra left the apple.
+Daniel journeyed to the office.
+John went back to the garden.
+John travelled to the office.
+John travelled to the garden.
+Mary went back to the office.
+John grabbed the football there.
+John left the football.
+John travelled to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 401 (wrong)
+
+CONTEXT:
+Sandra journeyed to the hallway.
+John journeyed to the bathroom.
+Sandra grabbed the football there.
+Daniel travelled to the bedroom.
+John got the milk there.
+John dropped the milk.
+Sandra moved to the garden.
+Daniel went back to the hallway.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 405 (wrong)
+
+CONTEXT:
+Daniel grabbed the football there.
+Daniel discarded the football.
+John got the football there.
+Mary went back to the hallway.
+Daniel moved to the bathroom.
+John dropped the football there.
+Sandra took the apple there.
+Daniel journeyed to the office.
+Mary took the football there.
+Mary dropped the football there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 412 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+Daniel went to the bathroom.
+John went back to the bedroom.
+John went to the hallway.
+Mary journeyed to the bathroom.
+Sandra picked up the apple there.
+John moved to the bathroom.
+John got the milk there.
+Daniel moved to the bedroom.
+John moved to the garden.
+Sandra put down the apple.
+John got the football there.
+Sandra journeyed to the office.
+Daniel picked up the apple there.
+Mary journeyed to the kitchen.
+Daniel left the apple there.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 413 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+Daniel went to the bathroom.
+John went back to the bedroom.
+John went to the hallway.
+Mary journeyed to the bathroom.
+Sandra picked up the apple there.
+John moved to the bathroom.
+John got the milk there.
+Daniel moved to the bedroom.
+John moved to the garden.
+Sandra put down the apple.
+John got the football there.
+Sandra journeyed to the office.
+Daniel picked up the apple there.
+Mary journeyed to the kitchen.
+Daniel left the apple there.
+Daniel got the apple there.
+John went back to the bathroom.
+Daniel put down the apple.
+John moved to the garden.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 414 (wrong)
+
+CONTEXT:
+Mary travelled to the office.
+Daniel went to the bathroom.
+John went back to the bedroom.
+John went to the hallway.
+Mary journeyed to the bathroom.
+Sandra picked up the apple there.
+John moved to the bathroom.
+John got the milk there.
+Daniel moved to the bedroom.
+John moved to the garden.
+Sandra put down the apple.
+John got the football there.
+Sandra journeyed to the office.
+Daniel picked up the apple there.
+Mary journeyed to the kitchen.
+Daniel left the apple there.
+Daniel got the apple there.
+John went back to the bathroom.
+Daniel put down the apple.
+John moved to the garden.
+Sandra travelled to the bathroom.
+Sandra moved to the kitchen.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 417 (wrong)
+
+CONTEXT:
+Sandra journeyed to the bedroom.
+Sandra picked up the football there.
+Sandra discarded the football.
+Mary moved to the office.
+Mary went back to the hallway.
+Sandra journeyed to the garden.
+Mary picked up the apple there.
+John went back to the garden.
+Mary put down the apple.
+Sandra went to the hallway.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 418 (wrong)
+
+CONTEXT:
+Sandra journeyed to the bedroom.
+Sandra picked up the football there.
+Sandra discarded the football.
+Mary moved to the office.
+Mary went back to the hallway.
+Sandra journeyed to the garden.
+Mary picked up the apple there.
+John went back to the garden.
+Mary put down the apple.
+Sandra went to the hallway.
+Daniel went back to the bedroom.
+Mary travelled to the bedroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 422 (wrong)
+
+CONTEXT:
+Sandra travelled to the bathroom.
+John travelled to the office.
+John grabbed the apple there.
+Sandra took the football there.
+Sandra dropped the football there.
+Sandra took the football there.
+Daniel moved to the bathroom.
+John journeyed to the kitchen.
+Sandra travelled to the garden.
+John put down the apple.
+Sandra went to the hallway.
+Sandra went back to the bedroom.
+John picked up the apple there.
+Sandra moved to the kitchen.
+Sandra went back to the garden.
+Sandra went to the bedroom.
+John put down the apple.
+John grabbed the apple there.
+John left the apple there.
+Sandra left the football there.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bedroom
+
+Answer:
+kitchen
+
+EVAL NUM: 423 (wrong)
+
+CONTEXT:
+Sandra travelled to the bathroom.
+John travelled to the office.
+John grabbed the apple there.
+Sandra took the football there.
+Sandra dropped the football there.
+Sandra took the football there.
+Daniel moved to the bathroom.
+John journeyed to the kitchen.
+Sandra travelled to the garden.
+John put down the apple.
+Sandra went to the hallway.
+Sandra went back to the bedroom.
+John picked up the apple there.
+Sandra moved to the kitchen.
+Sandra went back to the garden.
+Sandra went to the bedroom.
+John put down the apple.
+John grabbed the apple there.
+John left the apple there.
+Sandra left the football there.
+John journeyed to the bathroom.
+Mary journeyed to the garden.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bedroom
+
+Answer:
+kitchen
+
+EVAL NUM: 424 (wrong)
+
+CONTEXT:
+Sandra travelled to the bathroom.
+John travelled to the office.
+John grabbed the apple there.
+Sandra took the football there.
+Sandra dropped the football there.
+Sandra took the football there.
+Daniel moved to the bathroom.
+John journeyed to the kitchen.
+Sandra travelled to the garden.
+John put down the apple.
+Sandra went to the hallway.
+Sandra went back to the bedroom.
+John picked up the apple there.
+Sandra moved to the kitchen.
+Sandra went back to the garden.
+Sandra went to the bedroom.
+John put down the apple.
+John grabbed the apple there.
+John left the apple there.
+Sandra left the football there.
+John journeyed to the bathroom.
+Mary journeyed to the garden.
+Sandra took the football there.
+John travelled to the garden.
+John got the milk there.
+Mary moved to the bedroom.
+John moved to the kitchen.
+Daniel went to the hallway.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 425 (wrong)
+
+CONTEXT:
+Daniel went back to the hallway.
+Mary went back to the garden.
+Sandra went to the kitchen.
+Mary moved to the bedroom.
+Sandra travelled to the bathroom.
+Mary journeyed to the garden.
+Daniel went back to the office.
+John went back to the garden.
+John travelled to the office.
+Sandra got the milk there.
+John went back to the kitchen.
+Sandra left the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 426 (wrong)
+
+CONTEXT:
+Daniel went back to the hallway.
+Mary went back to the garden.
+Sandra went to the kitchen.
+Mary moved to the bedroom.
+Sandra travelled to the bathroom.
+Mary journeyed to the garden.
+Daniel went back to the office.
+John went back to the garden.
+John travelled to the office.
+Sandra got the milk there.
+John went back to the kitchen.
+Sandra left the milk.
+Sandra took the milk there.
+Mary travelled to the bedroom.
+Sandra left the milk there.
+John moved to the garden.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 447 (wrong)
+
+CONTEXT:
+Daniel travelled to the hallway.
+Sandra went to the office.
+Sandra moved to the hallway.
+Daniel got the football there.
+John went to the office.
+Mary journeyed to the bathroom.
+Daniel put down the football there.
+Mary went back to the office.
+Sandra got the football there.
+Daniel moved to the bedroom.
+Sandra left the football.
+Daniel picked up the milk there.
+John moved to the kitchen.
+Sandra moved to the garden.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 453 (wrong)
+
+CONTEXT:
+Mary moved to the hallway.
+Sandra travelled to the kitchen.
+Sandra travelled to the office.
+Daniel travelled to the office.
+Sandra went to the kitchen.
+Sandra got the apple there.
+John went to the garden.
+John grabbed the milk there.
+Mary took the football there.
+John discarded the milk.
+Daniel moved to the kitchen.
+John took the milk there.
+John discarded the milk.
+Mary discarded the football.
+Sandra moved to the bedroom.
+Sandra journeyed to the hallway.
+Sandra took the football there.
+Daniel went back to the bathroom.
+Mary journeyed to the office.
+John grabbed the milk there.
+Sandra left the apple.
+John left the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 454 (wrong)
+
+CONTEXT:
+Mary moved to the hallway.
+Sandra travelled to the kitchen.
+Sandra travelled to the office.
+Daniel travelled to the office.
+Sandra went to the kitchen.
+Sandra got the apple there.
+John went to the garden.
+John grabbed the milk there.
+Mary took the football there.
+John discarded the milk.
+Daniel moved to the kitchen.
+John took the milk there.
+John discarded the milk.
+Mary discarded the football.
+Sandra moved to the bedroom.
+Sandra journeyed to the hallway.
+Sandra took the football there.
+Daniel went back to the bathroom.
+Mary journeyed to the office.
+John grabbed the milk there.
+Sandra left the apple.
+John left the milk.
+John got the milk there.
+John dropped the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 462 (wrong)
+
+CONTEXT:
+Mary journeyed to the garden.
+John went to the hallway.
+John went to the kitchen.
+Daniel grabbed the apple there.
+Daniel dropped the apple.
+John journeyed to the garden.
+Mary travelled to the bathroom.
+John went to the bedroom.
+Sandra moved to the kitchen.
+Daniel went back to the bathroom.
+Sandra went back to the hallway.
+Mary took the milk there.
+John grabbed the apple there.
+John journeyed to the bathroom.
+Mary dropped the milk.
+John picked up the milk there.
+Daniel travelled to the garden.
+Sandra went to the office.
+Mary took the football there.
+Daniel journeyed to the hallway.
+Daniel went back to the bedroom.
+Mary left the football there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 465 (wrong)
+
+CONTEXT:
+Mary went to the office.
+Daniel grabbed the football there.
+Mary journeyed to the garden.
+Daniel dropped the football.
+Sandra travelled to the office.
+Mary grabbed the milk there.
+Sandra moved to the bedroom.
+Sandra travelled to the bathroom.
+Daniel journeyed to the garden.
+Sandra moved to the kitchen.
+Mary left the milk.
+Mary travelled to the bathroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bathroom
+
+Answer:
+garden
+
+EVAL NUM: 466 (wrong)
+
+CONTEXT:
+Mary went to the office.
+Daniel grabbed the football there.
+Mary journeyed to the garden.
+Daniel dropped the football.
+Sandra travelled to the office.
+Mary grabbed the milk there.
+Sandra moved to the bedroom.
+Sandra travelled to the bathroom.
+Daniel journeyed to the garden.
+Sandra moved to the kitchen.
+Mary left the milk.
+Mary travelled to the bathroom.
+Daniel travelled to the hallway.
+Mary travelled to the hallway.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bathroom
+
+Answer:
+garden
+
+EVAL NUM: 473 (wrong)
+
+CONTEXT:
+John journeyed to the hallway.
+Sandra moved to the bathroom.
+Sandra grabbed the football there.
+Sandra went to the garden.
+Mary went back to the bathroom.
+Sandra picked up the milk there.
+Sandra left the football.
+Daniel went back to the bathroom.
+Daniel travelled to the office.
+Sandra put down the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 474 (wrong)
+
+CONTEXT:
+John journeyed to the hallway.
+Sandra moved to the bathroom.
+Sandra grabbed the football there.
+Sandra went to the garden.
+Mary went back to the bathroom.
+Sandra picked up the milk there.
+Sandra left the football.
+Daniel went back to the bathroom.
+Daniel travelled to the office.
+Sandra put down the milk.
+Mary moved to the bedroom.
+Sandra journeyed to the bedroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+garden
+
+EVAL NUM: 488 (wrong)
+
+CONTEXT:
+Sandra journeyed to the kitchen.
+Sandra went back to the bedroom.
+Daniel went back to the garden.
+Daniel travelled to the bathroom.
+John moved to the bathroom.
+Mary went to the bedroom.
+Mary travelled to the office.
+Mary journeyed to the hallway.
+John went to the bedroom.
+Daniel moved to the garden.
+Daniel grabbed the apple there.
+John travelled to the kitchen.
+Daniel travelled to the bedroom.
+John picked up the milk there.
+Mary moved to the bathroom.
+John grabbed the football there.
+Sandra journeyed to the hallway.
+Sandra journeyed to the kitchen.
+Daniel went to the hallway.
+Daniel journeyed to the kitchen.
+John journeyed to the bathroom.
+John left the football.
+John dropped the milk.
+Mary grabbed the football there.
+Sandra moved to the bathroom.
+John grabbed the milk there.
+John discarded the milk.
+John went back to the office.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 496 (wrong)
+
+CONTEXT:
+Daniel travelled to the garden.
+Mary journeyed to the bathroom.
+John went back to the kitchen.
+John went back to the hallway.
+John travelled to the kitchen.
+Mary journeyed to the office.
+Mary got the football there.
+Sandra moved to the office.
+Mary left the football.
+John went to the office.
+Sandra grabbed the football there.
+Daniel went to the bedroom.
+John travelled to the bathroom.
+Mary journeyed to the bathroom.
+Daniel travelled to the office.
+Sandra travelled to the hallway.
+John journeyed to the office.
+Daniel went to the bedroom.
+Sandra got the milk there.
+Sandra got the apple there.
+Mary went to the bedroom.
+Daniel went back to the garden.
+Mary travelled to the office.
+John journeyed to the garden.
+Mary journeyed to the kitchen.
+Sandra discarded the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+Nowhere
+
+Answer:
+hallway
+
+EVAL NUM: 500 (wrong)
+
+CONTEXT:
+Mary journeyed to the office.
+Mary moved to the bedroom.
+Daniel moved to the bedroom.
+Daniel travelled to the garden.
+Daniel went to the kitchen.
+John journeyed to the office.
+Mary went to the office.
+Mary journeyed to the bedroom.
+John grabbed the apple there.
+Mary travelled to the garden.
+Daniel went to the hallway.
+Sandra went back to the garden.
+John dropped the apple there.
+John went back to the bathroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 501 (wrong)
+
+CONTEXT:
+Mary journeyed to the office.
+Mary moved to the bedroom.
+Daniel moved to the bedroom.
+Daniel travelled to the garden.
+Daniel went to the kitchen.
+John journeyed to the office.
+Mary went to the office.
+Mary journeyed to the bedroom.
+John grabbed the apple there.
+Mary travelled to the garden.
+Daniel went to the hallway.
+Sandra went back to the garden.
+John dropped the apple there.
+John went back to the bathroom.
+Mary picked up the milk there.
+Sandra went to the bathroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 502 (wrong)
+
+CONTEXT:
+Mary journeyed to the office.
+Mary moved to the bedroom.
+Daniel moved to the bedroom.
+Daniel travelled to the garden.
+Daniel went to the kitchen.
+John journeyed to the office.
+Mary went to the office.
+Mary journeyed to the bedroom.
+John grabbed the apple there.
+Mary travelled to the garden.
+Daniel went to the hallway.
+Sandra went back to the garden.
+John dropped the apple there.
+John went back to the bathroom.
+Mary picked up the milk there.
+Sandra went to the bathroom.
+Mary discarded the milk.
+Mary moved to the kitchen.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 519 (wrong)
+
+CONTEXT:
+Daniel went back to the garden.
+Mary went to the garden.
+Sandra journeyed to the garden.
+Daniel journeyed to the bedroom.
+Sandra got the milk there.
+Mary travelled to the office.
+Mary took the apple there.
+Mary left the apple.
+Sandra discarded the milk there.
+Sandra moved to the bathroom.
+John went back to the kitchen.
+Sandra went to the office.
+John moved to the garden.
+Mary picked up the apple there.
+John picked up the milk there.
+Sandra went back to the kitchen.
+John went back to the bathroom.
+Mary went back to the hallway.
+Mary went to the bathroom.
+Daniel travelled to the hallway.
+Mary discarded the apple.
+Mary went back to the bedroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bedroom
+
+Answer:
+bathroom
+
+EVAL NUM: 532 (wrong)
+
+CONTEXT:
+Mary went to the hallway.
+Daniel went back to the bedroom.
+Sandra went back to the garden.
+Mary went to the office.
+Mary journeyed to the kitchen.
+Sandra moved to the office.
+Sandra journeyed to the hallway.
+Daniel journeyed to the garden.
+Mary journeyed to the bathroom.
+John went back to the bathroom.
+Sandra travelled to the garden.
+John moved to the office.
+Daniel went back to the kitchen.
+Mary moved to the kitchen.
+Mary moved to the hallway.
+Mary went to the kitchen.
+Sandra went back to the bedroom.
+Sandra travelled to the hallway.
+Sandra travelled to the kitchen.
+Sandra moved to the garden.
+Daniel went to the garden.
+Sandra went back to the bathroom.
+John moved to the garden.
+Mary went to the bathroom.
+Daniel travelled to the kitchen.
+John went back to the hallway.
+Sandra went back to the hallway.
+Mary went to the hallway.
+Daniel went back to the garden.
+Sandra went back to the office.
+Sandra moved to the kitchen.
+Mary travelled to the garden.
+Sandra went to the garden.
+Daniel journeyed to the hallway.
+Mary went back to the hallway.
+Daniel travelled to the garden.
+John journeyed to the bathroom.
+Daniel travelled to the hallway.
+Daniel travelled to the bedroom.
+Mary went back to the kitchen.
+Daniel went to the office.
+John journeyed to the hallway.
+John went to the kitchen.
+Daniel travelled to the hallway.
+Sandra went back to the kitchen.
+Mary moved to the office.
+Sandra went back to the garden.
+Sandra went back to the kitchen.
+Sandra moved to the garden.
+Sandra moved to the office.
+John went back to the hallway.
+Daniel went to the garden.
+Sandra travelled to the kitchen.
+Sandra moved to the bathroom.
+John journeyed to the garden.
+Mary moved to the hallway.
+John went back to the office.
+Mary went back to the office.
+Daniel travelled to the bathroom.
+Sandra travelled to the hallway.
+Sandra journeyed to the bathroom.
+Sandra travelled to the bedroom.
+Mary went back to the hallway.
+Sandra travelled to the kitchen.
+Daniel travelled to the garden.
+Daniel journeyed to the bedroom.
+Mary journeyed to the office.
+Sandra went back to the office.
+John travelled to the hallway.
+Daniel picked up the milk there.
+Daniel picked up the apple there.
+Sandra moved to the hallway.
+John journeyed to the bedroom.
+John went back to the garden.
+Sandra journeyed to the office.
+Sandra moved to the bedroom.
+Mary moved to the kitchen.
+Mary went to the office.
+Sandra grabbed the football there.
+Sandra discarded the football.
+Daniel took the football there.
+Daniel put down the apple there.
+Daniel took the apple there.
+Daniel travelled to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+hallway
+
+EVAL NUM: 549 (wrong)
+
+CONTEXT:
+Sandra picked up the apple there.
+Sandra put down the apple.
+Sandra moved to the bathroom.
+Daniel went to the kitchen.
+Sandra went to the bedroom.
+John went to the kitchen.
+Daniel journeyed to the hallway.
+Sandra journeyed to the bathroom.
+Sandra took the milk there.
+Sandra went to the office.
+Sandra moved to the bathroom.
+Sandra put down the milk.
+John went to the bathroom.
+John journeyed to the bedroom.
+Mary went to the bathroom.
+John picked up the apple there.
+Mary got the football there.
+Mary went to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bathroom
+
+Answer:
+hallway
+
+EVAL NUM: 556 (wrong)
+
+CONTEXT:
+Daniel grabbed the apple there.
+Mary got the milk there.
+Mary went back to the kitchen.
+Mary moved to the garden.
+Sandra went back to the garden.
+Mary moved to the office.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 564 (wrong)
+
+CONTEXT:
+Sandra took the apple there.
+Daniel went back to the bedroom.
+Daniel travelled to the bathroom.
+John went to the bathroom.
+Mary journeyed to the bedroom.
+Daniel moved to the bedroom.
+Sandra moved to the bedroom.
+Daniel got the milk there.
+Daniel dropped the milk.
+Sandra picked up the milk there.
+Sandra put down the apple there.
+Mary picked up the apple there.
+Mary travelled to the bathroom.
+Sandra discarded the milk.
+Daniel took the milk there.
+John moved to the kitchen.
+Mary dropped the apple.
+Mary travelled to the office.
+Mary grabbed the football there.
+Daniel went back to the kitchen.
+Mary went back to the garden.
+John journeyed to the bathroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 571 (wrong)
+
+CONTEXT:
+Sandra went back to the bathroom.
+Sandra went to the office.
+John went to the bedroom.
+Mary went to the bathroom.
+Mary journeyed to the bedroom.
+John moved to the bathroom.
+Mary picked up the milk there.
+John went to the bedroom.
+John went back to the bathroom.
+Sandra went to the garden.
+Mary discarded the milk.
+Daniel journeyed to the hallway.
+Sandra journeyed to the kitchen.
+Daniel travelled to the kitchen.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+Nowhere
+
+Answer:
+bedroom
+
+EVAL NUM: 582 (wrong)
+
+CONTEXT:
+Daniel travelled to the garden.
+John picked up the milk there.
+Mary moved to the garden.
+Mary went to the bathroom.
+Mary moved to the bedroom.
+Daniel journeyed to the hallway.
+John moved to the hallway.
+Daniel picked up the football there.
+Daniel discarded the football there.
+Mary travelled to the hallway.
+Mary travelled to the garden.
+Daniel took the football there.
+Daniel moved to the bathroom.
+Daniel travelled to the office.
+John journeyed to the garden.
+John left the milk.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 587 (wrong)
+
+CONTEXT:
+John went back to the hallway.
+Daniel went back to the garden.
+John moved to the bedroom.
+Daniel moved to the kitchen.
+Sandra travelled to the garden.
+Daniel picked up the football there.
+Sandra took the milk there.
+Sandra left the milk.
+Mary moved to the office.
+Sandra took the milk there.
+Daniel moved to the garden.
+Sandra discarded the milk.
+Sandra journeyed to the bedroom.
+Mary journeyed to the kitchen.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+garden
+
+EVAL NUM: 588 (wrong)
+
+CONTEXT:
+John went back to the hallway.
+Daniel went back to the garden.
+John moved to the bedroom.
+Daniel moved to the kitchen.
+Sandra travelled to the garden.
+Daniel picked up the football there.
+Sandra took the milk there.
+Sandra left the milk.
+Mary moved to the office.
+Sandra took the milk there.
+Daniel moved to the garden.
+Sandra discarded the milk.
+Sandra journeyed to the bedroom.
+Mary journeyed to the kitchen.
+Mary journeyed to the garden.
+Daniel went back to the bathroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bedroom
+
+Answer:
+garden
+
+EVAL NUM: 593 (wrong)
+
+CONTEXT:
+Sandra moved to the bedroom.
+Daniel moved to the hallway.
+John went to the kitchen.
+John got the milk there.
+Mary travelled to the kitchen.
+Daniel journeyed to the bathroom.
+Mary went to the garden.
+Sandra journeyed to the bathroom.
+Daniel picked up the apple there.
+Mary travelled to the bathroom.
+John dropped the milk.
+Daniel travelled to the bedroom.
+John moved to the hallway.
+John travelled to the office.
+John travelled to the bedroom.
+Mary went back to the garden.
+Daniel put down the apple.
+Mary went to the bathroom.
+Sandra travelled to the bedroom.
+Daniel got the apple there.
+Sandra travelled to the garden.
+Daniel dropped the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 594 (wrong)
+
+CONTEXT:
+Sandra moved to the bedroom.
+Daniel moved to the hallway.
+John went to the kitchen.
+John got the milk there.
+Mary travelled to the kitchen.
+Daniel journeyed to the bathroom.
+Mary went to the garden.
+Sandra journeyed to the bathroom.
+Daniel picked up the apple there.
+Mary travelled to the bathroom.
+John dropped the milk.
+Daniel travelled to the bedroom.
+John moved to the hallway.
+John travelled to the office.
+John travelled to the bedroom.
+Mary went back to the garden.
+Daniel put down the apple.
+Mary went to the bathroom.
+Sandra travelled to the bedroom.
+Daniel got the apple there.
+Sandra travelled to the garden.
+Daniel dropped the apple.
+Daniel moved to the office.
+Mary went back to the hallway.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 598 (wrong)
+
+CONTEXT:
+John journeyed to the kitchen.
+Daniel travelled to the office.
+Sandra moved to the kitchen.
+Sandra got the milk there.
+John moved to the bedroom.
+Mary went back to the kitchen.
+Sandra put down the milk.
+Mary took the milk there.
+John travelled to the bathroom.
+John went back to the hallway.
+Daniel went back to the kitchen.
+John travelled to the kitchen.
+Mary went back to the hallway.
+Mary left the milk there.
+John moved to the garden.
+Daniel moved to the bedroom.
+Daniel travelled to the bathroom.
+Mary took the football there.
+John went back to the bathroom.
+John journeyed to the bedroom.
+Mary went back to the kitchen.
+Sandra went back to the bedroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+kitchen
+
+EVAL NUM: 604 (wrong)
+
+CONTEXT:
+Daniel moved to the garden.
+Daniel went back to the bedroom.
+Mary went to the office.
+Mary went to the bedroom.
+Mary moved to the garden.
+John went to the hallway.
+Daniel went back to the kitchen.
+Sandra grabbed the football there.
+Daniel went to the bedroom.
+John went to the bathroom.
+Daniel went to the hallway.
+Sandra left the football.
+Daniel grabbed the milk there.
+John journeyed to the office.
+Daniel got the apple there.
+Sandra picked up the football there.
+Sandra journeyed to the bedroom.
+Daniel moved to the kitchen.
+Daniel discarded the apple.
+John went to the kitchen.
+John grabbed the apple there.
+Sandra journeyed to the garden.
+John left the apple.
+Daniel grabbed the apple there.
+Sandra journeyed to the hallway.
+Sandra put down the football.
+Daniel went to the garden.
+Sandra got the football there.
+John went back to the bedroom.
+Sandra put down the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 630 (wrong)
+
+CONTEXT:
+Sandra travelled to the kitchen.
+Sandra moved to the bathroom.
+John travelled to the bedroom.
+John got the apple there.
+Daniel moved to the garden.
+Sandra got the football there.
+John put down the apple.
+John got the apple there.
+John journeyed to the kitchen.
+Sandra left the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 652 (wrong)
+
+CONTEXT:
+Sandra went back to the office.
+John moved to the bedroom.
+Daniel took the football there.
+Mary moved to the hallway.
+Mary moved to the kitchen.
+Daniel left the football there.
+Daniel got the football there.
+Mary moved to the hallway.
+Sandra journeyed to the bathroom.
+John went back to the kitchen.
+Mary travelled to the bedroom.
+Daniel travelled to the hallway.
+Sandra went back to the kitchen.
+Daniel moved to the office.
+Sandra went to the office.
+Daniel grabbed the apple there.
+Sandra went to the bathroom.
+Daniel took the milk there.
+Daniel dropped the apple.
+John travelled to the bedroom.
+Daniel went back to the garden.
+John journeyed to the bathroom.
+Sandra moved to the office.
+Sandra went back to the bathroom.
+John travelled to the hallway.
+Daniel discarded the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 653 (wrong)
+
+CONTEXT:
+Sandra went back to the office.
+John moved to the bedroom.
+Daniel took the football there.
+Mary moved to the hallway.
+Mary moved to the kitchen.
+Daniel left the football there.
+Daniel got the football there.
+Mary moved to the hallway.
+Sandra journeyed to the bathroom.
+John went back to the kitchen.
+Mary travelled to the bedroom.
+Daniel travelled to the hallway.
+Sandra went back to the kitchen.
+Daniel moved to the office.
+Sandra went to the office.
+Daniel grabbed the apple there.
+Sandra went to the bathroom.
+Daniel took the milk there.
+Daniel dropped the apple.
+John travelled to the bedroom.
+Daniel went back to the garden.
+John journeyed to the bathroom.
+Sandra moved to the office.
+Sandra went back to the bathroom.
+John travelled to the hallway.
+Daniel discarded the football.
+John journeyed to the bathroom.
+Daniel travelled to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 655 (wrong)
+
+CONTEXT:
+Daniel journeyed to the hallway.
+Sandra journeyed to the bathroom.
+Mary moved to the bedroom.
+Sandra took the football there.
+Daniel went back to the bedroom.
+Daniel journeyed to the kitchen.
+Daniel took the apple there.
+Sandra moved to the garden.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bathroom
+
+Answer:
+garden
+
+EVAL NUM: 660 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Sandra went back to the office.
+Sandra travelled to the garden.
+Sandra travelled to the hallway.
+John journeyed to the office.
+Mary went back to the hallway.
+Mary moved to the bathroom.
+John journeyed to the bathroom.
+Daniel picked up the football there.
+Daniel left the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bathroom
+
+Answer:
+office
+
+EVAL NUM: 661 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Sandra went back to the office.
+Sandra travelled to the garden.
+Sandra travelled to the hallway.
+John journeyed to the office.
+Mary went back to the hallway.
+Mary moved to the bathroom.
+John journeyed to the bathroom.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel moved to the bathroom.
+Sandra took the apple there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bathroom
+
+Answer:
+office
+
+EVAL NUM: 662 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Sandra went back to the office.
+Sandra travelled to the garden.
+Sandra travelled to the hallway.
+John journeyed to the office.
+Mary went back to the hallway.
+Mary moved to the bathroom.
+John journeyed to the bathroom.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel moved to the bathroom.
+Sandra took the apple there.
+Mary travelled to the bedroom.
+Sandra left the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+hallway
+
+EVAL NUM: 663 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Sandra went back to the office.
+Sandra travelled to the garden.
+Sandra travelled to the hallway.
+John journeyed to the office.
+Mary went back to the hallway.
+Mary moved to the bathroom.
+John journeyed to the bathroom.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel moved to the bathroom.
+Sandra took the apple there.
+Mary travelled to the bedroom.
+Sandra left the apple.
+Sandra went back to the office.
+Daniel went to the office.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 664 (wrong)
+
+CONTEXT:
+Daniel moved to the office.
+Sandra went back to the office.
+Sandra travelled to the garden.
+Sandra travelled to the hallway.
+John journeyed to the office.
+Mary went back to the hallway.
+Mary moved to the bathroom.
+John journeyed to the bathroom.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel moved to the bathroom.
+Sandra took the apple there.
+Mary travelled to the bedroom.
+Sandra left the apple.
+Sandra went back to the office.
+Daniel went to the office.
+Daniel picked up the football there.
+John journeyed to the hallway.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 669 (wrong)
+
+CONTEXT:
+Mary went back to the garden.
+Mary grabbed the milk there.
+Sandra went to the hallway.
+Mary got the football there.
+John picked up the apple there.
+Daniel went back to the kitchen.
+John moved to the kitchen.
+Mary left the milk.
+Mary put down the football.
+Mary journeyed to the office.
+Daniel went to the hallway.
+Mary moved to the kitchen.
+John discarded the apple.
+John grabbed the apple there.
+John moved to the hallway.
+Mary went to the office.
+John put down the apple.
+John got the apple there.
+Daniel went to the bathroom.
+John dropped the apple there.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+hallway
+
+EVAL NUM: 671 (wrong)
+
+CONTEXT:
+Daniel moved to the kitchen.
+Sandra went back to the bathroom.
+Sandra travelled to the office.
+Daniel went to the office.
+Mary moved to the bathroom.
+Daniel went to the bedroom.
+Daniel grabbed the apple there.
+John journeyed to the garden.
+Mary picked up the football there.
+Mary dropped the football.
+Sandra went back to the bathroom.
+Daniel journeyed to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bathroom
+
+EVAL NUM: 681 (wrong)
+
+CONTEXT:
+John went to the garden.
+John travelled to the bedroom.
+John took the milk there.
+Daniel moved to the garden.
+Sandra went to the hallway.
+John grabbed the football there.
+John left the football.
+John discarded the milk.
+Sandra got the apple there.
+Mary moved to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+bedroom
+
+EVAL NUM: 684 (wrong)
+
+CONTEXT:
+John went to the garden.
+John travelled to the bedroom.
+John took the milk there.
+Daniel moved to the garden.
+Sandra went to the hallway.
+John grabbed the football there.
+John left the football.
+John discarded the milk.
+Sandra got the apple there.
+Mary moved to the hallway.
+Sandra went to the bedroom.
+Sandra picked up the football there.
+Mary travelled to the bedroom.
+Sandra travelled to the bathroom.
+Sandra journeyed to the office.
+John journeyed to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+office
+
+EVAL NUM: 685 (wrong)
+
+CONTEXT:
+Sandra travelled to the garden.
+Sandra journeyed to the bedroom.
+John moved to the office.
+Mary moved to the office.
+Mary picked up the milk there.
+Mary took the apple there.
+John went back to the garden.
+Daniel took the football there.
+Mary went back to the kitchen.
+Daniel put down the football there.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+office
+
+Answer:
+kitchen
+
+EVAL NUM: 686 (wrong)
+
+CONTEXT:
+Sandra travelled to the garden.
+Sandra journeyed to the bedroom.
+John moved to the office.
+Mary moved to the office.
+Mary picked up the milk there.
+Mary took the apple there.
+John went back to the garden.
+Daniel took the football there.
+Mary went back to the kitchen.
+Daniel put down the football there.
+John picked up the football there.
+Mary journeyed to the office.
+Mary travelled to the bedroom.
+John put down the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+garden
+
+EVAL NUM: 687 (wrong)
+
+CONTEXT:
+Sandra travelled to the garden.
+Sandra journeyed to the bedroom.
+John moved to the office.
+Mary moved to the office.
+Mary picked up the milk there.
+Mary took the apple there.
+John went back to the garden.
+Daniel took the football there.
+Mary went back to the kitchen.
+Daniel put down the football there.
+John picked up the football there.
+Mary journeyed to the office.
+Mary travelled to the bedroom.
+John put down the football.
+Daniel journeyed to the office.
+John picked up the football there.
+Mary travelled to the office.
+John put down the football there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 689 (wrong)
+
+CONTEXT:
+Sandra travelled to the garden.
+Sandra journeyed to the bedroom.
+John moved to the office.
+Mary moved to the office.
+Mary picked up the milk there.
+Mary took the apple there.
+John went back to the garden.
+Daniel took the football there.
+Mary went back to the kitchen.
+Daniel put down the football there.
+John picked up the football there.
+Mary journeyed to the office.
+Mary travelled to the bedroom.
+John put down the football.
+Daniel journeyed to the office.
+John picked up the football there.
+Mary travelled to the office.
+John put down the football there.
+Sandra travelled to the hallway.
+John grabbed the football there.
+Daniel went back to the bedroom.
+John went back to the bathroom.
+John discarded the football.
+Sandra went to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 697 (wrong)
+
+CONTEXT:
+Mary travelled to the bedroom.
+Daniel journeyed to the office.
+Sandra got the apple there.
+Sandra travelled to the bathroom.
+Sandra dropped the apple.
+Mary grabbed the football there.
+Sandra went to the bedroom.
+Mary travelled to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+kitchen
+
+EVAL NUM: 698 (wrong)
+
+CONTEXT:
+Mary travelled to the bedroom.
+Daniel journeyed to the office.
+Sandra got the apple there.
+Sandra travelled to the bathroom.
+Sandra dropped the apple.
+Mary grabbed the football there.
+Sandra went to the bedroom.
+Mary travelled to the kitchen.
+Daniel travelled to the bathroom.
+Daniel journeyed to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+kitchen
+
+EVAL NUM: 699 (wrong)
+
+CONTEXT:
+Mary travelled to the bedroom.
+Daniel journeyed to the office.
+Sandra got the apple there.
+Sandra travelled to the bathroom.
+Sandra dropped the apple.
+Mary grabbed the football there.
+Sandra went to the bedroom.
+Mary travelled to the kitchen.
+Daniel travelled to the bathroom.
+Daniel journeyed to the hallway.
+Sandra travelled to the bathroom.
+Mary moved to the bedroom.
+John grabbed the apple there.
+Daniel journeyed to the office.
+Mary moved to the bathroom.
+Mary went back to the bedroom.
+Sandra travelled to the hallway.
+Mary went to the garden.
+John went to the bedroom.
+Sandra moved to the office.
+Mary left the football.
+Mary moved to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+bedroom
+
+Answer:
+garden
+
+EVAL NUM: 710 (wrong)
+
+CONTEXT:
+Sandra moved to the garden.
+Sandra picked up the apple there.
+John journeyed to the office.
+Daniel travelled to the hallway.
+Mary took the football there.
+Mary discarded the football.
+Mary grabbed the football there.
+John got the milk there.
+Mary left the football there.
+Daniel moved to the bedroom.
+John travelled to the garden.
+Daniel went to the hallway.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+garden
+
+EVAL NUM: 717 (wrong)
+
+CONTEXT:
+John took the apple there.
+John dropped the apple.
+Daniel went back to the bathroom.
+John grabbed the apple there.
+Mary travelled to the kitchen.
+Sandra went back to the garden.
+John dropped the apple.
+John took the apple there.
+John dropped the apple.
+Daniel travelled to the office.
+Sandra journeyed to the hallway.
+John got the apple there.
+Sandra journeyed to the bathroom.
+Daniel took the milk there.
+John discarded the apple.
+John moved to the kitchen.
+Daniel left the milk there.
+Daniel went back to the bathroom.
+Sandra journeyed to the garden.
+Mary got the football there.
+Mary discarded the football.
+John journeyed to the bathroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 718 (wrong)
+
+CONTEXT:
+John took the apple there.
+John dropped the apple.
+Daniel went back to the bathroom.
+John grabbed the apple there.
+Mary travelled to the kitchen.
+Sandra went back to the garden.
+John dropped the apple.
+John took the apple there.
+John dropped the apple.
+Daniel travelled to the office.
+Sandra journeyed to the hallway.
+John got the apple there.
+Sandra journeyed to the bathroom.
+Daniel took the milk there.
+John discarded the apple.
+John moved to the kitchen.
+Daniel left the milk there.
+Daniel went back to the bathroom.
+Sandra journeyed to the garden.
+Mary got the football there.
+Mary discarded the football.
+John journeyed to the bathroom.
+Daniel travelled to the office.
+Daniel travelled to the bathroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 732 (wrong)
+
+CONTEXT:
+Mary took the apple there.
+Mary discarded the apple.
+Sandra grabbed the football there.
+Sandra picked up the milk there.
+John journeyed to the garden.
+Mary took the apple there.
+John went to the bathroom.
+Sandra went to the bedroom.
+Mary left the apple there.
+Sandra went back to the kitchen.
+Mary moved to the garden.
+Mary moved to the bedroom.
+John journeyed to the office.
+Sandra took the apple there.
+Sandra went back to the bathroom.
+John travelled to the kitchen.
+Mary travelled to the kitchen.
+Sandra put down the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 734 (wrong)
+
+CONTEXT:
+Mary took the apple there.
+Mary discarded the apple.
+Sandra grabbed the football there.
+Sandra picked up the milk there.
+John journeyed to the garden.
+Mary took the apple there.
+John went to the bathroom.
+Sandra went to the bedroom.
+Mary left the apple there.
+Sandra went back to the kitchen.
+Mary moved to the garden.
+Mary moved to the bedroom.
+John journeyed to the office.
+Sandra took the apple there.
+Sandra went back to the bathroom.
+John travelled to the kitchen.
+Mary travelled to the kitchen.
+Sandra put down the football.
+Sandra discarded the milk.
+Sandra put down the apple.
+Sandra picked up the milk there.
+Sandra left the milk.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 739 (wrong)
+
+CONTEXT:
+John took the apple there.
+Sandra travelled to the bathroom.
+Mary grabbed the milk there.
+Sandra went to the kitchen.
+Mary went to the hallway.
+Mary went to the bathroom.
+Sandra journeyed to the bedroom.
+John grabbed the football there.
+John put down the apple.
+Sandra went back to the kitchen.
+Sandra went to the office.
+John moved to the bathroom.
+John put down the football.
+Mary dropped the milk.
+John picked up the football there.
+Daniel travelled to the office.
+Mary got the milk there.
+Mary left the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 744 (wrong)
+
+CONTEXT:
+Sandra travelled to the hallway.
+Daniel moved to the bathroom.
+Daniel went back to the garden.
+Sandra moved to the kitchen.
+John moved to the kitchen.
+Sandra grabbed the apple there.
+Sandra travelled to the hallway.
+Sandra moved to the garden.
+John got the football there.
+Mary journeyed to the hallway.
+Mary journeyed to the kitchen.
+John travelled to the bedroom.
+Mary journeyed to the garden.
+Daniel moved to the bathroom.
+Mary travelled to the bedroom.
+John went to the hallway.
+John went back to the bathroom.
+Sandra went to the hallway.
+Sandra took the milk there.
+Daniel went to the kitchen.
+Sandra went to the garden.
+John left the football.
+John picked up the football there.
+Sandra went to the hallway.
+John discarded the football.
+John picked up the football there.
+Daniel journeyed to the bathroom.
+Sandra went to the bedroom.
+Sandra travelled to the kitchen.
+John discarded the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 749 (wrong)
+
+CONTEXT:
+Daniel grabbed the football there.
+Mary picked up the milk there.
+Mary left the milk.
+Mary got the milk there.
+Mary journeyed to the hallway.
+Sandra journeyed to the bathroom.
+John grabbed the apple there.
+Sandra went back to the hallway.
+Daniel journeyed to the kitchen.
+Mary left the milk.
+Mary grabbed the milk there.
+Sandra journeyed to the garden.
+John discarded the apple.
+Daniel put down the football there.
+Mary dropped the milk.
+Mary journeyed to the garden.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 755 (wrong)
+
+CONTEXT:
+John went back to the kitchen.
+Mary went to the hallway.
+Daniel took the apple there.
+Sandra journeyed to the kitchen.
+Daniel dropped the apple there.
+Mary went to the office.
+Sandra travelled to the garden.
+Daniel travelled to the garden.
+Sandra travelled to the bedroom.
+Daniel went to the bathroom.
+John picked up the apple there.
+Sandra went back to the garden.
+John discarded the apple.
+Mary moved to the garden.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 756 (wrong)
+
+CONTEXT:
+John went back to the kitchen.
+Mary went to the hallway.
+Daniel took the apple there.
+Sandra journeyed to the kitchen.
+Daniel dropped the apple there.
+Mary went to the office.
+Sandra travelled to the garden.
+Daniel travelled to the garden.
+Sandra travelled to the bedroom.
+Daniel went to the bathroom.
+John picked up the apple there.
+Sandra went back to the garden.
+John discarded the apple.
+Mary moved to the garden.
+John journeyed to the bathroom.
+John travelled to the hallway.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 758 (wrong)
+
+CONTEXT:
+John went back to the kitchen.
+Mary went to the hallway.
+Daniel took the apple there.
+Sandra journeyed to the kitchen.
+Daniel dropped the apple there.
+Mary went to the office.
+Sandra travelled to the garden.
+Daniel travelled to the garden.
+Sandra travelled to the bedroom.
+Daniel went to the bathroom.
+John picked up the apple there.
+Sandra went back to the garden.
+John discarded the apple.
+Mary moved to the garden.
+John journeyed to the bathroom.
+John travelled to the hallway.
+Sandra journeyed to the kitchen.
+John journeyed to the bathroom.
+Sandra travelled to the bathroom.
+Mary went back to the bathroom.
+Mary went back to the bedroom.
+Daniel went back to the kitchen.
+John went back to the kitchen.
+Sandra travelled to the kitchen.
+John picked up the apple there.
+Sandra travelled to the office.
+Sandra went to the bedroom.
+Daniel journeyed to the bedroom.
+Daniel grabbed the milk there.
+Sandra grabbed the football there.
+Mary journeyed to the office.
+Sandra put down the football.
+Mary went back to the bedroom.
+Sandra went back to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bedroom
+
+EVAL NUM: 759 (wrong)
+
+CONTEXT:
+John went back to the kitchen.
+Mary went to the hallway.
+Daniel took the apple there.
+Sandra journeyed to the kitchen.
+Daniel dropped the apple there.
+Mary went to the office.
+Sandra travelled to the garden.
+Daniel travelled to the garden.
+Sandra travelled to the bedroom.
+Daniel went to the bathroom.
+John picked up the apple there.
+Sandra went back to the garden.
+John discarded the apple.
+Mary moved to the garden.
+John journeyed to the bathroom.
+John travelled to the hallway.
+Sandra journeyed to the kitchen.
+John journeyed to the bathroom.
+Sandra travelled to the bathroom.
+Mary went back to the bathroom.
+Mary went back to the bedroom.
+Daniel went back to the kitchen.
+John went back to the kitchen.
+Sandra travelled to the kitchen.
+John picked up the apple there.
+Sandra travelled to the office.
+Sandra went to the bedroom.
+Daniel journeyed to the bedroom.
+Daniel grabbed the milk there.
+Sandra grabbed the football there.
+Mary journeyed to the office.
+Sandra put down the football.
+Mary went back to the bedroom.
+Sandra went back to the kitchen.
+John dropped the apple.
+John went to the bedroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+bedroom
+
+EVAL NUM: 760 (wrong)
+
+CONTEXT:
+Sandra travelled to the garden.
+Mary took the football there.
+Sandra picked up the apple there.
+Daniel went to the office.
+Mary put down the football.
+Sandra travelled to the kitchen.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 761 (wrong)
+
+CONTEXT:
+Sandra travelled to the garden.
+Mary took the football there.
+Sandra picked up the apple there.
+Daniel went to the office.
+Mary put down the football.
+Sandra travelled to the kitchen.
+Daniel got the milk there.
+Mary moved to the garden.
+Sandra travelled to the garden.
+Daniel discarded the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 762 (wrong)
+
+CONTEXT:
+Sandra travelled to the garden.
+Mary took the football there.
+Sandra picked up the apple there.
+Daniel went to the office.
+Mary put down the football.
+Sandra travelled to the kitchen.
+Daniel got the milk there.
+Mary moved to the garden.
+Sandra travelled to the garden.
+Daniel discarded the milk.
+Daniel journeyed to the bathroom.
+Sandra went back to the kitchen.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+bathroom
+
+Answer:
+office
+
+EVAL NUM: 777 (wrong)
+
+CONTEXT:
+John went to the garden.
+Mary journeyed to the bedroom.
+Daniel journeyed to the bedroom.
+Mary journeyed to the bathroom.
+Daniel went back to the hallway.
+Daniel picked up the football there.
+Daniel journeyed to the bathroom.
+Daniel travelled to the kitchen.
+Daniel journeyed to the office.
+Daniel grabbed the milk there.
+John moved to the hallway.
+Mary grabbed the apple there.
+Daniel discarded the milk.
+Daniel took the milk there.
+Mary discarded the apple.
+John went to the office.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 780 (wrong)
+
+CONTEXT:
+John moved to the office.
+Sandra journeyed to the hallway.
+John went back to the bathroom.
+Daniel went back to the hallway.
+Daniel moved to the kitchen.
+Mary journeyed to the bathroom.
+John journeyed to the office.
+Sandra went to the garden.
+Sandra grabbed the milk there.
+John went to the hallway.
+Mary took the apple there.
+Mary left the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 785 (wrong)
+
+CONTEXT:
+John moved to the hallway.
+Sandra went to the office.
+Daniel went to the bathroom.
+John journeyed to the kitchen.
+Sandra took the apple there.
+Sandra took the football there.
+Sandra left the football.
+Sandra travelled to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+office
+
+EVAL NUM: 819 (wrong)
+
+CONTEXT:
+Sandra went back to the kitchen.
+Daniel journeyed to the kitchen.
+Sandra journeyed to the bathroom.
+Mary moved to the office.
+Sandra journeyed to the office.
+Mary went to the bathroom.
+Sandra went back to the kitchen.
+Sandra went to the office.
+Daniel travelled to the office.
+Daniel went to the kitchen.
+Mary went back to the bedroom.
+Sandra journeyed to the kitchen.
+John travelled to the bedroom.
+Mary journeyed to the hallway.
+Mary moved to the garden.
+Mary picked up the apple there.
+Mary discarded the apple.
+John moved to the garden.
+Mary went back to the hallway.
+John journeyed to the hallway.
+John travelled to the bathroom.
+Mary travelled to the bedroom.
+John picked up the milk there.
+Mary travelled to the bathroom.
+John moved to the office.
+Sandra travelled to the bedroom.
+Sandra travelled to the hallway.
+John went back to the garden.
+John left the milk.
+Mary moved to the office.
+Mary journeyed to the bedroom.
+John got the milk there.
+Sandra went back to the kitchen.
+Sandra journeyed to the bathroom.
+Daniel journeyed to the office.
+Daniel went to the hallway.
+John got the apple there.
+John put down the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 822 (wrong)
+
+CONTEXT:
+Mary picked up the football there.
+Mary put down the football.
+John moved to the garden.
+John went to the bathroom.
+Daniel went back to the bathroom.
+Mary got the football there.
+Mary journeyed to the office.
+Daniel got the apple there.
+John went back to the garden.
+Sandra moved to the hallway.
+Mary travelled to the bathroom.
+Daniel travelled to the bedroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+bedroom
+
+EVAL NUM: 827 (wrong)
+
+CONTEXT:
+Daniel grabbed the milk there.
+Daniel discarded the milk.
+John went back to the bedroom.
+Daniel moved to the kitchen.
+Mary travelled to the hallway.
+Daniel picked up the apple there.
+Sandra journeyed to the office.
+Sandra picked up the milk there.
+Sandra left the milk.
+John went back to the garden.
+Daniel left the apple.
+Daniel took the apple there.
+Mary went to the bathroom.
+John got the football there.
+Mary moved to the office.
+Daniel put down the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 828 (wrong)
+
+CONTEXT:
+Daniel grabbed the milk there.
+Daniel discarded the milk.
+John went back to the bedroom.
+Daniel moved to the kitchen.
+Mary travelled to the hallway.
+Daniel picked up the apple there.
+Sandra journeyed to the office.
+Sandra picked up the milk there.
+Sandra left the milk.
+John went back to the garden.
+Daniel left the apple.
+Daniel took the apple there.
+Mary went to the bathroom.
+John got the football there.
+Mary moved to the office.
+Daniel put down the apple.
+Sandra travelled to the kitchen.
+Daniel travelled to the bathroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+kitchen
+
+EVAL NUM: 829 (wrong)
+
+CONTEXT:
+Daniel grabbed the milk there.
+Daniel discarded the milk.
+John went back to the bedroom.
+Daniel moved to the kitchen.
+Mary travelled to the hallway.
+Daniel picked up the apple there.
+Sandra journeyed to the office.
+Sandra picked up the milk there.
+Sandra left the milk.
+John went back to the garden.
+Daniel left the apple.
+Daniel took the apple there.
+Mary went to the bathroom.
+John got the football there.
+Mary moved to the office.
+Daniel put down the apple.
+Sandra travelled to the kitchen.
+Daniel travelled to the bathroom.
+John journeyed to the kitchen.
+John travelled to the bathroom.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bathroom
+
+Answer:
+kitchen
+
+EVAL NUM: 839 (wrong)
+
+CONTEXT:
+Daniel went to the bedroom.
+Sandra moved to the bedroom.
+Daniel went to the garden.
+Mary moved to the hallway.
+John moved to the bedroom.
+Mary travelled to the kitchen.
+Daniel grabbed the milk there.
+Daniel discarded the milk.
+Daniel moved to the bedroom.
+Daniel journeyed to the garden.
+Daniel went back to the bedroom.
+John moved to the hallway.
+John got the football there.
+John went back to the kitchen.
+John went to the bathroom.
+Mary went back to the bedroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 844 (wrong)
+
+CONTEXT:
+Sandra went to the hallway.
+John travelled to the garden.
+John moved to the bathroom.
+Daniel grabbed the football there.
+Mary journeyed to the bedroom.
+Mary grabbed the milk there.
+Daniel travelled to the bedroom.
+Mary left the milk.
+Mary got the milk there.
+Daniel took the apple there.
+Daniel left the football.
+Daniel went to the bathroom.
+Daniel went back to the office.
+Daniel put down the apple.
+John travelled to the hallway.
+Mary went to the garden.
+Daniel picked up the apple there.
+Daniel dropped the apple there.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+garden
+
+Answer:
+office
+
+EVAL NUM: 851 (wrong)
+
+CONTEXT:
+Daniel went back to the bedroom.
+Mary travelled to the hallway.
+John journeyed to the bedroom.
+Mary got the football there.
+Daniel went to the bathroom.
+Mary moved to the kitchen.
+Daniel travelled to the garden.
+Mary went to the bathroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+bathroom
+
+EVAL NUM: 863 (wrong)
+
+CONTEXT:
+Mary grabbed the milk there.
+John travelled to the bedroom.
+Mary went back to the bathroom.
+John travelled to the garden.
+Daniel journeyed to the hallway.
+John journeyed to the bedroom.
+Mary went back to the bedroom.
+Sandra travelled to the office.
+Mary moved to the garden.
+Sandra took the football there.
+Mary moved to the kitchen.
+Mary moved to the hallway.
+John went back to the kitchen.
+Mary discarded the milk there.
+Daniel took the milk there.
+Daniel left the milk.
+Mary went to the kitchen.
+Daniel journeyed to the garden.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 864 (wrong)
+
+CONTEXT:
+Mary grabbed the milk there.
+John travelled to the bedroom.
+Mary went back to the bathroom.
+John travelled to the garden.
+Daniel journeyed to the hallway.
+John journeyed to the bedroom.
+Mary went back to the bedroom.
+Sandra travelled to the office.
+Mary moved to the garden.
+Sandra took the football there.
+Mary moved to the kitchen.
+Mary moved to the hallway.
+John went back to the kitchen.
+Mary discarded the milk there.
+Daniel took the milk there.
+Daniel left the milk.
+Mary went to the kitchen.
+Daniel journeyed to the garden.
+Sandra journeyed to the kitchen.
+Mary went back to the office.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 865 (wrong)
+
+CONTEXT:
+Daniel went to the hallway.
+Mary moved to the office.
+Sandra picked up the football there.
+Mary grabbed the milk there.
+Mary got the apple there.
+Sandra went back to the hallway.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+hallway
+
+EVAL NUM: 872 (wrong)
+
+CONTEXT:
+John moved to the kitchen.
+Sandra grabbed the apple there.
+Mary moved to the garden.
+Mary journeyed to the kitchen.
+John journeyed to the garden.
+Sandra left the apple.
+Sandra moved to the bedroom.
+Sandra picked up the milk there.
+Sandra dropped the milk.
+Daniel took the milk there.
+John grabbed the football there.
+Daniel went to the kitchen.
+Daniel went to the hallway.
+John discarded the football.
+John got the football there.
+John dropped the football.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 873 (wrong)
+
+CONTEXT:
+John moved to the kitchen.
+Sandra grabbed the apple there.
+Mary moved to the garden.
+Mary journeyed to the kitchen.
+John journeyed to the garden.
+Sandra left the apple.
+Sandra moved to the bedroom.
+Sandra picked up the milk there.
+Sandra dropped the milk.
+Daniel took the milk there.
+John grabbed the football there.
+Daniel went to the kitchen.
+Daniel went to the hallway.
+John discarded the football.
+John got the football there.
+John dropped the football.
+Mary travelled to the hallway.
+Daniel went to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 874 (wrong)
+
+CONTEXT:
+John moved to the kitchen.
+Sandra grabbed the apple there.
+Mary moved to the garden.
+Mary journeyed to the kitchen.
+John journeyed to the garden.
+Sandra left the apple.
+Sandra moved to the bedroom.
+Sandra picked up the milk there.
+Sandra dropped the milk.
+Daniel took the milk there.
+John grabbed the football there.
+Daniel went to the kitchen.
+Daniel went to the hallway.
+John discarded the football.
+John got the football there.
+John dropped the football.
+Mary travelled to the hallway.
+Daniel went to the office.
+Daniel went back to the hallway.
+Sandra moved to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+hallway
+
+Answer:
+garden
+
+EVAL NUM: 878 (wrong)
+
+CONTEXT:
+Daniel journeyed to the garden.
+Mary moved to the hallway.
+Daniel journeyed to the bedroom.
+John picked up the football there.
+John discarded the football.
+Daniel went to the hallway.
+Sandra went back to the bathroom.
+John picked up the football there.
+John journeyed to the garden.
+Sandra went back to the bedroom.
+John journeyed to the bathroom.
+Daniel journeyed to the bedroom.
+Sandra moved to the garden.
+Daniel moved to the garden.
+John journeyed to the office.
+Daniel went to the kitchen.
+Mary travelled to the kitchen.
+John travelled to the bathroom.
+Mary went to the bedroom.
+John picked up the apple there.
+Sandra went back to the kitchen.
+Daniel moved to the bathroom.
+Sandra travelled to the office.
+Daniel travelled to the kitchen.
+Sandra went back to the bathroom.
+Sandra travelled to the kitchen.
+Daniel picked up the milk there.
+Daniel moved to the office.
+Daniel dropped the milk.
+John dropped the apple.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 879 (wrong)
+
+CONTEXT:
+Daniel journeyed to the garden.
+Mary moved to the hallway.
+Daniel journeyed to the bedroom.
+John picked up the football there.
+John discarded the football.
+Daniel went to the hallway.
+Sandra went back to the bathroom.
+John picked up the football there.
+John journeyed to the garden.
+Sandra went back to the bedroom.
+John journeyed to the bathroom.
+Daniel journeyed to the bedroom.
+Sandra moved to the garden.
+Daniel moved to the garden.
+John journeyed to the office.
+Daniel went to the kitchen.
+Mary travelled to the kitchen.
+John travelled to the bathroom.
+Mary went to the bedroom.
+John picked up the apple there.
+Sandra went back to the kitchen.
+Daniel moved to the bathroom.
+Sandra travelled to the office.
+Daniel travelled to the kitchen.
+Sandra went back to the bathroom.
+Sandra travelled to the kitchen.
+Daniel picked up the milk there.
+Daniel moved to the office.
+Daniel dropped the milk.
+John dropped the apple.
+John discarded the football.
+Sandra moved to the office.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 882 (wrong)
+
+CONTEXT:
+John grabbed the apple there.
+John journeyed to the office.
+Sandra travelled to the office.
+Sandra took the milk there.
+Sandra discarded the milk.
+John picked up the milk there.
+Sandra moved to the bedroom.
+Daniel went to the garden.
+Daniel grabbed the football there.
+Sandra went to the bathroom.
+Daniel journeyed to the kitchen.
+John moved to the garden.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
+EVAL NUM: 887 (wrong)
+
+CONTEXT:
+John travelled to the garden.
+Sandra journeyed to the kitchen.
+Daniel went to the bedroom.
+Mary went to the bathroom.
+Sandra took the milk there.
+Sandra went back to the bedroom.
+Daniel journeyed to the kitchen.
+Mary went to the bedroom.
+Mary moved to the garden.
+Mary went to the hallway.
+Sandra dropped the milk there.
+John travelled to the bathroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 888 (wrong)
+
+CONTEXT:
+John travelled to the garden.
+Sandra journeyed to the kitchen.
+Daniel went to the bedroom.
+Mary went to the bathroom.
+Sandra took the milk there.
+Sandra went back to the bedroom.
+Daniel journeyed to the kitchen.
+Mary went to the bedroom.
+Mary moved to the garden.
+Mary went to the hallway.
+Sandra dropped the milk there.
+John travelled to the bathroom.
+Sandra travelled to the bathroom.
+Sandra moved to the bedroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 890 (wrong)
+
+CONTEXT:
+Sandra went back to the kitchen.
+Daniel went to the kitchen.
+Mary got the milk there.
+Sandra went back to the bathroom.
+Mary went to the hallway.
+Daniel moved to the bedroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 899 (wrong)
+
+CONTEXT:
+Mary went back to the bathroom.
+John went to the office.
+Daniel grabbed the football there.
+Sandra travelled to the bathroom.
+Daniel left the football.
+Sandra moved to the bedroom.
+Sandra journeyed to the kitchen.
+Sandra travelled to the garden.
+Sandra went back to the bathroom.
+John travelled to the kitchen.
+Daniel moved to the garden.
+Sandra moved to the garden.
+Mary went to the office.
+Daniel went to the kitchen.
+Daniel got the milk there.
+Daniel moved to the garden.
+John went to the bedroom.
+Sandra journeyed to the bedroom.
+John got the apple there.
+Daniel put down the milk.
+John went to the office.
+John left the apple.
+John took the apple there.
+Daniel got the milk there.
+Sandra travelled to the kitchen.
+Daniel put down the milk there.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 902 (wrong)
+
+CONTEXT:
+Mary went to the office.
+John went to the garden.
+Mary journeyed to the bedroom.
+Daniel got the milk there.
+Daniel journeyed to the bedroom.
+John moved to the kitchen.
+Sandra went to the bathroom.
+Mary travelled to the office.
+Sandra went back to the office.
+Mary went to the kitchen.
+Mary went back to the hallway.
+Daniel discarded the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bedroom
+
+EVAL NUM: 913 (wrong)
+
+CONTEXT:
+John got the milk there.
+John went back to the office.
+Sandra grabbed the football there.
+John left the milk.
+John grabbed the milk there.
+Daniel journeyed to the garden.
+Sandra travelled to the office.
+Sandra journeyed to the bathroom.
+Mary went back to the hallway.
+Mary took the apple there.
+Mary discarded the apple.
+Sandra left the football.
+Mary picked up the apple there.
+Daniel went back to the bedroom.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+office
+
+Answer:
+bathroom
+
+EVAL NUM: 915 (wrong)
+
+CONTEXT:
+Mary went back to the office.
+Sandra journeyed to the office.
+Daniel picked up the milk there.
+Daniel left the milk.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel went to the garden.
+Sandra journeyed to the hallway.
+Daniel went to the bedroom.
+Daniel got the apple there.
+John journeyed to the bedroom.
+Sandra picked up the milk there.
+Daniel journeyed to the garden.
+Daniel moved to the hallway.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bedroom
+
+Answer:
+hallway
+
+EVAL NUM: 916 (wrong)
+
+CONTEXT:
+Mary went back to the office.
+Sandra journeyed to the office.
+Daniel picked up the milk there.
+Daniel left the milk.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel went to the garden.
+Sandra journeyed to the hallway.
+Daniel went to the bedroom.
+Daniel got the apple there.
+John journeyed to the bedroom.
+Sandra picked up the milk there.
+Daniel journeyed to the garden.
+Daniel moved to the hallway.
+John moved to the garden.
+Sandra dropped the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 917 (wrong)
+
+CONTEXT:
+Mary went back to the office.
+Sandra journeyed to the office.
+Daniel picked up the milk there.
+Daniel left the milk.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel went to the garden.
+Sandra journeyed to the hallway.
+Daniel went to the bedroom.
+Daniel got the apple there.
+John journeyed to the bedroom.
+Sandra picked up the milk there.
+Daniel journeyed to the garden.
+Daniel moved to the hallway.
+John moved to the garden.
+Sandra dropped the milk.
+Daniel discarded the apple.
+Daniel took the football there.
+
+QUERY:
+Where is the apple?
+
+PREDICTION:
+bedroom
+
+Answer:
+hallway
+
+EVAL NUM: 918 (wrong)
+
+CONTEXT:
+Mary went back to the office.
+Sandra journeyed to the office.
+Daniel picked up the milk there.
+Daniel left the milk.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel went to the garden.
+Sandra journeyed to the hallway.
+Daniel went to the bedroom.
+Daniel got the apple there.
+John journeyed to the bedroom.
+Sandra picked up the milk there.
+Daniel journeyed to the garden.
+Daniel moved to the hallway.
+John moved to the garden.
+Sandra dropped the milk.
+Daniel discarded the apple.
+Daniel took the football there.
+Sandra got the milk there.
+Daniel dropped the football there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 919 (wrong)
+
+CONTEXT:
+Mary went back to the office.
+Sandra journeyed to the office.
+Daniel picked up the milk there.
+Daniel left the milk.
+Daniel picked up the football there.
+Daniel left the football.
+Daniel went to the garden.
+Sandra journeyed to the hallway.
+Daniel went to the bedroom.
+Daniel got the apple there.
+John journeyed to the bedroom.
+Sandra picked up the milk there.
+Daniel journeyed to the garden.
+Daniel moved to the hallway.
+John moved to the garden.
+Sandra dropped the milk.
+Daniel discarded the apple.
+Daniel took the football there.
+Sandra got the milk there.
+Daniel dropped the football there.
+Sandra left the milk.
+Daniel went to the garden.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 924 (wrong)
+
+CONTEXT:
+Daniel moved to the hallway.
+Sandra journeyed to the garden.
+Sandra journeyed to the bedroom.
+Daniel went back to the kitchen.
+Daniel got the milk there.
+Mary travelled to the bathroom.
+Daniel discarded the milk there.
+Sandra travelled to the hallway.
+Mary went back to the kitchen.
+Sandra travelled to the bedroom.
+Mary moved to the office.
+John moved to the bathroom.
+Daniel got the milk there.
+Daniel travelled to the bathroom.
+Daniel left the milk.
+Daniel picked up the milk there.
+Mary moved to the hallway.
+Sandra went back to the office.
+John journeyed to the kitchen.
+Daniel put down the milk.
+Mary grabbed the football there.
+Daniel grabbed the milk there.
+John journeyed to the hallway.
+Daniel left the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+bathroom
+
+EVAL NUM: 934 (wrong)
+
+CONTEXT:
+John went back to the bedroom.
+Daniel took the apple there.
+Mary journeyed to the bedroom.
+Mary journeyed to the bathroom.
+John journeyed to the hallway.
+Sandra went back to the bedroom.
+Sandra went back to the hallway.
+Sandra travelled to the kitchen.
+John journeyed to the kitchen.
+John travelled to the bedroom.
+Sandra picked up the milk there.
+Daniel left the apple.
+Daniel got the apple there.
+John travelled to the office.
+Sandra discarded the milk.
+Sandra grabbed the milk there.
+Sandra went back to the hallway.
+Sandra got the football there.
+Daniel put down the apple.
+Daniel went back to the kitchen.
+Mary moved to the bedroom.
+Mary grabbed the apple there.
+Mary put down the apple.
+Sandra moved to the garden.
+Sandra left the milk.
+Sandra went to the kitchen.
+Sandra put down the football.
+John journeyed to the bedroom.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+kitchen
+
+Answer:
+garden
+
+EVAL NUM: 951 (wrong)
+
+CONTEXT:
+Mary grabbed the milk there.
+Daniel went back to the bathroom.
+Sandra picked up the football there.
+Mary dropped the milk there.
+Sandra went back to the hallway.
+Sandra discarded the football.
+John journeyed to the kitchen.
+Sandra took the football there.
+Sandra left the football.
+Sandra went to the kitchen.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 952 (wrong)
+
+CONTEXT:
+Mary grabbed the milk there.
+Daniel went back to the bathroom.
+Sandra picked up the football there.
+Mary dropped the milk there.
+Sandra went back to the hallway.
+Sandra discarded the football.
+John journeyed to the kitchen.
+Sandra took the football there.
+Sandra left the football.
+Sandra went to the kitchen.
+Mary journeyed to the kitchen.
+Sandra went back to the garden.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+kitchen
+
+Answer:
+hallway
+
+EVAL NUM: 961 (wrong)
+
+CONTEXT:
+John got the milk there.
+Sandra went back to the garden.
+Daniel moved to the garden.
+Sandra went to the office.
+John dropped the milk.
+Daniel travelled to the bedroom.
+John took the milk there.
+Sandra went back to the bathroom.
+John moved to the hallway.
+Mary went back to the bedroom.
+Sandra went back to the hallway.
+John took the football there.
+Sandra picked up the apple there.
+Mary travelled to the garden.
+John discarded the football there.
+John put down the milk.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+hallway
+
+EVAL NUM: 966 (wrong)
+
+CONTEXT:
+Sandra travelled to the office.
+John journeyed to the bedroom.
+John travelled to the hallway.
+Mary moved to the bathroom.
+John journeyed to the kitchen.
+Mary picked up the football there.
+Mary left the football.
+Mary picked up the football there.
+Mary went back to the hallway.
+Daniel journeyed to the hallway.
+John took the milk there.
+John discarded the milk.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+kitchen
+
+EVAL NUM: 967 (wrong)
+
+CONTEXT:
+Sandra travelled to the office.
+John journeyed to the bedroom.
+John travelled to the hallway.
+Mary moved to the bathroom.
+John journeyed to the kitchen.
+Mary picked up the football there.
+Mary left the football.
+Mary picked up the football there.
+Mary went back to the hallway.
+Daniel journeyed to the hallway.
+John took the milk there.
+John discarded the milk.
+Mary put down the football.
+Daniel got the football there.
+
+QUERY:
+Where is the milk?
+
+PREDICTION:
+hallway
+
+Answer:
+kitchen
+
+EVAL NUM: 977 (wrong)
+
+CONTEXT:
+John moved to the bathroom.
+Daniel picked up the football there.
+Mary journeyed to the bathroom.
+Sandra grabbed the milk there.
+Sandra put down the milk.
+John travelled to the hallway.
+Sandra went back to the bathroom.
+John went back to the bedroom.
+Daniel went to the garden.
+Daniel put down the football.
+Daniel went back to the bedroom.
+Daniel went to the garden.
+Daniel picked up the football there.
+Mary moved to the office.
+Daniel journeyed to the kitchen.
+Daniel grabbed the milk there.
+
+QUERY:
+Where is the football?
+
+PREDICTION:
+garden
+
+Answer:
+kitchen
+
